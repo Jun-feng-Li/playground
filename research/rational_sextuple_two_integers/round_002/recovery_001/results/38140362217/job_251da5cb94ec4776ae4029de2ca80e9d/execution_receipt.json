@@ -1,0 +1,64 @@
+{
+  "schema": "source-bound-external-role-v1",
+  "batch": "026b_aux_writer_json",
+  "run_id": "run_672f39f2d72345eca0e2af4056c2d39f",
+  "job_id": "job_251da5cb94ec4776ae4029de2ca80e9d",
+  "generation": 1,
+  "role": "writer",
+  "scope": "writer",
+  "input_sha256": "2914d2475dfc8ed996d3f0e2dccdebe968f70baff309244894f0983a3fc816d7",
+  "workflow_run_id": "38140362217",
+  "workflow_attempt": "1",
+  "source_commit": "938971ac0eb9f58213dcaaa89cc4ea1299d8d10c",
+  "backend": "github-copilot-cli",
+  "requested_model": "provider-default",
+  "actual_model": "gpt-6-luna",
+  "session_id": "5093d3b7-a7d9-497b-a721-d6cc7c569509",
+  "model_call_count": 1,
+  "tool_call_count": 0,
+  "prompt_sha256": "40530b6621045fccab953e9ed949f6440736019c6a5328ee38a9af898e672869",
+  "original_redacted_stdout_sha256": "28c7c71f7ebb6a96c3b8c905bd3a207585d0d8766e08b45a4dd45fc9174ca549",
+  "original_redacted_stdout_bytes": 1196536,
+  "public_events_sha256": "8fd4bac41e08bffa226a123cf25a912ed731ff797da50419302379f1dc301c86",
+  "output_sha256": "c74ca4998e930b51887ead30b04aedfa1d74c684361519fb6d1bb531c9f473ca",
+  "exit_code": 0,
+  "failure": null,
+  "elapsed_seconds": 28.728,
+  "measured_model_metrics": {
+    "gpt-6-luna": {
+      "requests": {
+        "count": 1,
+        "cost": 1
+      },
+      "usage": {
+        "inputTokens": 41238,
+        "outputTokens": 4846,
+        "cacheReadTokens": 7673,
+        "cacheWriteTokens": 33562,
+        "reasoningTokens": 1364
+      },
+      "cacheExpiresAt": "2026-10-11T13:13:52.394Z",
+      "totalNanoAiu": 669528000,
+      "aiCreditsStatus": "complete",
+      "tokenDetails": {
+        "input": {
+          "tokenCount": 3
+        },
+        "cache_read": {
+          "tokenCount": 7673
+        },
+        "cache_write": {
+          "tokenCount": 33562
+        },
+        "output": {
+          "tokenCount": 4846
+        }
+      }
+    }
+  },
+  "invalid_jsonl_line_count": 0,
+  "fresh_process_without_session_resume": true,
+  "provider_model_response_observed": true,
+  "controller_submission_performed": false,
+  "redaction": "Only final role answer and selected provider execution metadata are retained; private reasoning and opaque continuation state are not published."
+}
