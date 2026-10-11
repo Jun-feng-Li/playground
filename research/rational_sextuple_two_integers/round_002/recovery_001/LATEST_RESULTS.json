@@ -1,17 +1,17 @@
 {
-  "workflow_run_id": "38145580765",
-  "source_commit": "dd19f255772df105c85105a39fb58a89764a3922",
-  "results_path": "research/rational_sextuple_two_integers/round_002/recovery_001/results/38145580765",
+  "workflow_run_id": "38145994794",
+  "source_commit": "dc64bff269bd349e112d8bfb9635a89076a645a9",
+  "results_path": "research/rational_sextuple_two_integers/round_002/recovery_001/results/38145994794",
   "receipts": [
     {
-      "batch": "032_c3_lemma_extraction",
+      "batch": "032b_c3_lemma_binding",
       "run_id": "run_bf454946e79f40ad9728bc94b98683d7",
       "job_id": "job_eff6270821b04b62be6aad8f5c72d5f1",
       "role": "lemma_auditor",
       "scope": "lemma_extraction",
-      "session_id": "4192a24f-6810-4929-ba77-f03a0e334eb9",
+      "session_id": "6d643439-7472-4dd6-806d-d11833862c09",
       "actual_model": "gpt-6-luna",
-      "output_sha256": "fd8a4313f5e2a62e6307bb685b737607b75a025f48aa25c5126b959606bf7bc1",
+      "output_sha256": "f704eb12e3ca2ca1006b58f559025dca1815b07fd39d79b5b675661f8e1ff025",
       "provider_model_response_observed": true,
       "failure": null
     }
