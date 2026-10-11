@@ -1,0 +1,8 @@
+[
+  {
+    "job_id": "job_251da5cb94ec4776ae4029de2ca80e9d",
+    "provider_model_response_observed": true,
+    "failure": "model_final_answer_is_not_exact_json",
+    "session_id": "501743fb-9618-4c26-9776-bbcfa1f0639e"
+  }
+]
