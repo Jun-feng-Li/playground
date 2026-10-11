@@ -1,0 +1,64 @@
+{
+  "schema": "source-bound-external-role-v1",
+  "batch": "012_local_review_and_prover_repair",
+  "run_id": "run_1673e78ddf6a433aad24929ce6bfa433",
+  "job_id": "job_5c86d6a6983947cfb8e1be26334f7ceb",
+  "generation": 1,
+  "role": "prover",
+  "scope": "prover",
+  "input_sha256": "62618db6ac28dec2335ecb298b927853935636e1a5411c9392ebac7f70de018f",
+  "workflow_run_id": "38132725812",
+  "workflow_attempt": "1",
+  "source_commit": "744fd18e58cd1f29ff49d0d0e6f7d31124c46752",
+  "backend": "github-copilot-cli",
+  "requested_model": "provider-default",
+  "actual_model": "mai-code-1.1-flash",
+  "session_id": "3fc7a77d-4a68-4be6-9371-6aa580f9e8fb",
+  "model_call_count": 1,
+  "tool_call_count": 0,
+  "prompt_sha256": "7152e53e50692bf7bab93676ac21afc7ba48c9c6240a9e8015c48d1c8f6ac605",
+  "original_redacted_stdout_sha256": "eecf0b3ee1c4284cbe2f87270686965c3ca2d5e766c31823c097f76b9157a48f",
+  "original_redacted_stdout_bytes": 381750,
+  "public_events_sha256": "d2d9a629328db51d89670976d037eb3322f1952b7e1f5be6d9aae3edf93a3c74",
+  "output_sha256": "6415d4f8900dba75a37b6a1413d1d29b4311406d9b08728ee7da252681ce66d7",
+  "exit_code": 0,
+  "failure": null,
+  "elapsed_seconds": 23.085,
+  "measured_model_metrics": {
+    "mai-code-1.1-flash": {
+      "requests": {
+        "count": 1,
+        "cost": 1
+      },
+      "usage": {
+        "inputTokens": 23388,
+        "outputTokens": 5037,
+        "cacheReadTokens": 1152,
+        "cacheWriteTokens": 0,
+        "reasoningTokens": 3456
+      },
+      "cacheExpiresAt": "2026-10-11T11:09:38.700Z",
+      "totalNanoAiu": 1051464000,
+      "aiCreditsStatus": "complete",
+      "tokenDetails": {
+        "input": {
+          "tokenCount": 22236
+        },
+        "cache_read": {
+          "tokenCount": 1152
+        },
+        "cache_write": {
+          "tokenCount": 0
+        },
+        "output": {
+          "tokenCount": 5037
+        }
+      }
+    }
+  },
+  "invalid_jsonl_line_count": 0,
+  "fresh_process_without_session_resume": true,
+  "provider_model_response_observed": true,
+  "controller_submission_performed": false,
+  "redaction": "Only final role answer and selected provider execution metadata are retained; private reasoning and opaque continuation state are not published."
+}
