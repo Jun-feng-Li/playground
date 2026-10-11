@@ -1,0 +1,42 @@
+name: Reproduce rational sextuple round 001
+
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/sextuple-round-001.yml']
+
+permissions:
+  contents: write
+
+concurrency:
+  group: rational-sextuple-round-001
+  cancel-in-progress: false
+
+jobs:
+  reproduce-and-archive:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Run bounded exact computations and second implementation
+        run: |
+          set -euo pipefail
+          ROOT=research/rational_sextuple_two_integers/round_001
+          python3 -B "$ROOT/scripts/reproduce.py" --workspace "$ROOT" --workers 4
+      - name: Save verified raw graphs and receipts in this repository
+        run: |
+          set -euo pipefail
+          ROOT=research/rational_sextuple_two_integers/round_001
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add "$ROOT/results"
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m 'Archive reproduced finite sextuple graphs and exact cross-checks'
+          git pull --rebase origin main
+          git push origin HEAD:main
+
+# This executes deterministic arithmetic programs, not independent AI agents.
+# Results-path commits cannot trigger this workflow; there is no execution loop.
+# No private ProofLoop source or external credentials are used.
