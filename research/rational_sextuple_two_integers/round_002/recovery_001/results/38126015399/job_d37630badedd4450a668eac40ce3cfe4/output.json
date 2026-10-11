@@ -1,0 +1,82 @@
+{
+  "problem_sha256": "639c2626d4ec6d1af8aeb255e369e275a44d99e3e14f97528b8f12139d408651",
+  "input_sha256": "1d00ef8399731508299e1583518fcba487942fbf7bd3a20607b670f4a9f4a7e8",
+  "read_receipts": [
+    {
+      "media_type": "application/json",
+      "object_id": "obj_2fad037b2711ecb714a0f588763e8f727a1c73edb64d80afa836619709cb16a2",
+      "sha256": "a8ed827ff29f8c8020c70399760f781ac8f54334a5d26e7e4e3cafffff0b843e",
+      "size_bytes": 7159
+    },
+    {
+      "media_type": "text/markdown",
+      "object_id": "obj_14dcb588f6032424fc394120a948b17eaff5731bc9f941d2cb176fbfb3b8a8a4",
+      "sha256": "a0bef42e719f79b1d7a68ff8a1fd7015499ec750a4d3feb090f7847fc3984fa5",
+      "size_bytes": 7282
+    },
+    {
+      "media_type": "text/markdown",
+      "object_id": "obj_182224f37ce49ffa1c36d92813ff7f6ed8570d23a22e4ec0baf362ebb84756c9",
+      "sha256": "644c6ccbf5c26de889d811aed877954bb0d7dc242edd8552f79073533dcac05f",
+      "size_bytes": 5859
+    }
+  ],
+  "usage": {
+    "provider_requests": null,
+    "total_tokens": null
+  },
+  "output": {
+    "statement": "Let a,b be distinct nonzero integers with ab+1 a rational square, and let x=u/v be a rational number in lowest terms, v>0, such that ax+1 and bx+1 are rational squares (zero squares are allowed). For an odd prime p, write e=v_p(v), alpha=v_p(a), beta=v_p(b), a_0=a/p^alpha, and b_0=b/p^beta. If e>max(alpha,beta), then the residue of a_0/b_0 modulo p is a nonzero quadratic residue. Consequently, if this residue is a nonresidue, every such common neighbor satisfies v_p(v)<=max(alpha,beta).",
+    "assumptions": [
+      "a,b are distinct nonzero integers and ab+1 is a rational square.",
+      "x=u/v is rational in lowest terms with v>0.",
+      "ax+1 and bx+1 are rational squares; their square roots may be zero.",
+      "p is an odd prime."
+    ],
+    "quantifiers": [
+      "For every pair a,b satisfying the assumptions.",
+      "For every rational x=u/v satisfying the assumptions.",
+      "For every odd prime p, if v_p(v)>max(v_p(a),v_p(b)), then the stated residue is a nonzero quadratic residue."
+    ],
+    "objective": "proof",
+    "claim_scope": "partial",
+    "proof": "Put d_a=gcd(|a|,v) and d_b=gcd(|b|,v). Since gcd(u,v)=1, gcd(au+v,v)=d_a and gcd(bu+v,v)=d_b. Reducing ax+1 and bx+1 to lowest terms, their denominators are v/d_a and v/d_b. A reduced rational square has square numerator and denominator, including when its numerator is zero. Hence there are positive integers r,s and nonnegative integers A,B such that\n\nv=d_a r^2=d_b s^2,   au+v=d_a A^2,   bu+v=d_b B^2.\n\nSuppose e>max(alpha,beta). Then p divides v, so p does not divide u, and v_p(d_a)=alpha, v_p(d_b)=beta. Define d_{a,0}=d_a/p^alpha and d_{b,0}=d_b/p^beta; these and a_0,b_0 are p-adic units. Divide the first numerator equation by p^alpha and reduce modulo p. Since e>alpha, p divides v/p^alpha, giving a_0u ≡ d_{a,0}A^2 (mod p). The second equation likewise gives b_0u ≡ d_{b,0}B^2 (mod p). Their left sides are nonzero modulo p; thus A and B are nonzero modulo p. Dividing the congruences yields\n\nA^2/B^2 ≡ (a_0/b_0)(d_{b,0}/d_{a,0}) (mod p).\n\nThe denominator equations give d_b/d_a=r^2/s^2, a rational square. Its p-adic valuation beta-alpha is even, and after removing that p-power its unit part d_{b,0}/d_{a,0} is a square modulo p: indeed, write r/s=p^k q with q a p-adic unit, so d_b/d_a=p^{2k}q^2 and d_{b,0}/d_{a,0}≡q^2 modulo p. Therefore the displayed congruence implies that a_0/b_0 is a square modulo p. The conclusion is nonzero because a_0 and b_0 are units. In particular, when that residue is a nonresidue, the strict inequality assumed for e is impossible.\n\nThe denominator equations also imply the exact parity conditions e-min(e,alpha) even and e-min(e,beta) even. If e is at most both alpha and beta, they impose no restriction; if e exceeds both, they require alpha and beta to have the same parity and e to share that parity; if alpha<e<=beta, they require e-alpha even, with the symmetric condition when beta<e<=alpha. The residue conclusion above is an additional necessary condition in the strict deep-denominator case, obtained from the simultaneous numerator squares. Zero numerator roots cause no exception: in that case the reduced congruence in this strict case would force the corresponding root to be nonzero modulo p.",
+    "dependency_ids": [],
+    "gaps": [],
+    "extracted_claim_proposals": [
+      {
+        "statement": "At any odd prime p for which the p-free parts of two distinct nonzero integer anchors have a nonresidue ratio, no rational common neighbor can have a reduced denominator whose p-adic valuation exceeds both anchor valuations.",
+        "assumptions": [
+          "a,b are distinct nonzero integers with ab+1 a rational square.",
+          "x=u/v is a common rational neighbor in lowest terms with v>0.",
+          "p is odd and the residue of (a/p^v_p(a))/(b/p^v(b)) modulo p is a nonresidue."
+        ],
+        "quantifiers": [
+          "For every such a,b,x and p."
+        ],
+        "objective": "proof"
+      }
+    ],
+    "method_summary": "Scope: this is a fully proved local restriction on common-neighbor denominators, not a resolution of the sextuple problem. The reduced numerator-square equations are used along with denominator squares: when the denominator valuation is strictly greater than both anchor valuations, reducing both numerator equations modulo p and taking their ratio forces a quadratic-residue condition on the anchor p-free parts. This gives an additional obstruction at primes where that ratio is a nonresidue; it does not constrain every anchor pair or every prime. The all-positive sextuple case and the unrestricted-sign case both remain unresolved in the supplied evidence: there is no exact witness or unbounded-height obstruction. Opposite-sign integer anchors in a tuple must be {-1,1}; negating all elements handles same-sign anchors, without forcing the other elements positive.",
+    "cited_lemmas": [],
+    "external_results": [],
+    "direction_proposals": [
+      {
+        "label": "Combine local residues with cross-neighbor equations",
+        "assignment": "For fixed distinct integer anchors a,b with ab+1 a rational square, combine the proved deep-denominator residue restriction with the simultaneous parametrization of common neighbors and all six cross-pair square conditions. Seek an all-height obstruction to four distinct nonzero pairwise adjacent common neighbors, or identify a precise obstruction to this route. Preserve zero square roots and exclude zero or repeated elements.",
+        "kind": "proof",
+        "target_claim": {
+          "statement": "For every pair of distinct nonzero integer anchors a,b with ab+1 a rational square, there do not exist four distinct nonzero rational common neighbors that are pairwise adjacent under the condition xy+1 is a rational square.",
+          "assumptions": [
+            "a,b are distinct nonzero integers.",
+            "ab+1 is a rational square."
+          ],
+          "quantifiers": [
+            "Universally over all such anchor pairs and all rational common neighbors, with no height bound."
+          ],
+          "objective": "proof"
+        }
+      }
+    ]
+  }
+}
