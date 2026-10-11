@@ -1,0 +1,38 @@
+{
+  "schema": "family-specialization-v1",
+  "height": 60,
+  "parameters": "t=m/n, 1<=m,n<=H, gcd(m,n)=1, m!=n; k as listed",
+  "rows": [
+    {
+      "family": "DKMS_k3",
+      "parameter_count": 2202,
+      "valid_sextuples_verified": 2202,
+      "degenerate_specializations": 0,
+      "integer_count_histogram": {
+        "0": 2202
+      }
+    },
+    {
+      "family": "DKMS_k5",
+      "parameter_count": 2202,
+      "valid_sextuples_verified": 2202,
+      "degenerate_specializations": 0,
+      "integer_count_histogram": {
+        "0": 2202
+      }
+    },
+    {
+      "family": "DKP_F",
+      "parameter_count": 2202,
+      "valid_sextuples_verified": 2200,
+      "degenerate_specializations": 2,
+      "integer_count_histogram": {
+        "0": 2200
+      }
+    }
+  ],
+  "integer_hits": [],
+  "arithmetic_failures": [],
+  "scope": "finite family specializations only; no global nonexistence inference",
+  "elapsed_seconds": 3.1202
+}

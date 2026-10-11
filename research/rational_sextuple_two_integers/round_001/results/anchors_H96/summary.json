@@ -1,0 +1,119 @@
+{
+  "scope": "finite search only",
+  "rows": [
+    {
+      "file": "anchor_1_3_H96.json",
+      "anchors": [
+        1,
+        3
+      ],
+      "H": 96,
+      "parameters": 11223,
+      "vertices": 6543,
+      "edges": 4925,
+      "triangles": 59,
+      "K4": 0,
+      "pair_tests": 21402153,
+      "elapsed_seconds": 7.532714,
+      "sha256": "d4d768e83115af7eb255384fea5e5c085ea8fdbc9710cd26195c05491c482493"
+    },
+    {
+      "file": "anchor_1_8_H96.json",
+      "anchors": [
+        1,
+        8
+      ],
+      "H": 96,
+      "parameters": 11223,
+      "vertices": 8698,
+      "edges": 2989,
+      "triangles": 103,
+      "K4": 0,
+      "pair_tests": 37823253,
+      "elapsed_seconds": 15.657683,
+      "sha256": "4eaecb372a3ade654f5d9208d0c17c65b6106899d2de7467d6bd3b5c12258b7c"
+    },
+    {
+      "file": "anchor_3_8_H96.json",
+      "anchors": [
+        3,
+        8
+      ],
+      "H": 96,
+      "parameters": 11223,
+      "vertices": 8461,
+      "edges": 3154,
+      "triangles": 97,
+      "K4": 0,
+      "pair_tests": 35790030,
+      "elapsed_seconds": 14.632277,
+      "sha256": "c4feba6d9aca143046663f01b19fc9534801c4e8863c6fb7c1e881f83e979d4f"
+    },
+    {
+      "file": "anchor_1_120_H96.json",
+      "anchors": [
+        1,
+        120
+      ],
+      "H": 96,
+      "parameters": 11223,
+      "vertices": 10730,
+      "edges": 777,
+      "triangles": 65,
+      "K4": 0,
+      "pair_tests": 57561085,
+      "elapsed_seconds": 40.049731,
+      "sha256": "dcb4f7af4531f9c7b911a93b6c04b8e9a18446e186431437b71ed2864ac6fdf3"
+    },
+    {
+      "file": "anchor_3_120_H96.json",
+      "anchors": [
+        3,
+        120
+      ],
+      "H": 96,
+      "parameters": 11223,
+      "vertices": 10277,
+      "edges": 795,
+      "triangles": 56,
+      "K4": 0,
+      "pair_tests": 52803226,
+      "elapsed_seconds": 35.200973,
+      "sha256": "d02e4692424a5131fc8ef884a995408216ad355a0a67bd08818b4fe7de6f852e"
+    },
+    {
+      "file": "anchor_8_120_H96.json",
+      "anchors": [
+        8,
+        120
+      ],
+      "H": 96,
+      "parameters": 11223,
+      "vertices": 9347,
+      "edges": 1016,
+      "triangles": 57,
+      "K4": 0,
+      "pair_tests": 43678531,
+      "elapsed_seconds": 21.641516,
+      "sha256": "df49ca79418fa2bb1580fe79aa1aa1acda93bdc37f2cfc1fb819d216b85bb21d"
+    },
+    {
+      "file": "anchor_-1_1_H96.json",
+      "anchors": [
+        -1,
+        1
+      ],
+      "H": 96,
+      "parameters": 11223,
+      "vertices": 3760,
+      "edges": 2090,
+      "triangles": 50,
+      "K4": 0,
+      "pair_tests": 7066920,
+      "elapsed_seconds": 2.793408,
+      "sha256": "41702e0615e68d687c41bb49a617857a361e01b17500e29153dfbedb9da2171e"
+    }
+  ],
+  "total_pair_tests": 256125198,
+  "total_K4": 0
+}

@@ -1,0 +1,1054 @@
+{
+  "schema": "dkp-quadruple-route-v1",
+  "source": "arXiv:1903.02805, Section 2, equation (1) and the following extension equation; it cites Proposition 1 of reference [3]",
+  "scope": "Every edge in the saved finite anchor graphs, all three pairings. Appended roots unrestricted in height. Not all rational quadruples.",
+  "quadruples_tested_with_repetition": 113045,
+  "pairing_conditions_tested": 339135,
+  "condition_hits": [
+    {
+      "file": "anchors_H48/anchor_16_18_H48.json",
+      "edge": [
+        0,
+        1906
+      ],
+      "ordered_quadruple": [
+        "16",
+        "18",
+        "-1/18",
+        "35/18"
+      ],
+      "quadratic_coefficients": [
+        "83521/81",
+        "0",
+        "0"
+      ],
+      "certificate": {
+        "elements": [
+          "16",
+          "18",
+          "-1/18",
+          "35/18",
+          "0",
+          "0"
+        ],
+        "distinct": false,
+        "nonzero": false,
+        "integer_count": 4,
+        "pairs": [
+          {
+            "i": 0,
+            "j": 1,
+            "product_plus_one": "289",
+            "root": "17"
+          },
+          {
+            "i": 0,
+            "j": 2,
+            "product_plus_one": "1/9",
+            "root": "1/3"
+          },
+          {
+            "i": 0,
+            "j": 3,
+            "product_plus_one": "289/9",
+            "root": "17/3"
+          },
+          {
+            "i": 0,
+            "j": 4,
+            "product_plus_one": "1",
+            "root": "1"
+          },
+          {
+            "i": 0,
+            "j": 5,
+            "product_plus_one": "1",
+            "root": "1"
+          },
+          {
+            "i": 1,
+            "j": 2,
+            "product_plus_one": "0",
+            "root": "0"
+          },
+          {
+            "i": 1,
+            "j": 3,
+            "product_plus_one": "36",
+            "root": "6"
+          },
+          {
+            "i": 1,
+            "j": 4,
+            "product_plus_one": "1",
+            "root": "1"
+          },
+          {
+            "i": 1,
+            "j": 5,
+            "product_plus_one": "1",
+            "root": "1"
+          },
+          {
+            "i": 2,
+            "j": 3,
+            "product_plus_one": "289/324",
+            "root": "17/18"
+          },
+          {
+            "i": 2,
+            "j": 4,
+            "product_plus_one": "1",
+            "root": "1"
+          },
+          {
+            "i": 2,
+            "j": 5,
+            "product_plus_one": "1",
+            "root": "1"
+          },
+          {
+            "i": 3,
+            "j": 4,
+            "product_plus_one": "1",
+            "root": "1"
+          },
+          {
+            "i": 3,
+            "j": 5,
+            "product_plus_one": "1",
+            "root": "1"
+          },
+          {
+            "i": 4,
+            "j": 5,
+            "product_plus_one": "1",
+            "root": "1"
+          }
+        ]
+      },
+      "status": "rejected_degenerate_or_nonsquare"
+    },
+    {
+      "file": "anchors_H48/anchor_30_32_H48.json",
+      "edge": [
+        0,
+        2124
+      ],
+      "ordered_quadruple": [
+        "30",
+        "32",
+        "-1/32",
+        "63/32"
+      ],
+      "quadratic_coefficients": [
+        "923521/256",
+        "0",
+        "0"
+      ],
+      "certificate": {
+        "elements": [
+          "30",
+          "32",
+          "-1/32",
+          "63/32",
+          "0",
+          "0"
+        ],
+        "distinct": false,
+        "nonzero": false,
+        "integer_count": 4,
+        "pairs": [
+          {
+            "i": 0,
+            "j": 1,
+            "product_plus_one": "961",
+            "root": "31"
+          },
+          {
+            "i": 0,
+            "j": 2,
+            "product_plus_one": "1/16",
+            "root": "1/4"
+          },
+          {
+            "i": 0,
+            "j": 3,
+            "product_plus_one": "961/16",
+            "root": "31/4"
+          },
+          {
+            "i": 0,
+            "j": 4,
+            "product_plus_one": "1",
+            "root": "1"
+          },
+          {
+            "i": 0,
+            "j": 5,
+            "product_plus_one": "1",
+            "root": "1"
+          },
+          {
+            "i": 1,
+            "j": 2,
+            "product_plus_one": "0",
+            "root": "0"
+          },
+          {
+            "i": 1,
+            "j": 3,
+            "product_plus_one": "64",
+            "root": "8"
+          },
+          {
+            "i": 1,
+            "j": 4,
+            "product_plus_one": "1",
+            "root": "1"
+          },
+          {
+            "i": 1,
+            "j": 5,
+            "product_plus_one": "1",
+            "root": "1"
+          },
+          {
+            "i": 2,
+            "j": 3,
+            "product_plus_one": "961/1024",
+            "root": "31/32"
+          },
+          {
+            "i": 2,
+            "j": 4,
+            "product_plus_one": "1",
+            "root": "1"
+          },
+          {
+            "i": 2,
+            "j": 5,
+            "product_plus_one": "1",
+            "root": "1"
+          },
+          {
+            "i": 3,
+            "j": 4,
+            "product_plus_one": "1",
+            "root": "1"
+          },
+          {
+            "i": 3,
+            "j": 5,
+            "product_plus_one": "1",
+            "root": "1"
+          },
+          {
+            "i": 4,
+            "j": 5,
+            "product_plus_one": "1",
+            "root": "1"
+          }
+        ]
+      },
+      "status": "rejected_degenerate_or_nonsquare"
+    },
+    {
+      "file": "anchors_H48/anchor_48_50_H48.json",
+      "edge": [
+        0,
+        2314
+      ],
+      "ordered_quadruple": [
+        "48",
+        "50",
+        "-1/50",
+        "99/50"
+      ],
+      "quadratic_coefficients": [
+        "5764801/625",
+        "0",
+        "0"
+      ],
+      "certificate": {
+        "elements": [
+          "48",
+          "50",
+          "-1/50",
+          "99/50",
+          "0",
+          "0"
+        ],
+        "distinct": false,
+        "nonzero": false,
+        "integer_count": 4,
+        "pairs": [
+          {
+            "i": 0,
+            "j": 1,
+            "product_plus_one": "2401",
+            "root": "49"
+          },
+          {
+            "i": 0,
+            "j": 2,
+            "product_plus_one": "1/25",
+            "root": "1/5"
+          },
+          {
+            "i": 0,
+            "j": 3,
+            "product_plus_one": "2401/25",
+            "root": "49/5"
+          },
+          {
+            "i": 0,
+            "j": 4,
+            "product_plus_one": "1",
+            "root": "1"
+          },
+          {
+            "i": 0,
+            "j": 5,
+            "product_plus_one": "1",
+            "root": "1"
+          },
+          {
+            "i": 1,
+            "j": 2,
+            "product_plus_one": "0",
+            "root": "0"
+          },
+          {
+            "i": 1,
+            "j": 3,
+            "product_plus_one": "100",
+            "root": "10"
+          },
+          {
+            "i": 1,
+            "j": 4,
+            "product_plus_one": "1",
+            "root": "1"
+          },
+          {
+            "i": 1,
+            "j": 5,
+            "product_plus_one": "1",
+            "root": "1"
+          },
+          {
+            "i": 2,
+            "j": 3,
+            "product_plus_one": "2401/2500",
+            "root": "49/50"
+          },
+          {
+            "i": 2,
+            "j": 4,
+            "product_plus_one": "1",
+            "root": "1"
+          },
+          {
+            "i": 2,
+            "j": 5,
+            "product_plus_one": "1",
+            "root": "1"
+          },
+          {
+            "i": 3,
+            "j": 4,
+            "product_plus_one": "1",
+            "root": "1"
+          },
+          {
+            "i": 3,
+            "j": 5,
+            "product_plus_one": "1",
+            "root": "1"
+          },
+          {
+            "i": 4,
+            "j": 5,
+            "product_plus_one": "1",
+            "root": "1"
+          }
+        ]
+      },
+      "status": "rejected_degenerate_or_nonsquare"
+    },
+    {
+      "file": "anchors_H48/anchor_6_8_H48.json",
+      "edge": [
+        0,
+        1392
+      ],
+      "ordered_quadruple": [
+        "6",
+        "8",
+        "-1/8",
+        "15/8"
+      ],
+      "quadratic_coefficients": [
+        "2401/16",
+        "0",
+        "0"
+      ],
+      "certificate": {
+        "elements": [
+          "6",
+          "8",
+          "-1/8",
+          "15/8",
+          "0",
+          "0"
+        ],
+        "distinct": false,
+        "nonzero": false,
+        "integer_count": 4,
+        "pairs": [
+          {
+            "i": 0,
+            "j": 1,
+            "product_plus_one": "49",
+            "root": "7"
+          },
+          {
+            "i": 0,
+            "j": 2,
+            "product_plus_one": "1/4",
+            "root": "1/2"
+          },
+          {
+            "i": 0,
+            "j": 3,
+            "product_plus_one": "49/4",
+            "root": "7/2"
+          },
+          {
+            "i": 0,
+            "j": 4,
+            "product_plus_one": "1",
+            "root": "1"
+          },
+          {
+            "i": 0,
+            "j": 5,
+            "product_plus_one": "1",
+            "root": "1"
+          },
+          {
+            "i": 1,
+            "j": 2,
+            "product_plus_one": "0",
+            "root": "0"
+          },
+          {
+            "i": 1,
+            "j": 3,
+            "product_plus_one": "16",
+            "root": "4"
+          },
+          {
+            "i": 1,
+            "j": 4,
+            "product_plus_one": "1",
+            "root": "1"
+          },
+          {
+            "i": 1,
+            "j": 5,
+            "product_plus_one": "1",
+            "root": "1"
+          },
+          {
+            "i": 2,
+            "j": 3,
+            "product_plus_one": "49/64",
+            "root": "7/8"
+          },
+          {
+            "i": 2,
+            "j": 4,
+            "product_plus_one": "1",
+            "root": "1"
+          },
+          {
+            "i": 2,
+            "j": 5,
+            "product_plus_one": "1",
+            "root": "1"
+          },
+          {
+            "i": 3,
+            "j": 4,
+            "product_plus_one": "1",
+            "root": "1"
+          },
+          {
+            "i": 3,
+            "j": 5,
+            "product_plus_one": "1",
+            "root": "1"
+          },
+          {
+            "i": 4,
+            "j": 5,
+            "product_plus_one": "1",
+            "root": "1"
+          }
+        ]
+      },
+      "status": "rejected_degenerate_or_nonsquare"
+    }
+  ],
+  "sextuple_candidates": [],
+  "rows": [
+    {
+      "file": "anchors_H48/anchor_-1_1_H48.json",
+      "quadruples": 543,
+      "condition_hits": 0
+    },
+    {
+      "file": "anchors_H48/anchor_10_12_H48.json",
+      "quadruples": 1469,
+      "condition_hits": 0
+    },
+    {
+      "file": "anchors_H48/anchor_10_36_H48.json",
+      "quadruples": 568,
+      "condition_hits": 0
+    },
+    {
+      "file": "anchors_H48/anchor_10_44_H48.json",
+      "quadruples": 490,
+      "condition_hits": 0
+    },
+    {
+      "file": "anchors_H48/anchor_11_13_H48.json",
+      "quadruples": 1518,
+      "condition_hits": 0
+    },
+    {
+      "file": "anchors_H48/anchor_11_40_H48.json",
+      "quadruples": 332,
+      "condition_hits": 0
+    },
+    {
+      "file": "anchors_H48/anchor_11_48_H48.json",
+      "quadruples": 354,
+      "condition_hits": 0
+    },
+    {
+      "file": "anchors_H48/anchor_12_14_H48.json",
+      "quadruples": 1414,
+      "condition_hits": 0
+    },
+    {
+      "file": "anchors_H48/anchor_12_24_H48.json",
+      "quadruples": 648,
+      "condition_hits": 0
+    },
+    {
+      "file": "anchors_H48/anchor_12_30_H48.json",
+      "quadruples": 640,
+      "condition_hits": 0
+    },
+    {
+      "file": "anchors_H48/anchor_12_44_H48.json",
+      "quadruples": 477,
+      "condition_hits": 0
+    },
+    {
+      "file": "anchors_H48/anchor_13_15_H48.json",
+      "quadruples": 1583,
+      "condition_hits": 0
+    },
+    {
+      "file": "anchors_H48/anchor_13_48_H48.json",
+      "quadruples": 442,
+      "condition_hits": 0
+    },
+    {
+      "file": "anchors_H48/anchor_14_16_H48.json",
+      "quadruples": 1481,
+      "condition_hits": 0
+    },
+    {
+      "file": "anchors_H48/anchor_15_17_H48.json",
+      "quadruples": 1648,
+      "condition_hits": 0
+    },
+    {
+      "file": "anchors_H48/anchor_15_24_H48.json",
+      "quadruples": 686,
+      "condition_hits": 0
+    },
+    {
+      "file": "anchors_H48/anchor_15_45_H48.json",
+      "quadruples": 451,
+      "condition_hits": 0
+    },
+    {
+      "file": "anchors_H48/anchor_16_18_H48.json",
+      "quadruples": 1417,
+      "condition_hits": 1
+    },
+    {
+      "file": "anchors_H48/anchor_16_33_H48.json",
+      "quadruples": 490,
+      "condition_hits": 0
+    },
+    {
+      "file": "anchors_H48/anchor_16_39_H48.json",
+      "quadruples": 350,
+      "condition_hits": 0
+    },
+    {
+      "file": "anchors_H48/anchor_17_19_H48.json",
+      "quadruples": 1418,
+      "condition_hits": 0
+    },
+    {
+      "file": "anchors_H48/anchor_18_20_H48.json",
+      "quadruples": 1451,
+      "condition_hits": 0
+    },
+    {
+      "file": "anchors_H48/anchor_19_21_H48.json",
+      "quadruples": 1399,
+      "condition_hits": 0
+    },
+    {
+      "file": "anchors_H48/anchor_1_120_H48.json",
+      "quadruples": 270,
+      "condition_hits": 0
+    },
+    {
+      "file": "anchors_H48/anchor_1_15_H48.json",
+      "quadruples": 551,
+      "condition_hits": 0
+    },
+    {
+      "file": "anchors_H48/anchor_1_24_H48.json",
+      "quadruples": 509,
+      "condition_hits": 0
+    },
+    {
+      "file": "anchors_H48/anchor_1_35_H48.json",
+      "quadruples": 350,
+      "condition_hits": 0
+    },
+    {
+      "file": "anchors_H48/anchor_1_3_H48.json",
+      "quadruples": 1303,
+      "condition_hits": 0
+    },
+    {
+      "file": "anchors_H48/anchor_1_48_H48.json",
+      "quadruples": 319,
+      "condition_hits": 0
+    },
+    {
+      "file": "anchors_H48/anchor_1_8_H48.json",
+      "quadruples": 829,
+      "condition_hits": 0
+    },
+    {
+      "file": "anchors_H48/anchor_20_22_H48.json",
+      "quadruples": 1522,
+      "condition_hits": 0
+    },
+    {
+      "file": "anchors_H48/anchor_20_42_H48.json",
+      "quadruples": 563,
+      "condition_hits": 0
+    },
+    {
+      "file": "anchors_H48/anchor_20_48_H48.json",
+      "quadruples": 582,
+      "condition_hits": 0
+    },
+    {
+      "file": "anchors_H48/anchor_21_23_H48.json",
+      "quadruples": 1471,
+      "condition_hits": 0
+    },
+    {
+      "file": "anchors_H48/anchor_21_40_H48.json",
+      "quadruples": 426,
+      "condition_hits": 0
+    },
+    {
+      "file": "anchors_H48/anchor_22_24_H48.json",
+      "quadruples": 1528,
+      "condition_hits": 0
+    },
+    {
+      "file": "anchors_H48/anchor_23_25_H48.json",
+      "quadruples": 1420,
+      "condition_hits": 0
+    },
+    {
+      "file": "anchors_H48/anchor_24_26_H48.json",
+      "quadruples": 1381,
+      "condition_hits": 0
+    },
+    {
+      "file": "anchors_H48/anchor_24_35_H48.json",
+      "quadruples": 447,
+      "condition_hits": 0
+    },
+    {
+      "file": "anchors_H48/anchor_24_40_H48.json",
+      "quadruples": 595,
+      "condition_hits": 0
+    },
+    {
+      "file": "anchors_H48/anchor_25_27_H48.json",
+      "quadruples": 1423,
+      "condition_hits": 0
+    },
+    {
+      "file": "anchors_H48/anchor_26_28_H48.json",
+      "quadruples": 1404,
+      "condition_hits": 0
+    },
+    {
+      "file": "anchors_H48/anchor_27_29_H48.json",
+      "quadruples": 1498,
+      "condition_hits": 0
+    },
+    {
+      "file": "anchors_H48/anchor_28_30_H48.json",
+      "quadruples": 1488,
+      "condition_hits": 0
+    },
+    {
+      "file": "anchors_H48/anchor_29_31_H48.json",
+      "quadruples": 1442,
+      "condition_hits": 0
+    },
+    {
+      "file": "anchors_H48/anchor_2_12_H48.json",
+      "quadruples": 745,
+      "condition_hits": 0
+    },
+    {
+      "file": "anchors_H48/anchor_2_24_H48.json",
+      "quadruples": 483,
+      "condition_hits": 0
+    },
+    {
+      "file": "anchors_H48/anchor_2_40_H48.json",
+      "quadruples": 370,
+      "condition_hits": 0
+    },
+    {
+      "file": "anchors_H48/anchor_2_4_H48.json",
+      "quadruples": 1166,
+      "condition_hits": 0
+    },
+    {
+      "file": "anchors_H48/anchor_30_32_H48.json",
+      "quadruples": 1368,
+      "condition_hits": 1
+    },
+    {
+      "file": "anchors_H48/anchor_31_33_H48.json",
+      "quadruples": 1411,
+      "condition_hits": 0
+    },
+    {
+      "file": "anchors_H48/anchor_32_34_H48.json",
+      "quadruples": 1491,
+      "condition_hits": 0
+    },
+    {
+      "file": "anchors_H48/anchor_33_35_H48.json",
+      "quadruples": 1454,
+      "condition_hits": 0
+    },
+    {
+      "file": "anchors_H48/anchor_34_36_H48.json",
+      "quadruples": 1439,
+      "condition_hits": 0
+    },
+    {
+      "file": "anchors_H48/anchor_35_37_H48.json",
+      "quadruples": 1416,
+      "condition_hits": 0
+    },
+    {
+      "file": "anchors_H48/anchor_35_48_H48.json",
+      "quadruples": 380,
+      "condition_hits": 0
+    },
+    {
+      "file": "anchors_H48/anchor_36_38_H48.json",
+      "quadruples": 1450,
+      "condition_hits": 0
+    },
+    {
+      "file": "anchors_H48/anchor_37_39_H48.json",
+      "quadruples": 1391,
+      "condition_hits": 0
+    },
+    {
+      "file": "anchors_H48/anchor_38_40_H48.json",
+      "quadruples": 1418,
+      "condition_hits": 0
+    },
+    {
+      "file": "anchors_H48/anchor_39_41_H48.json",
+      "quadruples": 1412,
+      "condition_hits": 0
+    },
+    {
+      "file": "anchors_H48/anchor_3_120_H48.json",
+      "quadruples": 249,
+      "condition_hits": 0
+    },
+    {
+      "file": "anchors_H48/anchor_3_16_H48.json",
+      "quadruples": 699,
+      "condition_hits": 0
+    },
+    {
+      "file": "anchors_H48/anchor_3_21_H48.json",
+      "quadruples": 614,
+      "condition_hits": 0
+    },
+    {
+      "file": "anchors_H48/anchor_3_33_H48.json",
+      "quadruples": 430,
+      "condition_hits": 0
+    },
+    {
+      "file": "anchors_H48/anchor_3_40_H48.json",
+      "quadruples": 404,
+      "condition_hits": 0
+    },
+    {
+      "file": "anchors_H48/anchor_3_5_H48.json",
+      "quadruples": 1461,
+      "condition_hits": 0
+    },
+    {
+      "file": "anchors_H48/anchor_3_8_H48.json",
+      "quadruples": 871,
+      "condition_hits": 0
+    },
+    {
+      "file": "anchors_H48/anchor_40_42_H48.json",
+      "quadruples": 1476,
+      "condition_hits": 0
+    },
+    {
+      "file": "anchors_H48/anchor_41_43_H48.json",
+      "quadruples": 1442,
+      "condition_hits": 0
+    },
+    {
+      "file": "anchors_H48/anchor_42_44_H48.json",
+      "quadruples": 1452,
+      "condition_hits": 0
+    },
+    {
+      "file": "anchors_H48/anchor_43_45_H48.json",
+      "quadruples": 1420,
+      "condition_hits": 0
+    },
+    {
+      "file": "anchors_H48/anchor_44_46_H48.json",
+      "quadruples": 1388,
+      "condition_hits": 0
+    },
+    {
+      "file": "anchors_H48/anchor_45_47_H48.json",
+      "quadruples": 1400,
+      "condition_hits": 0
+    },
+    {
+      "file": "anchors_H48/anchor_46_48_H48.json",
+      "quadruples": 1421,
+      "condition_hits": 0
+    },
+    {
+      "file": "anchors_H48/anchor_47_49_H48.json",
+      "quadruples": 1447,
+      "condition_hits": 0
+    },
+    {
+      "file": "anchors_H48/anchor_48_50_H48.json",
+      "quadruples": 1465,
+      "condition_hits": 1
+    },
+    {
+      "file": "anchors_H48/anchor_4_12_H48.json",
+      "quadruples": 781,
+      "condition_hits": 0
+    },
+    {
+      "file": "anchors_H48/anchor_4_20_H48.json",
+      "quadruples": 720,
+      "condition_hits": 0
+    },
+    {
+      "file": "anchors_H48/anchor_4_30_H48.json",
+      "quadruples": 481,
+      "condition_hits": 0
+    },
+    {
+      "file": "anchors_H48/anchor_4_42_H48.json",
+      "quadruples": 426,
+      "condition_hits": 0
+    },
+    {
+      "file": "anchors_H48/anchor_4_6_H48.json",
+      "quadruples": 1306,
+      "condition_hits": 0
+    },
+    {
+      "file": "anchors_H48/anchor_5_16_H48.json",
+      "quadruples": 784,
+      "condition_hits": 0
+    },
+    {
+      "file": "anchors_H48/anchor_5_24_H48.json",
+      "quadruples": 535,
+      "condition_hits": 0
+    },
+    {
+      "file": "anchors_H48/anchor_5_39_H48.json",
+      "quadruples": 385,
+      "condition_hits": 0
+    },
+    {
+      "file": "anchors_H48/anchor_5_7_H48.json",
+      "quadruples": 1520,
+      "condition_hits": 0
+    },
+    {
+      "file": "anchors_H48/anchor_6_20_H48.json",
+      "quadruples": 683,
+      "condition_hits": 0
+    },
+    {
+      "file": "anchors_H48/anchor_6_28_H48.json",
+      "quadruples": 559,
+      "condition_hits": 0
+    },
+    {
+      "file": "anchors_H48/anchor_6_48_H48.json",
+      "quadruples": 480,
+      "condition_hits": 0
+    },
+    {
+      "file": "anchors_H48/anchor_6_8_H48.json",
+      "quadruples": 1448,
+      "condition_hits": 1
+    },
+    {
+      "file": "anchors_H48/anchor_7_24_H48.json",
+      "quadruples": 644,
+      "condition_hits": 0
+    },
+    {
+      "file": "anchors_H48/anchor_7_32_H48.json",
+      "quadruples": 416,
+      "condition_hits": 0
+    },
+    {
+      "file": "anchors_H48/anchor_7_9_H48.json",
+      "quadruples": 1557,
+      "condition_hits": 0
+    },
+    {
+      "file": "anchors_H48/anchor_8_10_H48.json",
+      "quadruples": 1507,
+      "condition_hits": 0
+    },
+    {
+      "file": "anchors_H48/anchor_8_120_H48.json",
+      "quadruples": 322,
+      "condition_hits": 0
+    },
+    {
+      "file": "anchors_H48/anchor_8_15_H48.json",
+      "quadruples": 715,
+      "condition_hits": 0
+    },
+    {
+      "file": "anchors_H48/anchor_8_21_H48.json",
+      "quadruples": 560,
+      "condition_hits": 0
+    },
+    {
+      "file": "anchors_H48/anchor_8_28_H48.json",
+      "quadruples": 657,
+      "condition_hits": 0
+    },
+    {
+      "file": "anchors_H48/anchor_8_36_H48.json",
+      "quadruples": 552,
+      "condition_hits": 0
+    },
+    {
+      "file": "anchors_H48/anchor_8_45_H48.json",
+      "quadruples": 354,
+      "condition_hits": 0
+    },
+    {
+      "file": "anchors_H48/anchor_9_11_H48.json",
+      "quadruples": 1388,
+      "condition_hits": 0
+    },
+    {
+      "file": "anchors_H48/anchor_9_32_H48.json",
+      "quadruples": 457,
+      "condition_hits": 0
+    },
+    {
+      "file": "anchors_H48/anchor_9_40_H48.json",
+      "quadruples": 439,
+      "condition_hits": 0
+    },
+    {
+      "file": "anchors_H96/anchor_-1_1_H96.json",
+      "quadruples": 2090,
+      "condition_hits": 0
+    },
+    {
+      "file": "anchors_H96/anchor_1_120_H96.json",
+      "quadruples": 777,
+      "condition_hits": 0
+    },
+    {
+      "file": "anchors_H96/anchor_1_3_H96.json",
+      "quadruples": 4925,
+      "condition_hits": 0
+    },
+    {
+      "file": "anchors_H96/anchor_1_8_H96.json",
+      "quadruples": 2989,
+      "condition_hits": 0
+    },
+    {
+      "file": "anchors_H96/anchor_3_120_H96.json",
+      "quadruples": 795,
+      "condition_hits": 0
+    },
+    {
+      "file": "anchors_H96/anchor_3_8_H96.json",
+      "quadruples": 3154,
+      "condition_hits": 0
+    },
+    {
+      "file": "anchors_H96/anchor_8_120_H96.json",
+      "quadruples": 1016,
+      "condition_hits": 0
+    }
+  ],
+  "elapsed_seconds": 2.4883
+}

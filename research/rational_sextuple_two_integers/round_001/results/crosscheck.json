@@ -1,0 +1,1864 @@
+{
+  "schema": "computational-crosscheck-v1",
+  "independent_ai_agents": 0,
+  "native_proofloop_execution": false,
+  "coverage": "Every saved graph: all vertices regenerated, all potential edges retested, triangles and K4 counted by DFS.",
+  "graphs": 109,
+  "total_pair_checks": 550135163,
+  "all_pass": true,
+  "rows": [
+    {
+      "file": "anchors_H48/anchor_-1_1_H48.json",
+      "anchors": [
+        -1,
+        1
+      ],
+      "height": 48,
+      "vertices": 954,
+      "edges": 543,
+      "triangles": 18,
+      "K4": 0,
+      "all_parameter_values_regenerated": true,
+      "all_pairs_independently_retested": 454581,
+      "canonical_graph_sha256": "c35a0e0bb4056dc6024338b64dcf4347b1767ba389e56eec5d9c0ca3d7d0a82b",
+      "pass": true,
+      "elapsed_seconds": 0.5465
+    },
+    {
+      "file": "anchors_H48/anchor_10_12_H48.json",
+      "anchors": [
+        10,
+        12
+      ],
+      "height": 48,
+      "vertices": 2076,
+      "edges": 1469,
+      "triangles": 33,
+      "K4": 0,
+      "all_parameter_values_regenerated": true,
+      "all_pairs_independently_retested": 2153850,
+      "canonical_graph_sha256": "de2241d2beaf5bef228ab5b970b1e0a444ca9a3eb3bd969b2bb61132abfb5b0d",
+      "pass": true,
+      "elapsed_seconds": 2.0206
+    },
+    {
+      "file": "anchors_H48/anchor_10_36_H48.json",
+      "anchors": [
+        10,
+        36
+      ],
+      "height": 48,
+      "vertices": 2449,
+      "edges": 568,
+      "triangles": 33,
+      "K4": 0,
+      "all_parameter_values_regenerated": true,
+      "all_pairs_independently_retested": 2997576,
+      "canonical_graph_sha256": "9b09615ca7b962fadca29777a2ce0ccc18e40bb047c0b8736e4174022d490c69",
+      "pass": true,
+      "elapsed_seconds": 2.9567
+    },
+    {
+      "file": "anchors_H48/anchor_10_44_H48.json",
+      "anchors": [
+        10,
+        44
+      ],
+      "height": 48,
+      "vertices": 2551,
+      "edges": 490,
+      "triangles": 27,
+      "K4": 0,
+      "all_parameter_values_regenerated": true,
+      "all_pairs_independently_retested": 3252525,
+      "canonical_graph_sha256": "8d6d0abec0162974024b2d26de04ea4e4277dc7bc4f78cacce2e12b1bacdc96e",
+      "pass": true,
+      "elapsed_seconds": 2.9193
+    },
+    {
+      "file": "anchors_H48/anchor_11_13_H48.json",
+      "anchors": [
+        11,
+        13
+      ],
+      "height": 48,
+      "vertices": 2484,
+      "edges": 1518,
+      "triangles": 15,
+      "K4": 0,
+      "all_parameter_values_regenerated": true,
+      "all_pairs_independently_retested": 3083886,
+      "canonical_graph_sha256": "ef810ac5f9aefd424a45dc4e333e20a0a9ecec7b67620e72510ed91d0317a7e8",
+      "pass": true,
+      "elapsed_seconds": 3.0933
+    },
+    {
+      "file": "anchors_H48/anchor_11_40_H48.json",
+      "anchors": [
+        11,
+        40
+      ],
+      "height": 48,
+      "vertices": 2647,
+      "edges": 332,
+      "triangles": 9,
+      "K4": 0,
+      "all_parameter_values_regenerated": true,
+      "all_pairs_independently_retested": 3501981,
+      "canonical_graph_sha256": "c07e90ce954f215711bce06bc2008e57a2cad35227e28d799d4cd6446b26e5dd",
+      "pass": true,
+      "elapsed_seconds": 3.1352
+    },
+    {
+      "file": "anchors_H48/anchor_11_48_H48.json",
+      "anchors": [
+        11,
+        48
+      ],
+      "height": 48,
+      "vertices": 2673,
+      "edges": 354,
+      "triangles": 14,
+      "K4": 0,
+      "all_parameter_values_regenerated": true,
+      "all_pairs_independently_retested": 3571128,
+      "canonical_graph_sha256": "f2843c9276800c7cf7b7022baf2dc45f7f14add4a6594cc0e967698696e49ba5",
+      "pass": true,
+      "elapsed_seconds": 3.4851
+    },
+    {
+      "file": "anchors_H48/anchor_12_14_H48.json",
+      "anchors": [
+        12,
+        14
+      ],
+      "height": 48,
+      "vertices": 2206,
+      "edges": 1414,
+      "triangles": 13,
+      "K4": 0,
+      "all_parameter_values_regenerated": true,
+      "all_pairs_independently_retested": 2432115,
+      "canonical_graph_sha256": "492c70da793e63ff1050a8ab51bf6c3bb27e2e841942749eeb89ed287a43a825",
+      "pass": true,
+      "elapsed_seconds": 2.1095
+    },
+    {
+      "file": "anchors_H48/anchor_12_24_H48.json",
+      "anchors": [
+        12,
+        24
+      ],
+      "height": 48,
+      "vertices": 1423,
+      "edges": 648,
+      "triangles": 27,
+      "K4": 0,
+      "all_parameter_values_regenerated": true,
+      "all_pairs_independently_retested": 1011753,
+      "canonical_graph_sha256": "fedde11abf9eb21586ba8b2196ee27471f74b05f6e713d6461881d2fbd3c8dc3",
+      "pass": true,
+      "elapsed_seconds": 0.8032
+    },
+    {
+      "file": "anchors_H48/anchor_12_30_H48.json",
+      "anchors": [
+        12,
+        30
+      ],
+      "height": 48,
+      "vertices": 1953,
+      "edges": 640,
+      "triangles": 23,
+      "K4": 0,
+      "all_parameter_values_regenerated": true,
+      "all_pairs_independently_retested": 1906128,
+      "canonical_graph_sha256": "4d8d91da418dfef4f56d5c4a49ab1561581db57ae02ffa7e49d3d4302fa0dde5",
+      "pass": true,
+      "elapsed_seconds": 1.6404
+    },
+    {
+      "file": "anchors_H48/anchor_12_44_H48.json",
+      "anchors": [
+        12,
+        44
+      ],
+      "height": 48,
+      "vertices": 2332,
+      "edges": 477,
+      "triangles": 15,
+      "K4": 0,
+      "all_parameter_values_regenerated": true,
+      "all_pairs_independently_retested": 2717946,
+      "canonical_graph_sha256": "9c296cea7e2d8bc57754331565da38d0b379f707efe0fcf5b86adb0e8dee7f98",
+      "pass": true,
+      "elapsed_seconds": 2.0917
+    },
+    {
+      "file": "anchors_H48/anchor_13_15_H48.json",
+      "anchors": [
+        13,
+        15
+      ],
+      "height": 48,
+      "vertices": 2437,
+      "edges": 1583,
+      "triangles": 35,
+      "K4": 0,
+      "all_parameter_values_regenerated": true,
+      "all_pairs_independently_retested": 2968266,
+      "canonical_graph_sha256": "701bfc2261a3309d76037619c6efc54a8236f349f953c04cad5d0512fe2e64fe",
+      "pass": true,
+      "elapsed_seconds": 2.8506
+    },
+    {
+      "file": "anchors_H48/anchor_13_48_H48.json",
+      "anchors": [
+        13,
+        48
+      ],
+      "height": 48,
+      "vertices": 2588,
+      "edges": 442,
+      "triangles": 28,
+      "K4": 0,
+      "all_parameter_values_regenerated": true,
+      "all_pairs_independently_retested": 3347578,
+      "canonical_graph_sha256": "faa81885cd42dd873c19bf67f53670940860e06a8878833cb8a85668173445d2",
+      "pass": true,
+      "elapsed_seconds": 3.1294
+    },
+    {
+      "file": "anchors_H48/anchor_14_16_H48.json",
+      "anchors": [
+        14,
+        16
+      ],
+      "height": 48,
+      "vertices": 2278,
+      "edges": 1481,
+      "triangles": 24,
+      "K4": 0,
+      "all_parameter_values_regenerated": true,
+      "all_pairs_independently_retested": 2593503,
+      "canonical_graph_sha256": "7580b0ee68c7aecd56f1909396664fea1348b97a34eec813cc740e744ffd418f",
+      "pass": true,
+      "elapsed_seconds": 1.976
+    },
+    {
+      "file": "anchors_H48/anchor_15_17_H48.json",
+      "anchors": [
+        15,
+        17
+      ],
+      "height": 48,
+      "vertices": 2497,
+      "edges": 1648,
+      "triangles": 34,
+      "K4": 0,
+      "all_parameter_values_regenerated": true,
+      "all_pairs_independently_retested": 3116256,
+      "canonical_graph_sha256": "40473e9a4f0b119df6752f007e84605ad71f92db79bd80c48949475f0de1e910",
+      "pass": true,
+      "elapsed_seconds": 3.0274
+    },
+    {
+      "file": "anchors_H48/anchor_15_24_H48.json",
+      "anchors": [
+        15,
+        24
+      ],
+      "height": 48,
+      "vertices": 2161,
+      "edges": 686,
+      "triangles": 30,
+      "K4": 0,
+      "all_parameter_values_regenerated": true,
+      "all_pairs_independently_retested": 2333880,
+      "canonical_graph_sha256": "b87105efb8c6a0038faf481349dce7814ef839f8fde3218872c4d6ca1d7f61ab",
+      "pass": true,
+      "elapsed_seconds": 2.1978
+    },
+    {
+      "file": "anchors_H48/anchor_15_45_H48.json",
+      "anchors": [
+        15,
+        45
+      ],
+      "height": 48,
+      "vertices": 1660,
+      "edges": 451,
+      "triangles": 11,
+      "K4": 0,
+      "all_parameter_values_regenerated": true,
+      "all_pairs_independently_retested": 1376970,
+      "canonical_graph_sha256": "2d98be47ae79396cd485a79434708e40cf8934edf81636feb338784a7e219027",
+      "pass": true,
+      "elapsed_seconds": 1.1651
+    },
+    {
+      "file": "anchors_H48/anchor_16_18_H48.json",
+      "anchors": [
+        16,
+        18
+      ],
+      "height": 48,
+      "vertices": 2272,
+      "edges": 1417,
+      "triangles": 23,
+      "K4": 0,
+      "all_parameter_values_regenerated": true,
+      "all_pairs_independently_retested": 2579856,
+      "canonical_graph_sha256": "ea43c7c429a675df4ed68d03cdc7097f6f8031329caac40e3ee5de12106cd02b",
+      "pass": true,
+      "elapsed_seconds": 2.1047
+    },
+    {
+      "file": "anchors_H48/anchor_16_33_H48.json",
+      "anchors": [
+        16,
+        33
+      ],
+      "height": 48,
+      "vertices": 2612,
+      "edges": 490,
+      "triangles": 27,
+      "K4": 0,
+      "all_parameter_values_regenerated": true,
+      "all_pairs_independently_retested": 3409966,
+      "canonical_graph_sha256": "2c4d8def5934d2d8c0c74fe1fae08701cc446d6d228906b7c6074ee36fe6f503",
+      "pass": true,
+      "elapsed_seconds": 2.9122
+    },
+    {
+      "file": "anchors_H48/anchor_16_39_H48.json",
+      "anchors": [
+        16,
+        39
+      ],
+      "height": 48,
+      "vertices": 2635,
+      "edges": 350,
+      "triangles": 7,
+      "K4": 0,
+      "all_parameter_values_regenerated": true,
+      "all_pairs_independently_retested": 3470295,
+      "canonical_graph_sha256": "cc50f83bed21ecc56bdeac2b1d7c9fcfe97c01bf19b0c650ac2b423d389cd2b7",
+      "pass": true,
+      "elapsed_seconds": 3.2321
+    },
+    {
+      "file": "anchors_H48/anchor_17_19_H48.json",
+      "anchors": [
+        17,
+        19
+      ],
+      "height": 48,
+      "vertices": 2600,
+      "edges": 1418,
+      "triangles": 5,
+      "K4": 0,
+      "all_parameter_values_regenerated": true,
+      "all_pairs_independently_retested": 3378700,
+      "canonical_graph_sha256": "f1da7b0f1562a6a9371d1065b36069b6c9cf543a18cda137d335eb6601d3d450",
+      "pass": true,
+      "elapsed_seconds": 3.3182
+    },
+    {
+      "file": "anchors_H48/anchor_18_20_H48.json",
+      "anchors": [
+        18,
+        20
+      ],
+      "height": 48,
+      "vertices": 2299,
+      "edges": 1451,
+      "triangles": 24,
+      "K4": 0,
+      "all_parameter_values_regenerated": true,
+      "all_pairs_independently_retested": 2641551,
+      "canonical_graph_sha256": "f54fecf1eeea4f5bb113e0727f78a4b1fa1f651193c64e4c8c97dd22e8df7674",
+      "pass": true,
+      "elapsed_seconds": 2.5992
+    },
+    {
+      "file": "anchors_H48/anchor_19_21_H48.json",
+      "anchors": [
+        19,
+        21
+      ],
+      "height": 48,
+      "vertices": 2559,
+      "edges": 1399,
+      "triangles": 4,
+      "K4": 0,
+      "all_parameter_values_regenerated": true,
+      "all_pairs_independently_retested": 3272961,
+      "canonical_graph_sha256": "979a1a16af1744e373e6c051b5694a6b904d4a2af805a2e36548fb7cb4ac9dba",
+      "pass": true,
+      "elapsed_seconds": 2.7802
+    },
+    {
+      "file": "anchors_H48/anchor_1_120_H48.json",
+      "anchors": [
+        1,
+        120
+      ],
+      "height": 48,
+      "vertices": 2730,
+      "edges": 270,
+      "triangles": 33,
+      "K4": 0,
+      "all_parameter_values_regenerated": true,
+      "all_pairs_independently_retested": 3725085,
+      "canonical_graph_sha256": "5db0147bf9d6834bdff9963f7ec44d8d7bf871986325fc1c24bd1d9c69641412",
+      "pass": true,
+      "elapsed_seconds": 3.6779
+    },
+    {
+      "file": "anchors_H48/anchor_1_15_H48.json",
+      "anchors": [
+        1,
+        15
+      ],
+      "height": 48,
+      "vertices": 2366,
+      "edges": 551,
+      "triangles": 22,
+      "K4": 0,
+      "all_parameter_values_regenerated": true,
+      "all_pairs_independently_retested": 2797795,
+      "canonical_graph_sha256": "9569957709308063e6f21e30579a7e84e2c8891ce22447dc76fa2eb7dbc268a9",
+      "pass": true,
+      "elapsed_seconds": 2.5983
+    },
+    {
+      "file": "anchors_H48/anchor_1_24_H48.json",
+      "anchors": [
+        1,
+        24
+      ],
+      "height": 48,
+      "vertices": 2562,
+      "edges": 509,
+      "triangles": 30,
+      "K4": 0,
+      "all_parameter_values_regenerated": true,
+      "all_pairs_independently_retested": 3280641,
+      "canonical_graph_sha256": "e9019e05865156e4df984fd1cf67089079ae0a874391a36ed02febfa04eb3cab",
+      "pass": true,
+      "elapsed_seconds": 3.1718
+    },
+    {
+      "file": "anchors_H48/anchor_1_35_H48.json",
+      "anchors": [
+        1,
+        35
+      ],
+      "height": 48,
+      "vertices": 2617,
+      "edges": 350,
+      "triangles": 23,
+      "K4": 0,
+      "all_parameter_values_regenerated": true,
+      "all_pairs_independently_retested": 3423036,
+      "canonical_graph_sha256": "0dcb6c859cfe8fec3ca213036678c7e9c4aefc97398ffcd2235310316f141880",
+      "pass": true,
+      "elapsed_seconds": 3.3946
+    },
+    {
+      "file": "anchors_H48/anchor_1_3_H48.json",
+      "anchors": [
+        1,
+        3
+      ],
+      "height": 48,
+      "vertices": 1660,
+      "edges": 1303,
+      "triangles": 28,
+      "K4": 0,
+      "all_parameter_values_regenerated": true,
+      "all_pairs_independently_retested": 1376970,
+      "canonical_graph_sha256": "309c8032a50f17ce9ad5f02457563ba5f08fd4efdbc3fdd3e3115f48b47b8a91",
+      "pass": true,
+      "elapsed_seconds": 1.2631
+    },
+    {
+      "file": "anchors_H48/anchor_1_48_H48.json",
+      "anchors": [
+        1,
+        48
+      ],
+      "height": 48,
+      "vertices": 2693,
+      "edges": 319,
+      "triangles": 21,
+      "K4": 0,
+      "all_parameter_values_regenerated": true,
+      "all_pairs_independently_retested": 3624778,
+      "canonical_graph_sha256": "f53be5cd5d4faf09a9b213bed74b705dcec6f343ef975e9c31ca4aff2e94bffa",
+      "pass": true,
+      "elapsed_seconds": 3.5785
+    },
+    {
+      "file": "anchors_H48/anchor_1_8_H48.json",
+      "anchors": [
+        1,
+        8
+      ],
+      "height": 48,
+      "vertices": 2203,
+      "edges": 829,
+      "triangles": 34,
+      "K4": 0,
+      "all_parameter_values_regenerated": true,
+      "all_pairs_independently_retested": 2425503,
+      "canonical_graph_sha256": "cfa8b11932f3a9cbea9d5cdcbdb6174f7df2bebae6a6aaa7afa7324c7b16395e",
+      "pass": true,
+      "elapsed_seconds": 2.3154
+    },
+    {
+      "file": "anchors_H48/anchor_20_22_H48.json",
+      "anchors": [
+        20,
+        22
+      ],
+      "height": 48,
+      "vertices": 2397,
+      "edges": 1522,
+      "triangles": 30,
+      "K4": 0,
+      "all_parameter_values_regenerated": true,
+      "all_pairs_independently_retested": 2871606,
+      "canonical_graph_sha256": "65404c08b6b9b94cc8849b37545ca7019290632954cb0f96afbb4d9f5c9da54a",
+      "pass": true,
+      "elapsed_seconds": 2.9641
+    },
+    {
+      "file": "anchors_H48/anchor_20_42_H48.json",
+      "anchors": [
+        20,
+        42
+      ],
+      "height": 48,
+      "vertices": 2486,
+      "edges": 563,
+      "triangles": 32,
+      "K4": 0,
+      "all_parameter_values_regenerated": true,
+      "all_pairs_independently_retested": 3088855,
+      "canonical_graph_sha256": "6b9bfca7355f93f25c5ecf90849ad53d451f084ba304004a50718834303026f7",
+      "pass": true,
+      "elapsed_seconds": 2.8039
+    },
+    {
+      "file": "anchors_H48/anchor_20_48_H48.json",
+      "anchors": [
+        20,
+        48
+      ],
+      "height": 48,
+      "vertices": 2273,
+      "edges": 582,
+      "triangles": 30,
+      "K4": 0,
+      "all_parameter_values_regenerated": true,
+      "all_pairs_independently_retested": 2582128,
+      "canonical_graph_sha256": "c0d39ab0264f08ad1128c20951434e8d08b4b592955c118786f38bf0174f0505",
+      "pass": true,
+      "elapsed_seconds": 2.0596
+    },
+    {
+      "file": "anchors_H48/anchor_21_23_H48.json",
+      "anchors": [
+        21,
+        23
+      ],
+      "height": 48,
+      "vertices": 2562,
+      "edges": 1471,
+      "triangles": 11,
+      "K4": 0,
+      "all_parameter_values_regenerated": true,
+      "all_pairs_independently_retested": 3280641,
+      "canonical_graph_sha256": "ae8a103f836d20b0a90f923597722e4be9a0bdcd494bee984bc30e381d01586e",
+      "pass": true,
+      "elapsed_seconds": 2.7553
+    },
+    {
+      "file": "anchors_H48/anchor_21_40_H48.json",
+      "anchors": [
+        21,
+        40
+      ],
+      "height": 48,
+      "vertices": 2603,
+      "edges": 426,
+      "triangles": 13,
+      "K4": 0,
+      "all_parameter_values_regenerated": true,
+      "all_pairs_independently_retested": 3386503,
+      "canonical_graph_sha256": "e616358cba1977b6465c52ced2539d4d9d4efb61ae04422acf95d250d8664421",
+      "pass": true,
+      "elapsed_seconds": 2.8138
+    },
+    {
+      "file": "anchors_H48/anchor_22_24_H48.json",
+      "anchors": [
+        22,
+        24
+      ],
+      "height": 48,
+      "vertices": 2386,
+      "edges": 1528,
+      "triangles": 33,
+      "K4": 0,
+      "all_parameter_values_regenerated": true,
+      "all_pairs_independently_retested": 2845305,
+      "canonical_graph_sha256": "f64124a30f6eac98315671822a7039bbb71c735cc42ef7c2e10132f97bfbf0ba",
+      "pass": true,
+      "elapsed_seconds": 2.7718
+    },
+    {
+      "file": "anchors_H48/anchor_23_25_H48.json",
+      "anchors": [
+        23,
+        25
+      ],
+      "height": 48,
+      "vertices": 2621,
+      "edges": 1420,
+      "triangles": 3,
+      "K4": 0,
+      "all_parameter_values_regenerated": true,
+      "all_pairs_independently_retested": 3433510,
+      "canonical_graph_sha256": "13a014a86d27cbf64631a2588d0ec00929e9a7244f4ab45a3b97cbc62109caab",
+      "pass": true,
+      "elapsed_seconds": 3.4333
+    },
+    {
+      "file": "anchors_H48/anchor_24_26_H48.json",
+      "anchors": [
+        24,
+        26
+      ],
+      "height": 48,
+      "vertices": 2432,
+      "edges": 1381,
+      "triangles": 5,
+      "K4": 0,
+      "all_parameter_values_regenerated": true,
+      "all_pairs_independently_retested": 2956096,
+      "canonical_graph_sha256": "f3907af1a56f10e7221b903abaca904734d97313c205303a35ce8351f67bf26f",
+      "pass": true,
+      "elapsed_seconds": 2.6062
+    },
+    {
+      "file": "anchors_H48/anchor_24_35_H48.json",
+      "anchors": [
+        24,
+        35
+      ],
+      "height": 48,
+      "vertices": 2555,
+      "edges": 447,
+      "triangles": 13,
+      "K4": 0,
+      "all_parameter_values_regenerated": true,
+      "all_pairs_independently_retested": 3262735,
+      "canonical_graph_sha256": "427023c023828a5691e50e4c23c19f3cab8b029d51352631422682e49d1ac74c",
+      "pass": true,
+      "elapsed_seconds": 2.6067
+    },
+    {
+      "file": "anchors_H48/anchor_24_40_H48.json",
+      "anchors": [
+        24,
+        40
+      ],
+      "height": 48,
+      "vertices": 1964,
+      "edges": 595,
+      "triangles": 18,
+      "K4": 0,
+      "all_parameter_values_regenerated": true,
+      "all_pairs_independently_retested": 1927666,
+      "canonical_graph_sha256": "eaf3e665fe8f64a8cc351377cb17838c555a461999b3386d5ee5f9ebccffd578",
+      "pass": true,
+      "elapsed_seconds": 1.2657
+    },
+    {
+      "file": "anchors_H48/anchor_25_27_H48.json",
+      "anchors": [
+        25,
+        27
+      ],
+      "height": 48,
+      "vertices": 2601,
+      "edges": 1423,
+      "triangles": 4,
+      "K4": 0,
+      "all_parameter_values_regenerated": true,
+      "all_pairs_independently_retested": 3381300,
+      "canonical_graph_sha256": "aeba4c70b03cb5b1f57541f6bc808c9b9e9da07db1896928a219b823a953a393",
+      "pass": true,
+      "elapsed_seconds": 3.3897
+    },
+    {
+      "file": "anchors_H48/anchor_26_28_H48.json",
+      "anchors": [
+        26,
+        28
+      ],
+      "height": 48,
+      "vertices": 2489,
+      "edges": 1404,
+      "triangles": 10,
+      "K4": 0,
+      "all_parameter_values_regenerated": true,
+      "all_pairs_independently_retested": 3096316,
+      "canonical_graph_sha256": "5a8800cbd98326cd181e1646368289eff21ae6ee4d7ddb595d33765dd69001ab",
+      "pass": true,
+      "elapsed_seconds": 2.7503
+    },
+    {
+      "file": "anchors_H48/anchor_27_29_H48.json",
+      "anchors": [
+        27,
+        29
+      ],
+      "height": 48,
+      "vertices": 2640,
+      "edges": 1498,
+      "triangles": 12,
+      "K4": 0,
+      "all_parameter_values_regenerated": true,
+      "all_pairs_independently_retested": 3483480,
+      "canonical_graph_sha256": "a018bb2e4a911dc66511db99e7cbfc822616ec32062e09efabffaf196dfdaa8d",
+      "pass": true,
+      "elapsed_seconds": 3.5644
+    },
+    {
+      "file": "anchors_H48/anchor_28_30_H48.json",
+      "anchors": [
+        28,
+        30
+      ],
+      "height": 48,
+      "vertices": 2416,
+      "edges": 1488,
+      "triangles": 25,
+      "K4": 0,
+      "all_parameter_values_regenerated": true,
+      "all_pairs_independently_retested": 2917320,
+      "canonical_graph_sha256": "dd3cb75c3430adb8a050f387fd10407a00bf19f1b417c43191067f012e64bf86",
+      "pass": true,
+      "elapsed_seconds": 2.4831
+    },
+    {
+      "file": "anchors_H48/anchor_29_31_H48.json",
+      "anchors": [
+        29,
+        31
+      ],
+      "height": 48,
+      "vertices": 2675,
+      "edges": 1442,
+      "triangles": 6,
+      "K4": 0,
+      "all_parameter_values_regenerated": true,
+      "all_pairs_independently_retested": 3576475,
+      "canonical_graph_sha256": "67d5d386d7707b8b09fe302f5e88ed89952bcadab9c6c92b5a99d57718a0f5e4",
+      "pass": true,
+      "elapsed_seconds": 3.8255
+    },
+    {
+      "file": "anchors_H48/anchor_2_12_H48.json",
+      "anchors": [
+        2,
+        12
+      ],
+      "height": 48,
+      "vertices": 2018,
+      "edges": 745,
+      "triangles": 25,
+      "K4": 0,
+      "all_parameter_values_regenerated": true,
+      "all_pairs_independently_retested": 2035153,
+      "canonical_graph_sha256": "3c593aa1dedad102fb0f70472fbb4045d9406350df3b498ed04c6815f13f24f2",
+      "pass": true,
+      "elapsed_seconds": 1.7655
+    },
+    {
+      "file": "anchors_H48/anchor_2_24_H48.json",
+      "anchors": [
+        2,
+        24
+      ],
+      "height": 48,
+      "vertices": 2346,
+      "edges": 483,
+      "triangles": 23,
+      "K4": 0,
+      "all_parameter_values_regenerated": true,
+      "all_pairs_independently_retested": 2750685,
+      "canonical_graph_sha256": "73a9cb33c4671196716b0d8f89a44f7beb22820263892f139685aa1595f491be",
+      "pass": true,
+      "elapsed_seconds": 2.2421
+    },
+    {
+      "file": "anchors_H48/anchor_2_40_H48.json",
+      "anchors": [
+        2,
+        40
+      ],
+      "height": 48,
+      "vertices": 2532,
+      "edges": 370,
+      "triangles": 19,
+      "K4": 0,
+      "all_parameter_values_regenerated": true,
+      "all_pairs_independently_retested": 3204246,
+      "canonical_graph_sha256": "96c61ced38dbc3447453a546b8a2af744055874c07dd4e340bab8bfae5e04f61",
+      "pass": true,
+      "elapsed_seconds": 2.9337
+    },
+    {
+      "file": "anchors_H48/anchor_2_4_H48.json",
+      "anchors": [
+        2,
+        4
+      ],
+      "height": 48,
+      "vertices": 1423,
+      "edges": 1166,
+      "triangles": 31,
+      "K4": 0,
+      "all_parameter_values_regenerated": true,
+      "all_pairs_independently_retested": 1011753,
+      "canonical_graph_sha256": "61b605d31c55b31a1f1c8cd686727ece70e6e9ffac1e273bcdd9ea5901f557c4",
+      "pass": true,
+      "elapsed_seconds": 0.996
+    },
+    {
+      "file": "anchors_H48/anchor_30_32_H48.json",
+      "anchors": [
+        30,
+        32
+      ],
+      "height": 48,
+      "vertices": 2416,
+      "edges": 1368,
+      "triangles": 7,
+      "K4": 0,
+      "all_parameter_values_regenerated": true,
+      "all_pairs_independently_retested": 2917320,
+      "canonical_graph_sha256": "348165c62341189b935ccdcea670b2b18a6ca0b5bb266627e879ca70f2db218c",
+      "pass": true,
+      "elapsed_seconds": 2.447
+    },
+    {
+      "file": "anchors_H48/anchor_31_33_H48.json",
+      "anchors": [
+        31,
+        33
+      ],
+      "height": 48,
+      "vertices": 2642,
+      "edges": 1411,
+      "triangles": 4,
+      "K4": 0,
+      "all_parameter_values_regenerated": true,
+      "all_pairs_independently_retested": 3488761,
+      "canonical_graph_sha256": "36ff602b332e9de4ca66252cd3362cc514745eaeb72336efaf080aa8e306e1f0",
+      "pass": true,
+      "elapsed_seconds": 3.414
+    },
+    {
+      "file": "anchors_H48/anchor_32_34_H48.json",
+      "anchors": [
+        32,
+        34
+      ],
+      "height": 48,
+      "vertices": 2551,
+      "edges": 1491,
+      "triangles": 18,
+      "K4": 0,
+      "all_parameter_values_regenerated": true,
+      "all_pairs_independently_retested": 3252525,
+      "canonical_graph_sha256": "d1d95f2edf1bade507b040f1c1d6bbed20cc4fc32225cd557b825579818119a7",
+      "pass": true,
+      "elapsed_seconds": 3.0267
+    },
+    {
+      "file": "anchors_H48/anchor_33_35_H48.json",
+      "anchors": [
+        33,
+        35
+      ],
+      "height": 48,
+      "vertices": 2581,
+      "edges": 1454,
+      "triangles": 10,
+      "K4": 0,
+      "all_parameter_values_regenerated": true,
+      "all_pairs_independently_retested": 3329490,
+      "canonical_graph_sha256": "ccc0f3e238413d1bed312ef6114f5a37d3cb90ba922e89ae00eb9c169b58d475",
+      "pass": true,
+      "elapsed_seconds": 2.8913
+    },
+    {
+      "file": "anchors_H48/anchor_34_36_H48.json",
+      "anchors": [
+        34,
+        36
+      ],
+      "height": 48,
+      "vertices": 2546,
+      "edges": 1439,
+      "triangles": 10,
+      "K4": 0,
+      "all_parameter_values_regenerated": true,
+      "all_pairs_independently_retested": 3239785,
+      "canonical_graph_sha256": "31f2d7853831588634e38e5c2ffce8177633cd3b231fdad103709392c34b92d0",
+      "pass": true,
+      "elapsed_seconds": 3.2346
+    },
+    {
+      "file": "anchors_H48/anchor_35_37_H48.json",
+      "anchors": [
+        35,
+        37
+      ],
+      "height": 48,
+      "vertices": 2645,
+      "edges": 1416,
+      "triangles": 4,
+      "K4": 0,
+      "all_parameter_values_regenerated": true,
+      "all_pairs_independently_retested": 3496690,
+      "canonical_graph_sha256": "609f8668b68356d4cdd9cb8f7c31db22ab77f2bcfa1a05f2ca212cec82c165c9",
+      "pass": true,
+      "elapsed_seconds": 3.2439
+    },
+    {
+      "file": "anchors_H48/anchor_35_48_H48.json",
+      "anchors": [
+        35,
+        48
+      ],
+      "height": 48,
+      "vertices": 2600,
+      "edges": 380,
+      "triangles": 13,
+      "K4": 0,
+      "all_parameter_values_regenerated": true,
+      "all_pairs_independently_retested": 3378700,
+      "canonical_graph_sha256": "2416bfa09facd18b3f5672b92b207dd4b25a3dddd3bf4db6e86b3664d8f85fe6",
+      "pass": true,
+      "elapsed_seconds": 3.0866
+    },
+    {
+      "file": "anchors_H48/anchor_36_38_H48.json",
+      "anchors": [
+        36,
+        38
+      ],
+      "height": 48,
+      "vertices": 2550,
+      "edges": 1450,
+      "triangles": 9,
+      "K4": 0,
+      "all_parameter_values_regenerated": true,
+      "all_pairs_independently_retested": 3249975,
+      "canonical_graph_sha256": "63762ba4b7a45cd542bd9632a9c03aee000cd9a97ae6ed516d4a3636d799a9be",
+      "pass": true,
+      "elapsed_seconds": 3.2687
+    },
+    {
+      "file": "anchors_H48/anchor_37_39_H48.json",
+      "anchors": [
+        37,
+        39
+      ],
+      "height": 48,
+      "vertices": 2651,
+      "edges": 1391,
+      "triangles": 1,
+      "K4": 0,
+      "all_parameter_values_regenerated": true,
+      "all_pairs_independently_retested": 3512575,
+      "canonical_graph_sha256": "624b1e68a52f729f24f051319e40b0d200bc502e7c73471c032002689d7f17ac",
+      "pass": true,
+      "elapsed_seconds": 3.4614
+    },
+    {
+      "file": "anchors_H48/anchor_38_40_H48.json",
+      "anchors": [
+        38,
+        40
+      ],
+      "height": 48,
+      "vertices": 2559,
+      "edges": 1418,
+      "triangles": 6,
+      "K4": 0,
+      "all_parameter_values_regenerated": true,
+      "all_pairs_independently_retested": 3272961,
+      "canonical_graph_sha256": "e9eb6842359712fa39db1f0e90cd1d86495939cb735c44f754d77ac9c0f3ca69",
+      "pass": true,
+      "elapsed_seconds": 3.0847
+    },
+    {
+      "file": "anchors_H48/anchor_39_41_H48.json",
+      "anchors": [
+        39,
+        41
+      ],
+      "height": 48,
+      "vertices": 2652,
+      "edges": 1412,
+      "triangles": 1,
+      "K4": 0,
+      "all_parameter_values_regenerated": true,
+      "all_pairs_independently_retested": 3515226,
+      "canonical_graph_sha256": "ab064ca80915fcb52bc1926bf1cda568f2ff4e6e2f8cab50e0030b5722d8cb39",
+      "pass": true,
+      "elapsed_seconds": 3.6244
+    },
+    {
+      "file": "anchors_H48/anchor_3_120_H48.json",
+      "anchors": [
+        3,
+        120
+      ],
+      "height": 48,
+      "vertices": 2609,
+      "edges": 249,
+      "triangles": 23,
+      "K4": 0,
+      "all_parameter_values_regenerated": true,
+      "all_pairs_independently_retested": 3402136,
+      "canonical_graph_sha256": "d26e358ea1b4a29ac162ffafe977cd39b3a6335794ca43ce831928caa16868f1",
+      "pass": true,
+      "elapsed_seconds": 3.2699
+    },
+    {
+      "file": "anchors_H48/anchor_3_16_H48.json",
+      "anchors": [
+        3,
+        16
+      ],
+      "height": 48,
+      "vertices": 2440,
+      "edges": 699,
+      "triangles": 35,
+      "K4": 0,
+      "all_parameter_values_regenerated": true,
+      "all_pairs_independently_retested": 2975580,
+      "canonical_graph_sha256": "7fa10295646e3b6b8a7012ad6876b40b52d548c6e88c7576e6b83d4d3272a8ec",
+      "pass": true,
+      "elapsed_seconds": 2.4832
+    },
+    {
+      "file": "anchors_H48/anchor_3_21_H48.json",
+      "anchors": [
+        3,
+        21
+      ],
+      "height": 48,
+      "vertices": 2161,
+      "edges": 614,
+      "triangles": 26,
+      "K4": 0,
+      "all_parameter_values_regenerated": true,
+      "all_pairs_independently_retested": 2333880,
+      "canonical_graph_sha256": "d57008de8d36703b6887d41bf074ce0d438544b37b5eb353f4f8fa108220e7ec",
+      "pass": true,
+      "elapsed_seconds": 1.9107
+    },
+    {
+      "file": "anchors_H48/anchor_3_33_H48.json",
+      "anchors": [
+        3,
+        33
+      ],
+      "height": 48,
+      "vertices": 2354,
+      "edges": 430,
+      "triangles": 14,
+      "K4": 0,
+      "all_parameter_values_regenerated": true,
+      "all_pairs_independently_retested": 2769481,
+      "canonical_graph_sha256": "16b23663a619a3be828b7e5944dbcc53e18eb4bfa906ca2e28058616f9728999",
+      "pass": true,
+      "elapsed_seconds": 2.3326
+    },
+    {
+      "file": "anchors_H48/anchor_3_40_H48.json",
+      "anchors": [
+        3,
+        40
+      ],
+      "height": 48,
+      "vertices": 2640,
+      "edges": 404,
+      "triangles": 28,
+      "K4": 0,
+      "all_parameter_values_regenerated": true,
+      "all_pairs_independently_retested": 3483480,
+      "canonical_graph_sha256": "c1efebb922b6bebfd3c7f2f1bd054d60b31cab8fdea5faff165a4764968cda33",
+      "pass": true,
+      "elapsed_seconds": 3.3277
+    },
+    {
+      "file": "anchors_H48/anchor_3_5_H48.json",
+      "anchors": [
+        3,
+        5
+      ],
+      "height": 48,
+      "vertices": 1964,
+      "edges": 1461,
+      "triangles": 27,
+      "K4": 0,
+      "all_parameter_values_regenerated": true,
+      "all_pairs_independently_retested": 1927666,
+      "canonical_graph_sha256": "ead40ac10d1c5926c133136009f16e77805ca06f19ea3b8d0464bd5249c6e5d6",
+      "pass": true,
+      "elapsed_seconds": 1.7404
+    },
+    {
+      "file": "anchors_H48/anchor_3_8_H48.json",
+      "anchors": [
+        3,
+        8
+      ],
+      "height": 48,
+      "vertices": 2144,
+      "edges": 871,
+      "triangles": 35,
+      "K4": 0,
+      "all_parameter_values_regenerated": true,
+      "all_pairs_independently_retested": 2297296,
+      "canonical_graph_sha256": "337519c8a6ed55760a6a94502cceab47f454654e930e2866865f5cbac55f4047",
+      "pass": true,
+      "elapsed_seconds": 2.141
+    },
+    {
+      "file": "anchors_H48/anchor_40_42_H48.json",
+      "anchors": [
+        40,
+        42
+      ],
+      "height": 48,
+      "vertices": 2490,
+      "edges": 1476,
+      "triangles": 23,
+      "K4": 0,
+      "all_parameter_values_regenerated": true,
+      "all_pairs_independently_retested": 3098805,
+      "canonical_graph_sha256": "1b39826b7b03aa77a5f30b9e9df2e61a248d7f884ed67f92434f4521d18b4d38",
+      "pass": true,
+      "elapsed_seconds": 2.6961
+    },
+    {
+      "file": "anchors_H48/anchor_41_43_H48.json",
+      "anchors": [
+        41,
+        43
+      ],
+      "height": 48,
+      "vertices": 2681,
+      "edges": 1442,
+      "triangles": 7,
+      "K4": 0,
+      "all_parameter_values_regenerated": true,
+      "all_pairs_independently_retested": 3592540,
+      "canonical_graph_sha256": "cfa05847b7e55113723e493fc5a6d810d6e6a220dfe69a7f31ff62cb36df5b4d",
+      "pass": true,
+      "elapsed_seconds": 3.9577
+    },
+    {
+      "file": "anchors_H48/anchor_42_44_H48.json",
+      "anchors": [
+        42,
+        44
+      ],
+      "height": 48,
+      "vertices": 2541,
+      "edges": 1452,
+      "triangles": 12,
+      "K4": 0,
+      "all_parameter_values_regenerated": true,
+      "all_pairs_independently_retested": 3227070,
+      "canonical_graph_sha256": "3872b3fbb0057c27fea8abc172c62f6b723184167cc9deb2df2b893845ac70e8",
+      "pass": true,
+      "elapsed_seconds": 2.8586
+    },
+    {
+      "file": "anchors_H48/anchor_43_45_H48.json",
+      "anchors": [
+        43,
+        45
+      ],
+      "height": 48,
+      "vertices": 2636,
+      "edges": 1420,
+      "triangles": 1,
+      "K4": 0,
+      "all_parameter_values_regenerated": true,
+      "all_pairs_independently_retested": 3472930,
+      "canonical_graph_sha256": "c5cd94ac5974edb7a047bbf7802bd45cf160ca9e1c5ec2bec4edf7a91204e08c",
+      "pass": true,
+      "elapsed_seconds": 3.6435
+    },
+    {
+      "file": "anchors_H48/anchor_44_46_H48.json",
+      "anchors": [
+        44,
+        46
+      ],
+      "height": 48,
+      "vertices": 2591,
+      "edges": 1388,
+      "triangles": 3,
+      "K4": 0,
+      "all_parameter_values_regenerated": true,
+      "all_pairs_independently_retested": 3355345,
+      "canonical_graph_sha256": "2ac385370c7a3ba6f3f619ebba3d62a4c697e234187b8831dd694f8a8407014e",
+      "pass": true,
+      "elapsed_seconds": 3.4447
+    },
+    {
+      "file": "anchors_H48/anchor_45_47_H48.json",
+      "anchors": [
+        45,
+        47
+      ],
+      "height": 48,
+      "vertices": 2634,
+      "edges": 1400,
+      "triangles": 2,
+      "K4": 0,
+      "all_parameter_values_regenerated": true,
+      "all_pairs_independently_retested": 3467661,
+      "canonical_graph_sha256": "fba7e8297b41b94532efe7950874366569d6309cc5b5c7f9da2e1781b0b2c997",
+      "pass": true,
+      "elapsed_seconds": 3.5405
+    },
+    {
+      "file": "anchors_H48/anchor_46_48_H48.json",
+      "anchors": [
+        46,
+        48
+      ],
+      "height": 48,
+      "vertices": 2567,
+      "edges": 1421,
+      "triangles": 6,
+      "K4": 0,
+      "all_parameter_values_regenerated": true,
+      "all_pairs_independently_retested": 3293461,
+      "canonical_graph_sha256": "207520e0063bdcf0a68e0184b6387b3afb4be87a1d807fff82fbbfa8fd62ae86",
+      "pass": true,
+      "elapsed_seconds": 2.7702
+    },
+    {
+      "file": "anchors_H48/anchor_47_49_H48.json",
+      "anchors": [
+        47,
+        49
+      ],
+      "height": 48,
+      "vertices": 2743,
+      "edges": 1447,
+      "triangles": 1,
+      "K4": 0,
+      "all_parameter_values_regenerated": true,
+      "all_pairs_independently_retested": 3760653,
+      "canonical_graph_sha256": "1f7d17b387868d9b6e1eb4bb461ecd994db139002b43f7a6a8d742b81a5cccaa",
+      "pass": true,
+      "elapsed_seconds": 3.7291
+    },
+    {
+      "file": "anchors_H48/anchor_48_50_H48.json",
+      "anchors": [
+        48,
+        50
+      ],
+      "height": 48,
+      "vertices": 2563,
+      "edges": 1465,
+      "triangles": 12,
+      "K4": 0,
+      "all_parameter_values_regenerated": true,
+      "all_pairs_independently_retested": 3283203,
+      "canonical_graph_sha256": "63841fa951a1d3e4934b64bdc7e4899505cda6b814b778334491ba0b70bb82cb",
+      "pass": true,
+      "elapsed_seconds": 2.7609
+    },
+    {
+      "file": "anchors_H48/anchor_4_12_H48.json",
+      "anchors": [
+        4,
+        12
+      ],
+      "height": 48,
+      "vertices": 1660,
+      "edges": 781,
+      "triangles": 26,
+      "K4": 0,
+      "all_parameter_values_regenerated": true,
+      "all_pairs_independently_retested": 1376970,
+      "canonical_graph_sha256": "59a1b9845fa020ef5a0d61ffd93ebe2a4ba89d5ab318dfba2eea5b7bb1fa4652",
+      "pass": true,
+      "elapsed_seconds": 1.0843
+    },
+    {
+      "file": "anchors_H48/anchor_4_20_H48.json",
+      "anchors": [
+        4,
+        20
+      ],
+      "height": 48,
+      "vertices": 1986,
+      "edges": 720,
+      "triangles": 40,
+      "K4": 0,
+      "all_parameter_values_regenerated": true,
+      "all_pairs_independently_retested": 1971105,
+      "canonical_graph_sha256": "e299be5165f5b222ffdc7e45d62f22280e10d1b127e31382dc043ee81c4adb0b",
+      "pass": true,
+      "elapsed_seconds": 1.6741
+    },
+    {
+      "file": "anchors_H48/anchor_4_30_H48.json",
+      "anchors": [
+        4,
+        30
+      ],
+      "height": 48,
+      "vertices": 2403,
+      "edges": 481,
+      "triangles": 22,
+      "K4": 0,
+      "all_parameter_values_regenerated": true,
+      "all_pairs_independently_retested": 2886003,
+      "canonical_graph_sha256": "b260cde868d2c1287ffbfa19249d86a652fcea6d8021b70e857a861ebf4a033b",
+      "pass": true,
+      "elapsed_seconds": 2.7888
+    },
+    {
+      "file": "anchors_H48/anchor_4_42_H48.json",
+      "anchors": [
+        4,
+        42
+      ],
+      "height": 48,
+      "vertices": 2535,
+      "edges": 426,
+      "triangles": 26,
+      "K4": 0,
+      "all_parameter_values_regenerated": true,
+      "all_pairs_independently_retested": 3211845,
+      "canonical_graph_sha256": "254d87bea44be46755a428d4b9f6d2d535b4f34432c197d5c0129ba31416c54e",
+      "pass": true,
+      "elapsed_seconds": 2.6526
+    },
+    {
+      "file": "anchors_H48/anchor_4_6_H48.json",
+      "anchors": [
+        4,
+        6
+      ],
+      "height": 48,
+      "vertices": 1687,
+      "edges": 1306,
+      "triangles": 36,
+      "K4": 0,
+      "all_parameter_values_regenerated": true,
+      "all_pairs_independently_retested": 1422141,
+      "canonical_graph_sha256": "0a189c8aa1568fdd64544549138bc3a7299d96b6b66b785d1df8a46967a97bdf",
+      "pass": true,
+      "elapsed_seconds": 1.3484
+    },
+    {
+      "file": "anchors_H48/anchor_5_16_H48.json",
+      "anchors": [
+        5,
+        16
+      ],
+      "height": 48,
+      "vertices": 2441,
+      "edges": 784,
+      "triangles": 56,
+      "K4": 0,
+      "all_parameter_values_regenerated": true,
+      "all_pairs_independently_retested": 2978020,
+      "canonical_graph_sha256": "7279ec61db35221c02e02a37bea2dbd6aeb8a651839ddfdf930b03651dab0bde",
+      "pass": true,
+      "elapsed_seconds": 2.6132
+    },
+    {
+      "file": "anchors_H48/anchor_5_24_H48.json",
+      "anchors": [
+        5,
+        24
+      ],
+      "height": 48,
+      "vertices": 2514,
+      "edges": 535,
+      "triangles": 24,
+      "K4": 0,
+      "all_parameter_values_regenerated": true,
+      "all_pairs_independently_retested": 3158841,
+      "canonical_graph_sha256": "6ee6ac489e7627f28df26a6435b38f9e7e0ab3a85ad537616fdb5529aed5d4c5",
+      "pass": true,
+      "elapsed_seconds": 2.9531
+    },
+    {
+      "file": "anchors_H48/anchor_5_39_H48.json",
+      "anchors": [
+        5,
+        39
+      ],
+      "height": 48,
+      "vertices": 2612,
+      "edges": 385,
+      "triangles": 18,
+      "K4": 0,
+      "all_parameter_values_regenerated": true,
+      "all_pairs_independently_retested": 3409966,
+      "canonical_graph_sha256": "75552fd027dbeb2c9f78f1e2af00ccdf0401da00f4dcf0916d91284ad84af119",
+      "pass": true,
+      "elapsed_seconds": 3.0221
+    },
+    {
+      "file": "anchors_H48/anchor_5_7_H48.json",
+      "anchors": [
+        5,
+        7
+      ],
+      "height": 48,
+      "vertices": 2203,
+      "edges": 1520,
+      "triangles": 27,
+      "K4": 0,
+      "all_parameter_values_regenerated": true,
+      "all_pairs_independently_retested": 2425503,
+      "canonical_graph_sha256": "d2419449b3ccc07dfd6dcae42f0fc505f4ccc35863ebdb1af2a37fa0346e7f04",
+      "pass": true,
+      "elapsed_seconds": 2.0912
+    },
+    {
+      "file": "anchors_H48/anchor_6_20_H48.json",
+      "anchors": [
+        6,
+        20
+      ],
+      "height": 48,
+      "vertices": 2236,
+      "edges": 683,
+      "triangles": 28,
+      "K4": 0,
+      "all_parameter_values_regenerated": true,
+      "all_pairs_independently_retested": 2498730,
+      "canonical_graph_sha256": "0dea6e3659fda6704181394dd864b25e872838e45a2d17ea4b34ec8e643794d1",
+      "pass": true,
+      "elapsed_seconds": 2.3514
+    },
+    {
+      "file": "anchors_H48/anchor_6_28_H48.json",
+      "anchors": [
+        6,
+        28
+      ],
+      "height": 48,
+      "vertices": 2419,
+      "edges": 559,
+      "triangles": 22,
+      "K4": 0,
+      "all_parameter_values_regenerated": true,
+      "all_pairs_independently_retested": 2924571,
+      "canonical_graph_sha256": "718d6ad7f0328651e5e5cda6a713ebab9d7e55e7d69c85552ec65ec1b1fba92e",
+      "pass": true,
+      "elapsed_seconds": 2.6714
+    },
+    {
+      "file": "anchors_H48/anchor_6_48_H48.json",
+      "anchors": [
+        6,
+        48
+      ],
+      "height": 48,
+      "vertices": 2203,
+      "edges": 480,
+      "triangles": 28,
+      "K4": 0,
+      "all_parameter_values_regenerated": true,
+      "all_pairs_independently_retested": 2425503,
+      "canonical_graph_sha256": "c1f4155fdf10f6e7c7384d736467c5fc2a51a75130a2bfec2af2d5193b9a3009",
+      "pass": true,
+      "elapsed_seconds": 1.774
+    },
+    {
+      "file": "anchors_H48/anchor_6_8_H48.json",
+      "anchors": [
+        6,
+        8
+      ],
+      "height": 48,
+      "vertices": 1858,
+      "edges": 1448,
+      "triangles": 60,
+      "K4": 0,
+      "all_parameter_values_regenerated": true,
+      "all_pairs_independently_retested": 1725153,
+      "canonical_graph_sha256": "21991d7af1abf8b9afb70fa2cbb6edd276c0ebc4225964cd6b6a157cb9427f18",
+      "pass": true,
+      "elapsed_seconds": 1.5381
+    },
+    {
+      "file": "anchors_H48/anchor_7_24_H48.json",
+      "anchors": [
+        7,
+        24
+      ],
+      "height": 48,
+      "vertices": 2525,
+      "edges": 644,
+      "triangles": 38,
+      "K4": 0,
+      "all_parameter_values_regenerated": true,
+      "all_pairs_independently_retested": 3186550,
+      "canonical_graph_sha256": "31e229d0ca07d8b5eedcc0709391f8d18a236d38e9593d96d6a886545ededa69",
+      "pass": true,
+      "elapsed_seconds": 2.5539
+    },
+    {
+      "file": "anchors_H48/anchor_7_32_H48.json",
+      "anchors": [
+        7,
+        32
+      ],
+      "height": 48,
+      "vertices": 2592,
+      "edges": 416,
+      "triangles": 14,
+      "K4": 0,
+      "all_parameter_values_regenerated": true,
+      "all_pairs_independently_retested": 3357936,
+      "canonical_graph_sha256": "78b8f06abbb9bbc12aea48e7580cceebb408d7a69dfafa8099f5f4d31fa1e55c",
+      "pass": true,
+      "elapsed_seconds": 2.7289
+    },
+    {
+      "file": "anchors_H48/anchor_7_9_H48.json",
+      "anchors": [
+        7,
+        9
+      ],
+      "height": 48,
+      "vertices": 2289,
+      "edges": 1557,
+      "triangles": 33,
+      "K4": 0,
+      "all_parameter_values_regenerated": true,
+      "all_pairs_independently_retested": 2618616,
+      "canonical_graph_sha256": "db811c6c0330387d37e5821450bb0d2c9c428ef0521df772617f9f9f1d9c9ed7",
+      "pass": true,
+      "elapsed_seconds": 2.2061
+    },
+    {
+      "file": "anchors_H48/anchor_8_10_H48.json",
+      "anchors": [
+        8,
+        10
+      ],
+      "height": 48,
+      "vertices": 2033,
+      "edges": 1507,
+      "triangles": 48,
+      "K4": 0,
+      "all_parameter_values_regenerated": true,
+      "all_pairs_independently_retested": 2065528,
+      "canonical_graph_sha256": "9f824816cbcbca4cf7e12bc37d9d24e5e4edb0da0153e107832d1b99e4c9cffa",
+      "pass": true,
+      "elapsed_seconds": 2.1022
+    },
+    {
+      "file": "anchors_H48/anchor_8_120_H48.json",
+      "anchors": [
+        8,
+        120
+      ],
+      "height": 48,
+      "vertices": 2366,
+      "edges": 322,
+      "triangles": 21,
+      "K4": 0,
+      "all_parameter_values_regenerated": true,
+      "all_pairs_independently_retested": 2797795,
+      "canonical_graph_sha256": "420732b020ef36efe9bd4d00a88ebc66fd086b459f2f42aacf34cdbcde1ee2fa",
+      "pass": true,
+      "elapsed_seconds": 1.7846
+    },
+    {
+      "file": "anchors_H48/anchor_8_15_H48.json",
+      "anchors": [
+        8,
+        15
+      ],
+      "height": 48,
+      "vertices": 2344,
+      "edges": 715,
+      "triangles": 33,
+      "K4": 0,
+      "all_parameter_values_regenerated": true,
+      "all_pairs_independently_retested": 2745996,
+      "canonical_graph_sha256": "bdfaff6807c6d7193e2cecbd26879a8b4b892df39a7ac022cbe8cabcab7c5b3b",
+      "pass": true,
+      "elapsed_seconds": 2.4695
+    },
+    {
+      "file": "anchors_H48/anchor_8_21_H48.json",
+      "anchors": [
+        8,
+        21
+      ],
+      "height": 48,
+      "vertices": 2496,
+      "edges": 560,
+      "triangles": 20,
+      "K4": 0,
+      "all_parameter_values_regenerated": true,
+      "all_pairs_independently_retested": 3113760,
+      "canonical_graph_sha256": "959f703d06eb7ec41af6d38d60abc5a3f2582e46b975ee2a4f754f52915b598c",
+      "pass": true,
+      "elapsed_seconds": 2.7441
+    },
+    {
+      "file": "anchors_H48/anchor_8_28_H48.json",
+      "anchors": [
+        8,
+        28
+      ],
+      "height": 48,
+      "vertices": 2177,
+      "edges": 657,
+      "triangles": 26,
+      "K4": 0,
+      "all_parameter_values_regenerated": true,
+      "all_pairs_independently_retested": 2368576,
+      "canonical_graph_sha256": "65668c52678855b71848ae4b1188a5bfd2020a9bae31c1a33aca3bdc4b33756c",
+      "pass": true,
+      "elapsed_seconds": 2.0765
+    },
+    {
+      "file": "anchors_H48/anchor_8_36_H48.json",
+      "anchors": [
+        8,
+        36
+      ],
+      "height": 48,
+      "vertices": 2228,
+      "edges": 552,
+      "triangles": 24,
+      "K4": 0,
+      "all_parameter_values_regenerated": true,
+      "all_pairs_independently_retested": 2480878,
+      "canonical_graph_sha256": "79d2f995920279cabdf19aa8c6705304ef60fd6f1b1ec8249904bdb38d36964a",
+      "pass": true,
+      "elapsed_seconds": 2.0827
+    },
+    {
+      "file": "anchors_H48/anchor_8_45_H48.json",
+      "anchors": [
+        8,
+        45
+      ],
+      "height": 48,
+      "vertices": 2637,
+      "edges": 354,
+      "triangles": 5,
+      "K4": 0,
+      "all_parameter_values_regenerated": true,
+      "all_pairs_independently_retested": 3475566,
+      "canonical_graph_sha256": "3d0e5a3aacd7242f94ef9d56aeac9cb80b93bc431f728b5512164269d443be2d",
+      "pass": true,
+      "elapsed_seconds": 3.5103
+    },
+    {
+      "file": "anchors_H48/anchor_9_11_H48.json",
+      "anchors": [
+        9,
+        11
+      ],
+      "height": 48,
+      "vertices": 2365,
+      "edges": 1388,
+      "triangles": 6,
+      "K4": 0,
+      "all_parameter_values_regenerated": true,
+      "all_pairs_independently_retested": 2795430,
+      "canonical_graph_sha256": "0d49a43bac5cbba1bff679d86cee54307e6a6a9ba5a5ed0800c8421bbac2993e",
+      "pass": true,
+      "elapsed_seconds": 2.6603
+    },
+    {
+      "file": "anchors_H48/anchor_9_32_H48.json",
+      "anchors": [
+        9,
+        32
+      ],
+      "height": 48,
+      "vertices": 2614,
+      "edges": 457,
+      "triangles": 19,
+      "K4": 0,
+      "all_parameter_values_regenerated": true,
+      "all_pairs_independently_retested": 3415191,
+      "canonical_graph_sha256": "2f90a0dfbd3a31a7b8a0686c7ede1f09067ef91c622ac6416e97aa95c61d97b8",
+      "pass": true,
+      "elapsed_seconds": 3.0855
+    },
+    {
+      "file": "anchors_H48/anchor_9_40_H48.json",
+      "anchors": [
+        9,
+        40
+      ],
+      "height": 48,
+      "vertices": 2631,
+      "edges": 439,
+      "triangles": 25,
+      "K4": 0,
+      "all_parameter_values_regenerated": true,
+      "all_pairs_independently_retested": 3459765,
+      "canonical_graph_sha256": "86eddd2b430362cce84a3fd46c854b170c6deb5cde18dd53d3266ec2ede79369",
+      "pass": true,
+      "elapsed_seconds": 2.9794
+    },
+    {
+      "file": "anchors_H96/anchor_-1_1_H96.json",
+      "anchors": [
+        -1,
+        1
+      ],
+      "height": 96,
+      "vertices": 3760,
+      "edges": 2090,
+      "triangles": 50,
+      "K4": 0,
+      "all_parameter_values_regenerated": true,
+      "all_pairs_independently_retested": 7066920,
+      "canonical_graph_sha256": "2e3c541e7148fb569b477e45e7bf8085edb6dc3044fa72a2e89c9dee54bb8035",
+      "pass": true,
+      "elapsed_seconds": 7.5388
+    },
+    {
+      "file": "anchors_H96/anchor_1_120_H96.json",
+      "anchors": [
+        1,
+        120
+      ],
+      "height": 96,
+      "vertices": 10730,
+      "edges": 777,
+      "triangles": 65,
+      "K4": 0,
+      "all_parameter_values_regenerated": true,
+      "all_pairs_independently_retested": 57561085,
+      "canonical_graph_sha256": "229ec497f64fe29b7c9c0c2207fe6f56ab4b9a967c38c6975c6e38ee59091cdc",
+      "pass": true,
+      "elapsed_seconds": 61.9358
+    },
+    {
+      "file": "anchors_H96/anchor_1_3_H96.json",
+      "anchors": [
+        1,
+        3
+      ],
+      "height": 96,
+      "vertices": 6543,
+      "edges": 4925,
+      "triangles": 59,
+      "K4": 0,
+      "all_parameter_values_regenerated": true,
+      "all_pairs_independently_retested": 21402153,
+      "canonical_graph_sha256": "cb4b421142c614cbeda473ac95b8a2edc1c3f53a35fa2e3c3ffc7def08ed6af1",
+      "pass": true,
+      "elapsed_seconds": 18.3406
+    },
+    {
+      "file": "anchors_H96/anchor_1_8_H96.json",
+      "anchors": [
+        1,
+        8
+      ],
+      "height": 96,
+      "vertices": 8698,
+      "edges": 2989,
+      "triangles": 103,
+      "K4": 0,
+      "all_parameter_values_regenerated": true,
+      "all_pairs_independently_retested": 37823253,
+      "canonical_graph_sha256": "eb5246fc95b1e0b9698ae4be1574ffc570464153c66500bf07df270767eded7b",
+      "pass": true,
+      "elapsed_seconds": 36.9475
+    },
+    {
+      "file": "anchors_H96/anchor_3_120_H96.json",
+      "anchors": [
+        3,
+        120
+      ],
+      "height": 96,
+      "vertices": 10277,
+      "edges": 795,
+      "triangles": 56,
+      "K4": 0,
+      "all_parameter_values_regenerated": true,
+      "all_pairs_independently_retested": 52803226,
+      "canonical_graph_sha256": "955fddccb9735ff01be03984dd22b8675c6c9d04a0e6af8f84abee1b45b81b6c",
+      "pass": true,
+      "elapsed_seconds": 53.4094
+    },
+    {
+      "file": "anchors_H96/anchor_3_8_H96.json",
+      "anchors": [
+        3,
+        8
+      ],
+      "height": 96,
+      "vertices": 8461,
+      "edges": 3154,
+      "triangles": 97,
+      "K4": 0,
+      "all_parameter_values_regenerated": true,
+      "all_pairs_independently_retested": 35790030,
+      "canonical_graph_sha256": "6d6f24bde6d5f8a67fd81ce4e99ba6ee3c7fd26afeac83194942d3f1bf693c03",
+      "pass": true,
+      "elapsed_seconds": 32.6339
+    },
+    {
+      "file": "anchors_H96/anchor_8_120_H96.json",
+      "anchors": [
+        8,
+        120
+      ],
+      "height": 96,
+      "vertices": 9347,
+      "edges": 1016,
+      "triangles": 57,
+      "K4": 0,
+      "all_parameter_values_regenerated": true,
+      "all_pairs_independently_retested": 43678531,
+      "canonical_graph_sha256": "d803f19f12abdf485adef103579612ba820fb1e753e3ec111ae1ed07ce18f5b1",
+      "pass": true,
+      "elapsed_seconds": 21.8728
+    }
+  ]
+}

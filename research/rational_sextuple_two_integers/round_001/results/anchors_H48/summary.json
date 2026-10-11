@@ -1,0 +1,1639 @@
+{
+  "scope": "finite search only",
+  "rows": [
+    {
+      "file": "anchor_1_3_H48.json",
+      "anchors": [
+        1,
+        3
+      ],
+      "H": 48,
+      "parameters": 2847,
+      "vertices": 1660,
+      "edges": 1303,
+      "triangles": 28,
+      "K4": 0,
+      "pair_tests": 1376970,
+      "elapsed_seconds": 0.49936,
+      "sha256": "bd666dad28c6db7029775e304cfce3db706a6e7b7cb51fc07c214f5016b7cfe8"
+    },
+    {
+      "file": "anchor_1_8_H48.json",
+      "anchors": [
+        1,
+        8
+      ],
+      "H": 48,
+      "parameters": 2847,
+      "vertices": 2203,
+      "edges": 829,
+      "triangles": 34,
+      "K4": 0,
+      "pair_tests": 2425503,
+      "elapsed_seconds": 0.932933,
+      "sha256": "832d4ca8883ace9ce071f9f0e13df5b68cf8e275b9b8bd21e8f15d9e1b72cdc1"
+    },
+    {
+      "file": "anchor_1_15_H48.json",
+      "anchors": [
+        1,
+        15
+      ],
+      "H": 48,
+      "parameters": 2847,
+      "vertices": 2366,
+      "edges": 551,
+      "triangles": 22,
+      "K4": 0,
+      "pair_tests": 2797795,
+      "elapsed_seconds": 1.156447,
+      "sha256": "ff5ffd5f05ede0205c0780581dacd12fc8be26ea4aac6fbd6dea0c3640e9c809"
+    },
+    {
+      "file": "anchor_1_24_H48.json",
+      "anchors": [
+        1,
+        24
+      ],
+      "H": 48,
+      "parameters": 2847,
+      "vertices": 2562,
+      "edges": 509,
+      "triangles": 30,
+      "K4": 0,
+      "pair_tests": 3280641,
+      "elapsed_seconds": 1.445814,
+      "sha256": "c6dc64958c1c501090b2a89e749665eff915c1076e7614d23f95c5b8796d64cf"
+    },
+    {
+      "file": "anchor_1_35_H48.json",
+      "anchors": [
+        1,
+        35
+      ],
+      "H": 48,
+      "parameters": 2847,
+      "vertices": 2617,
+      "edges": 350,
+      "triangles": 23,
+      "K4": 0,
+      "pair_tests": 3423036,
+      "elapsed_seconds": 1.505638,
+      "sha256": "970e77500a334bb64889af15f834748c3c8754718416dae384b07b2246cb908c"
+    },
+    {
+      "file": "anchor_1_48_H48.json",
+      "anchors": [
+        1,
+        48
+      ],
+      "H": 48,
+      "parameters": 2847,
+      "vertices": 2693,
+      "edges": 319,
+      "triangles": 21,
+      "K4": 0,
+      "pair_tests": 3624778,
+      "elapsed_seconds": 1.711006,
+      "sha256": "61396506c7a72f24512fedd95b3d9d19979215e4d1d74c0e52af0d57d5dac00a"
+    },
+    {
+      "file": "anchor_2_4_H48.json",
+      "anchors": [
+        2,
+        4
+      ],
+      "H": 48,
+      "parameters": 2847,
+      "vertices": 1423,
+      "edges": 1166,
+      "triangles": 31,
+      "K4": 0,
+      "pair_tests": 1011753,
+      "elapsed_seconds": 0.382057,
+      "sha256": "14e06b2f2dcb7debc150be781eb8b4c6c531391319690aab92c37de1c4f2d71e"
+    },
+    {
+      "file": "anchor_2_12_H48.json",
+      "anchors": [
+        2,
+        12
+      ],
+      "H": 48,
+      "parameters": 2847,
+      "vertices": 2018,
+      "edges": 745,
+      "triangles": 25,
+      "K4": 0,
+      "pair_tests": 2035153,
+      "elapsed_seconds": 0.925928,
+      "sha256": "8b6a8e1121f5a6f33cb33de724b6bee26fdf1a5aed734c831b29fe4a01a81db3"
+    },
+    {
+      "file": "anchor_2_24_H48.json",
+      "anchors": [
+        2,
+        24
+      ],
+      "H": 48,
+      "parameters": 2847,
+      "vertices": 2346,
+      "edges": 483,
+      "triangles": 23,
+      "K4": 0,
+      "pair_tests": 2750685,
+      "elapsed_seconds": 1.126058,
+      "sha256": "ae263d2186848bb0cadd756005088f8c6b0ee27d0615a37eda4327fdd9617722"
+    },
+    {
+      "file": "anchor_2_40_H48.json",
+      "anchors": [
+        2,
+        40
+      ],
+      "H": 48,
+      "parameters": 2847,
+      "vertices": 2532,
+      "edges": 370,
+      "triangles": 19,
+      "K4": 0,
+      "pair_tests": 3204246,
+      "elapsed_seconds": 1.380352,
+      "sha256": "ad9f6399854ecf71fde60a9289f0136f5ab2b82e0d999ba0a52d3fa7ce5920f1"
+    },
+    {
+      "file": "anchor_3_5_H48.json",
+      "anchors": [
+        3,
+        5
+      ],
+      "H": 48,
+      "parameters": 2847,
+      "vertices": 1964,
+      "edges": 1461,
+      "triangles": 27,
+      "K4": 0,
+      "pair_tests": 1927666,
+      "elapsed_seconds": 0.728246,
+      "sha256": "70cd820f19901ba45d3ae62bf8acac987f90c23fabedc3033421d837cdeed8b6"
+    },
+    {
+      "file": "anchor_3_8_H48.json",
+      "anchors": [
+        3,
+        8
+      ],
+      "H": 48,
+      "parameters": 2847,
+      "vertices": 2144,
+      "edges": 871,
+      "triangles": 35,
+      "K4": 0,
+      "pair_tests": 2297296,
+      "elapsed_seconds": 0.852401,
+      "sha256": "49089cb49453adfe79e064e91ed7eb87b31fb5a4ed8567169cb5519fc900fd2f"
+    },
+    {
+      "file": "anchor_3_16_H48.json",
+      "anchors": [
+        3,
+        16
+      ],
+      "H": 48,
+      "parameters": 2847,
+      "vertices": 2440,
+      "edges": 699,
+      "triangles": 35,
+      "K4": 0,
+      "pair_tests": 2975580,
+      "elapsed_seconds": 1.113315,
+      "sha256": "315a4399dc1bb265132b5344bc79035ba907b1cb9a4459a3c5216afc824bda7b"
+    },
+    {
+      "file": "anchor_3_21_H48.json",
+      "anchors": [
+        3,
+        21
+      ],
+      "H": 48,
+      "parameters": 2847,
+      "vertices": 2161,
+      "edges": 614,
+      "triangles": 26,
+      "K4": 0,
+      "pair_tests": 2333880,
+      "elapsed_seconds": 0.931677,
+      "sha256": "4ab84f56b9ac704840fb13672080362f84836e8619d86186b15f95e9b4ba943d"
+    },
+    {
+      "file": "anchor_3_33_H48.json",
+      "anchors": [
+        3,
+        33
+      ],
+      "H": 48,
+      "parameters": 2847,
+      "vertices": 2354,
+      "edges": 430,
+      "triangles": 14,
+      "K4": 0,
+      "pair_tests": 2769481,
+      "elapsed_seconds": 1.128865,
+      "sha256": "335e91ec3df3a7579e2e1e233c29f483639a01917b687f2e1edfb030a701b86b"
+    },
+    {
+      "file": "anchor_3_40_H48.json",
+      "anchors": [
+        3,
+        40
+      ],
+      "H": 48,
+      "parameters": 2847,
+      "vertices": 2640,
+      "edges": 404,
+      "triangles": 28,
+      "K4": 0,
+      "pair_tests": 3483480,
+      "elapsed_seconds": 1.490979,
+      "sha256": "f4dcd1255e62415e72639c7eccbac84b77560fcb9b7dd61163c6fd0a3f88e54c"
+    },
+    {
+      "file": "anchor_4_6_H48.json",
+      "anchors": [
+        4,
+        6
+      ],
+      "H": 48,
+      "parameters": 2847,
+      "vertices": 1687,
+      "edges": 1306,
+      "triangles": 36,
+      "K4": 0,
+      "pair_tests": 1422141,
+      "elapsed_seconds": 0.523855,
+      "sha256": "0e818caeb353423d9d9fcff14a561853e251ec38d9b45f19e21a23af25a5d9d2"
+    },
+    {
+      "file": "anchor_4_12_H48.json",
+      "anchors": [
+        4,
+        12
+      ],
+      "H": 48,
+      "parameters": 2847,
+      "vertices": 1660,
+      "edges": 781,
+      "triangles": 26,
+      "K4": 0,
+      "pair_tests": 1376970,
+      "elapsed_seconds": 0.535222,
+      "sha256": "7cfe3fab1104ea13d0fbbaae72519a041f3fc9307ca453bc82b4dca373bcc764"
+    },
+    {
+      "file": "anchor_4_20_H48.json",
+      "anchors": [
+        4,
+        20
+      ],
+      "H": 48,
+      "parameters": 2847,
+      "vertices": 1986,
+      "edges": 720,
+      "triangles": 40,
+      "K4": 0,
+      "pair_tests": 1971105,
+      "elapsed_seconds": 0.775728,
+      "sha256": "ef5e0bbf1beda96eb0f0a3cfd54a3d6effcba6c4834d4b1f58eeeb68cab1ea5d"
+    },
+    {
+      "file": "anchor_4_30_H48.json",
+      "anchors": [
+        4,
+        30
+      ],
+      "H": 48,
+      "parameters": 2847,
+      "vertices": 2403,
+      "edges": 481,
+      "triangles": 22,
+      "K4": 0,
+      "pair_tests": 2886003,
+      "elapsed_seconds": 1.173195,
+      "sha256": "8e1e2cc786deb8c514138800e1ead75711f8f783fdec4e547c45ee10182fb927"
+    },
+    {
+      "file": "anchor_4_42_H48.json",
+      "anchors": [
+        4,
+        42
+      ],
+      "H": 48,
+      "parameters": 2847,
+      "vertices": 2535,
+      "edges": 426,
+      "triangles": 26,
+      "K4": 0,
+      "pair_tests": 3211845,
+      "elapsed_seconds": 1.436181,
+      "sha256": "ce67ac8eab15ef0c6e4d2b257ea89dad221346fdba2ccd3f18ca9b0279996b7c"
+    },
+    {
+      "file": "anchor_5_7_H48.json",
+      "anchors": [
+        5,
+        7
+      ],
+      "H": 48,
+      "parameters": 2847,
+      "vertices": 2203,
+      "edges": 1520,
+      "triangles": 27,
+      "K4": 0,
+      "pair_tests": 2425503,
+      "elapsed_seconds": 0.894063,
+      "sha256": "edb0d0ebc27e944ebe25cbac5b1fa1767bf4cdb0859a79656d0f2b41719cf275"
+    },
+    {
+      "file": "anchor_5_16_H48.json",
+      "anchors": [
+        5,
+        16
+      ],
+      "H": 48,
+      "parameters": 2847,
+      "vertices": 2441,
+      "edges": 784,
+      "triangles": 56,
+      "K4": 0,
+      "pair_tests": 2978020,
+      "elapsed_seconds": 1.230923,
+      "sha256": "e8e164d6ee9d2f8d196480ae48751ffea51a6e5040d8ca458b7407134ccd7d99"
+    },
+    {
+      "file": "anchor_5_24_H48.json",
+      "anchors": [
+        5,
+        24
+      ],
+      "H": 48,
+      "parameters": 2847,
+      "vertices": 2514,
+      "edges": 535,
+      "triangles": 24,
+      "K4": 0,
+      "pair_tests": 3158841,
+      "elapsed_seconds": 1.416266,
+      "sha256": "c3ae0a39917c77e2c2f6055c1c88c4f21da69121e17164f9b2fd9bdadeea978c"
+    },
+    {
+      "file": "anchor_5_39_H48.json",
+      "anchors": [
+        5,
+        39
+      ],
+      "H": 48,
+      "parameters": 2847,
+      "vertices": 2612,
+      "edges": 385,
+      "triangles": 18,
+      "K4": 0,
+      "pair_tests": 3409966,
+      "elapsed_seconds": 1.537029,
+      "sha256": "222631dab8316271b7e34ce0bdbd0f80e3024726e78cbb12f63b14ea1f9436ad"
+    },
+    {
+      "file": "anchor_6_8_H48.json",
+      "anchors": [
+        6,
+        8
+      ],
+      "H": 48,
+      "parameters": 2847,
+      "vertices": 1858,
+      "edges": 1448,
+      "triangles": 60,
+      "K4": 0,
+      "pair_tests": 1725153,
+      "elapsed_seconds": 0.659736,
+      "sha256": "12f48e54d9cbb65343f967193f6ea8b42104d2d0d82a83b4c0d71a86456388db"
+    },
+    {
+      "file": "anchor_6_20_H48.json",
+      "anchors": [
+        6,
+        20
+      ],
+      "H": 48,
+      "parameters": 2847,
+      "vertices": 2236,
+      "edges": 683,
+      "triangles": 28,
+      "K4": 0,
+      "pair_tests": 2498730,
+      "elapsed_seconds": 0.971361,
+      "sha256": "2259f162357aad4245ad7af17fc5a8ad50d8dcd0708165bf48c71be447525366"
+    },
+    {
+      "file": "anchor_6_28_H48.json",
+      "anchors": [
+        6,
+        28
+      ],
+      "H": 48,
+      "parameters": 2847,
+      "vertices": 2419,
+      "edges": 559,
+      "triangles": 22,
+      "K4": 0,
+      "pair_tests": 2924571,
+      "elapsed_seconds": 1.220175,
+      "sha256": "b541b49a4667056ecf6560448c1621ad926911103b2b5e88df0e626cf1878ea3"
+    },
+    {
+      "file": "anchor_6_48_H48.json",
+      "anchors": [
+        6,
+        48
+      ],
+      "H": 48,
+      "parameters": 2847,
+      "vertices": 2203,
+      "edges": 480,
+      "triangles": 28,
+      "K4": 0,
+      "pair_tests": 2425503,
+      "elapsed_seconds": 1.102398,
+      "sha256": "ccd8c4b302cdbc2a207d05f97ea698f69f11771e7c25bf9ae0f209603de8b261"
+    },
+    {
+      "file": "anchor_7_9_H48.json",
+      "anchors": [
+        7,
+        9
+      ],
+      "H": 48,
+      "parameters": 2847,
+      "vertices": 2289,
+      "edges": 1557,
+      "triangles": 33,
+      "K4": 0,
+      "pair_tests": 2618616,
+      "elapsed_seconds": 0.971028,
+      "sha256": "5f22e6a1c1226cbf55c7c1486b4aadd9dfa482414415f5d0208389590dd0422e"
+    },
+    {
+      "file": "anchor_7_24_H48.json",
+      "anchors": [
+        7,
+        24
+      ],
+      "H": 48,
+      "parameters": 2847,
+      "vertices": 2525,
+      "edges": 644,
+      "triangles": 38,
+      "K4": 0,
+      "pair_tests": 3186550,
+      "elapsed_seconds": 1.266573,
+      "sha256": "5be09fbe28078826340b53d3a4e26067eb2914a9cfdc00f97cf484ab0c9180aa"
+    },
+    {
+      "file": "anchor_7_32_H48.json",
+      "anchors": [
+        7,
+        32
+      ],
+      "H": 48,
+      "parameters": 2847,
+      "vertices": 2592,
+      "edges": 416,
+      "triangles": 14,
+      "K4": 0,
+      "pair_tests": 3357936,
+      "elapsed_seconds": 1.368573,
+      "sha256": "afd8569c8d811e14c85f1cbf8c0b230fa1568e90b322cc246151caa81441e066"
+    },
+    {
+      "file": "anchor_8_10_H48.json",
+      "anchors": [
+        8,
+        10
+      ],
+      "H": 48,
+      "parameters": 2847,
+      "vertices": 2033,
+      "edges": 1507,
+      "triangles": 48,
+      "K4": 0,
+      "pair_tests": 2065528,
+      "elapsed_seconds": 0.78039,
+      "sha256": "fdc3924c1e1eac825b65f9d528fc763343e70db663f1e5deaed90f2f7e1d9ef6"
+    },
+    {
+      "file": "anchor_8_15_H48.json",
+      "anchors": [
+        8,
+        15
+      ],
+      "H": 48,
+      "parameters": 2847,
+      "vertices": 2344,
+      "edges": 715,
+      "triangles": 33,
+      "K4": 0,
+      "pair_tests": 2745996,
+      "elapsed_seconds": 1.048126,
+      "sha256": "e6234653f31f4262651c5d6a24121446afada2cd9efd06b2375ac0e5beca7e65"
+    },
+    {
+      "file": "anchor_8_21_H48.json",
+      "anchors": [
+        8,
+        21
+      ],
+      "H": 48,
+      "parameters": 2847,
+      "vertices": 2496,
+      "edges": 560,
+      "triangles": 20,
+      "K4": 0,
+      "pair_tests": 3113760,
+      "elapsed_seconds": 1.251659,
+      "sha256": "4e1b071c34ce2084988f101dc9847c59b1239ace746fa0eb5c6fe50e5a50d83d"
+    },
+    {
+      "file": "anchor_8_28_H48.json",
+      "anchors": [
+        8,
+        28
+      ],
+      "H": 48,
+      "parameters": 2847,
+      "vertices": 2177,
+      "edges": 657,
+      "triangles": 26,
+      "K4": 0,
+      "pair_tests": 2368576,
+      "elapsed_seconds": 1.200387,
+      "sha256": "1a7504ead10bd8aa4cba9121a730cf2f5cc5ce18817e9a9d8c676a4616ba2304"
+    },
+    {
+      "file": "anchor_8_36_H48.json",
+      "anchors": [
+        8,
+        36
+      ],
+      "H": 48,
+      "parameters": 2847,
+      "vertices": 2228,
+      "edges": 552,
+      "triangles": 24,
+      "K4": 0,
+      "pair_tests": 2480878,
+      "elapsed_seconds": 1.237735,
+      "sha256": "30736813e55c5f9bf3f8afc4c3162b2613296bcbfa3a5e514f9de50b1f2d67e4"
+    },
+    {
+      "file": "anchor_8_45_H48.json",
+      "anchors": [
+        8,
+        45
+      ],
+      "H": 48,
+      "parameters": 2847,
+      "vertices": 2637,
+      "edges": 354,
+      "triangles": 5,
+      "K4": 0,
+      "pair_tests": 3475566,
+      "elapsed_seconds": 1.824665,
+      "sha256": "899afadb4f9d35979a710fe8fd537c49fa3ff6a6cfd7aa8a0d8ec0a30a852b51"
+    },
+    {
+      "file": "anchor_9_11_H48.json",
+      "anchors": [
+        9,
+        11
+      ],
+      "H": 48,
+      "parameters": 2847,
+      "vertices": 2365,
+      "edges": 1388,
+      "triangles": 6,
+      "K4": 0,
+      "pair_tests": 2795430,
+      "elapsed_seconds": 1.187159,
+      "sha256": "0b4ed970274ac0805243d70988366083ceac06f0fc92bf296a2a121309e7d833"
+    },
+    {
+      "file": "anchor_9_32_H48.json",
+      "anchors": [
+        9,
+        32
+      ],
+      "H": 48,
+      "parameters": 2847,
+      "vertices": 2614,
+      "edges": 457,
+      "triangles": 19,
+      "K4": 0,
+      "pair_tests": 3415191,
+      "elapsed_seconds": 1.391619,
+      "sha256": "f278885f865087f52c5e2f01594df7ea5aded32ec45b486c1ba7dfb6925980d3"
+    },
+    {
+      "file": "anchor_9_40_H48.json",
+      "anchors": [
+        9,
+        40
+      ],
+      "H": 48,
+      "parameters": 2847,
+      "vertices": 2631,
+      "edges": 439,
+      "triangles": 25,
+      "K4": 0,
+      "pair_tests": 3459765,
+      "elapsed_seconds": 1.460909,
+      "sha256": "516e6f2746d910ec7e514d5dbba1f0a600c3ec99cd08ca0eb9de144c6416f4e6"
+    },
+    {
+      "file": "anchor_10_12_H48.json",
+      "anchors": [
+        10,
+        12
+      ],
+      "H": 48,
+      "parameters": 2847,
+      "vertices": 2076,
+      "edges": 1469,
+      "triangles": 33,
+      "K4": 0,
+      "pair_tests": 2153850,
+      "elapsed_seconds": 0.810012,
+      "sha256": "9f71746bf644d296e11735fff34c4f1fb311ad31559b8a41447cfed72976cf18"
+    },
+    {
+      "file": "anchor_10_36_H48.json",
+      "anchors": [
+        10,
+        36
+      ],
+      "H": 48,
+      "parameters": 2847,
+      "vertices": 2449,
+      "edges": 568,
+      "triangles": 33,
+      "K4": 0,
+      "pair_tests": 2997576,
+      "elapsed_seconds": 1.238107,
+      "sha256": "e2036e3cc200f2ee4524c633ae5453ce5f0960b5e4ee65807a7e1e5a7c8b322c"
+    },
+    {
+      "file": "anchor_10_44_H48.json",
+      "anchors": [
+        10,
+        44
+      ],
+      "H": 48,
+      "parameters": 2847,
+      "vertices": 2551,
+      "edges": 490,
+      "triangles": 27,
+      "K4": 0,
+      "pair_tests": 3252525,
+      "elapsed_seconds": 1.436018,
+      "sha256": "f5d616b22f7265f311a9e66bdf745feec5d963ffb53ec3dd8fae49850b7a0e4f"
+    },
+    {
+      "file": "anchor_11_13_H48.json",
+      "anchors": [
+        11,
+        13
+      ],
+      "H": 48,
+      "parameters": 2847,
+      "vertices": 2484,
+      "edges": 1518,
+      "triangles": 15,
+      "K4": 0,
+      "pair_tests": 3083886,
+      "elapsed_seconds": 1.167571,
+      "sha256": "5fd3b988b49d376f722b1d1df96a8b5f9cfd050d88e8ae1244f1470510566040"
+    },
+    {
+      "file": "anchor_11_40_H48.json",
+      "anchors": [
+        11,
+        40
+      ],
+      "H": 48,
+      "parameters": 2847,
+      "vertices": 2647,
+      "edges": 332,
+      "triangles": 9,
+      "K4": 0,
+      "pair_tests": 3501981,
+      "elapsed_seconds": 1.475311,
+      "sha256": "e61b7b56fc7a296758687a535ecd57cb9ef2e6b93b9a37c4a4636e7173285931"
+    },
+    {
+      "file": "anchor_11_48_H48.json",
+      "anchors": [
+        11,
+        48
+      ],
+      "H": 48,
+      "parameters": 2847,
+      "vertices": 2673,
+      "edges": 354,
+      "triangles": 14,
+      "K4": 0,
+      "pair_tests": 3571128,
+      "elapsed_seconds": 1.584616,
+      "sha256": "287c712df97647e2a0bdb9309348f515ecf21bf9316334373dd68fae505572c7"
+    },
+    {
+      "file": "anchor_12_14_H48.json",
+      "anchors": [
+        12,
+        14
+      ],
+      "H": 48,
+      "parameters": 2847,
+      "vertices": 2206,
+      "edges": 1414,
+      "triangles": 13,
+      "K4": 0,
+      "pair_tests": 2432115,
+      "elapsed_seconds": 0.921967,
+      "sha256": "3c4d189e3dea236cb34ac79dc0751aab767320d2643081509f290d620a0380f2"
+    },
+    {
+      "file": "anchor_12_24_H48.json",
+      "anchors": [
+        12,
+        24
+      ],
+      "H": 48,
+      "parameters": 2847,
+      "vertices": 1423,
+      "edges": 648,
+      "triangles": 27,
+      "K4": 0,
+      "pair_tests": 1011753,
+      "elapsed_seconds": 0.43052,
+      "sha256": "f599bcfdcc92512a2d792cb2278d8f42658d7d95a8e571c97ad37ad8155649af"
+    },
+    {
+      "file": "anchor_12_30_H48.json",
+      "anchors": [
+        12,
+        30
+      ],
+      "H": 48,
+      "parameters": 2847,
+      "vertices": 1953,
+      "edges": 640,
+      "triangles": 23,
+      "K4": 0,
+      "pair_tests": 1906128,
+      "elapsed_seconds": 0.787143,
+      "sha256": "441503d1bb1c67f22f435c4bce9433d4ef70b92e209a21403641241d5b962d55"
+    },
+    {
+      "file": "anchor_12_44_H48.json",
+      "anchors": [
+        12,
+        44
+      ],
+      "H": 48,
+      "parameters": 2847,
+      "vertices": 2332,
+      "edges": 477,
+      "triangles": 15,
+      "K4": 0,
+      "pair_tests": 2717946,
+      "elapsed_seconds": 1.197736,
+      "sha256": "5f5db23bf3403fb9ddd3da8549b671e4e2e28e065b724b2dfa4c1cac345a329b"
+    },
+    {
+      "file": "anchor_13_15_H48.json",
+      "anchors": [
+        13,
+        15
+      ],
+      "H": 48,
+      "parameters": 2847,
+      "vertices": 2437,
+      "edges": 1583,
+      "triangles": 35,
+      "K4": 0,
+      "pair_tests": 2968266,
+      "elapsed_seconds": 1.13716,
+      "sha256": "2b303892cba72e12ad72784212f670666c7e37fdf667ee576552fe3173e402ca"
+    },
+    {
+      "file": "anchor_13_48_H48.json",
+      "anchors": [
+        13,
+        48
+      ],
+      "H": 48,
+      "parameters": 2847,
+      "vertices": 2588,
+      "edges": 442,
+      "triangles": 28,
+      "K4": 0,
+      "pair_tests": 3347578,
+      "elapsed_seconds": 1.493207,
+      "sha256": "9b3bdff37b5e1bdcae327bb6ca77ca9df08326c81fe4d4dcb89baa96ce7d4e37"
+    },
+    {
+      "file": "anchor_14_16_H48.json",
+      "anchors": [
+        14,
+        16
+      ],
+      "H": 48,
+      "parameters": 2847,
+      "vertices": 2278,
+      "edges": 1481,
+      "triangles": 24,
+      "K4": 0,
+      "pair_tests": 2593503,
+      "elapsed_seconds": 0.970201,
+      "sha256": "942544cc511710eed33f6dfecb4fe5348fd2f5d03b866254c64aeae0ae761370"
+    },
+    {
+      "file": "anchor_15_17_H48.json",
+      "anchors": [
+        15,
+        17
+      ],
+      "H": 48,
+      "parameters": 2847,
+      "vertices": 2497,
+      "edges": 1648,
+      "triangles": 34,
+      "K4": 0,
+      "pair_tests": 3116256,
+      "elapsed_seconds": 1.319677,
+      "sha256": "afda1ac69183c36d420f62f239660ca74577f23e0053568066a0431a7af98c4f"
+    },
+    {
+      "file": "anchor_15_24_H48.json",
+      "anchors": [
+        15,
+        24
+      ],
+      "H": 48,
+      "parameters": 2847,
+      "vertices": 2161,
+      "edges": 686,
+      "triangles": 30,
+      "K4": 0,
+      "pair_tests": 2333880,
+      "elapsed_seconds": 0.945521,
+      "sha256": "c22101bc7aeb8877db9976119e5d3d7d261465571ff2194ffbebeac08213d077"
+    },
+    {
+      "file": "anchor_15_45_H48.json",
+      "anchors": [
+        15,
+        45
+      ],
+      "H": 48,
+      "parameters": 2847,
+      "vertices": 1660,
+      "edges": 451,
+      "triangles": 11,
+      "K4": 0,
+      "pair_tests": 1376970,
+      "elapsed_seconds": 0.679052,
+      "sha256": "4b49f455623becc9538bff9d9808482dd72307f8d69e6542956936034988c8e0"
+    },
+    {
+      "file": "anchor_16_18_H48.json",
+      "anchors": [
+        16,
+        18
+      ],
+      "H": 48,
+      "parameters": 2847,
+      "vertices": 2272,
+      "edges": 1417,
+      "triangles": 23,
+      "K4": 0,
+      "pair_tests": 2579856,
+      "elapsed_seconds": 1.147612,
+      "sha256": "fe25d9f4551a77b8f559194b0a94ad9e467c4f71874ba92a9b54a6a8c2338130"
+    },
+    {
+      "file": "anchor_16_33_H48.json",
+      "anchors": [
+        16,
+        33
+      ],
+      "H": 48,
+      "parameters": 2847,
+      "vertices": 2612,
+      "edges": 490,
+      "triangles": 27,
+      "K4": 0,
+      "pair_tests": 3409966,
+      "elapsed_seconds": 1.418039,
+      "sha256": "f97f8dca9b5028c96b57849c8d98246fc34920d888b969ece4d04d6ac596fdf3"
+    },
+    {
+      "file": "anchor_16_39_H48.json",
+      "anchors": [
+        16,
+        39
+      ],
+      "H": 48,
+      "parameters": 2847,
+      "vertices": 2635,
+      "edges": 350,
+      "triangles": 7,
+      "K4": 0,
+      "pair_tests": 3470295,
+      "elapsed_seconds": 1.448034,
+      "sha256": "063f4771bdc3bf1f55c12198c24e15a8bd24265ef67afe165de3274098ca689d"
+    },
+    {
+      "file": "anchor_17_19_H48.json",
+      "anchors": [
+        17,
+        19
+      ],
+      "H": 48,
+      "parameters": 2847,
+      "vertices": 2600,
+      "edges": 1418,
+      "triangles": 5,
+      "K4": 0,
+      "pair_tests": 3378700,
+      "elapsed_seconds": 1.287066,
+      "sha256": "791d02e4089a37fe28ee0dc4ea01c9da347bd392b396ba83830400462c983dfb"
+    },
+    {
+      "file": "anchor_18_20_H48.json",
+      "anchors": [
+        18,
+        20
+      ],
+      "H": 48,
+      "parameters": 2847,
+      "vertices": 2299,
+      "edges": 1451,
+      "triangles": 24,
+      "K4": 0,
+      "pair_tests": 2641551,
+      "elapsed_seconds": 1.019138,
+      "sha256": "60621103c4c9a7cd13ee4b3dd5bbf1261bf533db7d01b7eb28c878df1f550f6d"
+    },
+    {
+      "file": "anchor_19_21_H48.json",
+      "anchors": [
+        19,
+        21
+      ],
+      "H": 48,
+      "parameters": 2847,
+      "vertices": 2559,
+      "edges": 1399,
+      "triangles": 4,
+      "K4": 0,
+      "pair_tests": 3272961,
+      "elapsed_seconds": 1.256965,
+      "sha256": "e1d18c967bd73774a190b0daef260b7e60bcb6436ea03ead0268f8f91852730f"
+    },
+    {
+      "file": "anchor_20_22_H48.json",
+      "anchors": [
+        20,
+        22
+      ],
+      "H": 48,
+      "parameters": 2847,
+      "vertices": 2397,
+      "edges": 1522,
+      "triangles": 30,
+      "K4": 0,
+      "pair_tests": 2871606,
+      "elapsed_seconds": 1.126205,
+      "sha256": "de45c59f79621afea1c0467553afc433eb5b622aadae0dedb3741608b3251725"
+    },
+    {
+      "file": "anchor_20_42_H48.json",
+      "anchors": [
+        20,
+        42
+      ],
+      "H": 48,
+      "parameters": 2847,
+      "vertices": 2486,
+      "edges": 563,
+      "triangles": 32,
+      "K4": 0,
+      "pair_tests": 3088855,
+      "elapsed_seconds": 1.306465,
+      "sha256": "b62cd2436e6d2c0875ff9e2258a62e13ed6dcbffb554092cebd383215fba2fb0"
+    },
+    {
+      "file": "anchor_20_48_H48.json",
+      "anchors": [
+        20,
+        48
+      ],
+      "H": 48,
+      "parameters": 2847,
+      "vertices": 2273,
+      "edges": 582,
+      "triangles": 30,
+      "K4": 0,
+      "pair_tests": 2582128,
+      "elapsed_seconds": 1.165554,
+      "sha256": "56f8eba7f6d87d4212716a064441dae3c6b4babc22822242299b22844d459065"
+    },
+    {
+      "file": "anchor_21_23_H48.json",
+      "anchors": [
+        21,
+        23
+      ],
+      "H": 48,
+      "parameters": 2847,
+      "vertices": 2562,
+      "edges": 1471,
+      "triangles": 11,
+      "K4": 0,
+      "pair_tests": 3280641,
+      "elapsed_seconds": 1.279263,
+      "sha256": "f6f48a40fef324fdcc713edf31be3b60b8aa74631936fa79de53906c1e3d6fc9"
+    },
+    {
+      "file": "anchor_21_40_H48.json",
+      "anchors": [
+        21,
+        40
+      ],
+      "H": 48,
+      "parameters": 2847,
+      "vertices": 2603,
+      "edges": 426,
+      "triangles": 13,
+      "K4": 0,
+      "pair_tests": 3386503,
+      "elapsed_seconds": 1.428991,
+      "sha256": "b7141ef533266f8dc1465a530ef51951e099dbce39bcd26609cfce0ad8cdb55e"
+    },
+    {
+      "file": "anchor_22_24_H48.json",
+      "anchors": [
+        22,
+        24
+      ],
+      "H": 48,
+      "parameters": 2847,
+      "vertices": 2386,
+      "edges": 1528,
+      "triangles": 33,
+      "K4": 0,
+      "pair_tests": 2845305,
+      "elapsed_seconds": 1.12305,
+      "sha256": "2e678f0491dc16a06aa4cdeea33480ae4254f752c20a166a3eab3283bcb01111"
+    },
+    {
+      "file": "anchor_23_25_H48.json",
+      "anchors": [
+        23,
+        25
+      ],
+      "H": 48,
+      "parameters": 2847,
+      "vertices": 2621,
+      "edges": 1420,
+      "triangles": 3,
+      "K4": 0,
+      "pair_tests": 3433510,
+      "elapsed_seconds": 1.359482,
+      "sha256": "3bf5fd3a4671c06b7d05464fbf0bb9887c396225bc21dd20cb7293c553e1453e"
+    },
+    {
+      "file": "anchor_24_26_H48.json",
+      "anchors": [
+        24,
+        26
+      ],
+      "H": 48,
+      "parameters": 2847,
+      "vertices": 2432,
+      "edges": 1381,
+      "triangles": 5,
+      "K4": 0,
+      "pair_tests": 2956096,
+      "elapsed_seconds": 1.177709,
+      "sha256": "c03557a052bbc03c1d3e5e42730befa3cd40725a04025ba02f9b575def32190f"
+    },
+    {
+      "file": "anchor_24_35_H48.json",
+      "anchors": [
+        24,
+        35
+      ],
+      "H": 48,
+      "parameters": 2847,
+      "vertices": 2555,
+      "edges": 447,
+      "triangles": 13,
+      "K4": 0,
+      "pair_tests": 3262735,
+      "elapsed_seconds": 1.34574,
+      "sha256": "00007eaa88a978f623ad81f1525dde04af84e23a253fef3cc9a97507b653e449"
+    },
+    {
+      "file": "anchor_24_40_H48.json",
+      "anchors": [
+        24,
+        40
+      ],
+      "H": 48,
+      "parameters": 2847,
+      "vertices": 1964,
+      "edges": 595,
+      "triangles": 18,
+      "K4": 0,
+      "pair_tests": 1927666,
+      "elapsed_seconds": 0.82763,
+      "sha256": "0f48710ceb4c0667360ab74369f3964c29a159d53e887e0730fb7d37a189214a"
+    },
+    {
+      "file": "anchor_25_27_H48.json",
+      "anchors": [
+        25,
+        27
+      ],
+      "H": 48,
+      "parameters": 2847,
+      "vertices": 2601,
+      "edges": 1423,
+      "triangles": 4,
+      "K4": 0,
+      "pair_tests": 3381300,
+      "elapsed_seconds": 1.356316,
+      "sha256": "b5904d6962cc6073db8060195f511d9c0db8e19c7fc8cfa7655d258f0dc57978"
+    },
+    {
+      "file": "anchor_26_28_H48.json",
+      "anchors": [
+        26,
+        28
+      ],
+      "H": 48,
+      "parameters": 2847,
+      "vertices": 2489,
+      "edges": 1404,
+      "triangles": 10,
+      "K4": 0,
+      "pair_tests": 3096316,
+      "elapsed_seconds": 1.3548,
+      "sha256": "8c278e840eb0ab85ff6069f6acc2a75ea6e7b849f886210e1ba64ad320abda2b"
+    },
+    {
+      "file": "anchor_27_29_H48.json",
+      "anchors": [
+        27,
+        29
+      ],
+      "H": 48,
+      "parameters": 2847,
+      "vertices": 2640,
+      "edges": 1498,
+      "triangles": 12,
+      "K4": 0,
+      "pair_tests": 3483480,
+      "elapsed_seconds": 1.433751,
+      "sha256": "762aa33e21b05d6ee37a1836c2ecdb4164f120c6d4bd485c21e35c82a0ae9735"
+    },
+    {
+      "file": "anchor_28_30_H48.json",
+      "anchors": [
+        28,
+        30
+      ],
+      "H": 48,
+      "parameters": 2847,
+      "vertices": 2416,
+      "edges": 1488,
+      "triangles": 25,
+      "K4": 0,
+      "pair_tests": 2917320,
+      "elapsed_seconds": 1.213317,
+      "sha256": "4f9c4664a46dedc4e8c926e03b3e737cba3da8c0081f63a063cd0da0599d23ad"
+    },
+    {
+      "file": "anchor_29_31_H48.json",
+      "anchors": [
+        29,
+        31
+      ],
+      "H": 48,
+      "parameters": 2847,
+      "vertices": 2675,
+      "edges": 1442,
+      "triangles": 6,
+      "K4": 0,
+      "pair_tests": 3576475,
+      "elapsed_seconds": 1.487607,
+      "sha256": "925a7d4e40e9a611b8c8141a17246223d9bf203547b5f5bdaca74c49f706b0aa"
+    },
+    {
+      "file": "anchor_30_32_H48.json",
+      "anchors": [
+        30,
+        32
+      ],
+      "H": 48,
+      "parameters": 2847,
+      "vertices": 2416,
+      "edges": 1368,
+      "triangles": 7,
+      "K4": 0,
+      "pair_tests": 2917320,
+      "elapsed_seconds": 1.21493,
+      "sha256": "1bc2e1ce4f29041a7931ab336a143328aef213bae78b3d12f3ba2691f452337e"
+    },
+    {
+      "file": "anchor_31_33_H48.json",
+      "anchors": [
+        31,
+        33
+      ],
+      "H": 48,
+      "parameters": 2847,
+      "vertices": 2642,
+      "edges": 1411,
+      "triangles": 4,
+      "K4": 0,
+      "pair_tests": 3488761,
+      "elapsed_seconds": 1.452245,
+      "sha256": "d419ae29603cbe799ffe142162b189e348d6644cca078c685c071d267875c0a8"
+    },
+    {
+      "file": "anchor_32_34_H48.json",
+      "anchors": [
+        32,
+        34
+      ],
+      "H": 48,
+      "parameters": 2847,
+      "vertices": 2551,
+      "edges": 1491,
+      "triangles": 18,
+      "K4": 0,
+      "pair_tests": 3252525,
+      "elapsed_seconds": 1.342132,
+      "sha256": "25259af71f2293d387ae293b28d388512c41668b70eaf48f700770718796d89b"
+    },
+    {
+      "file": "anchor_33_35_H48.json",
+      "anchors": [
+        33,
+        35
+      ],
+      "H": 48,
+      "parameters": 2847,
+      "vertices": 2581,
+      "edges": 1454,
+      "triangles": 10,
+      "K4": 0,
+      "pair_tests": 3329490,
+      "elapsed_seconds": 1.394423,
+      "sha256": "408f23a47c260d2404f39383d94c2d31ba3a202abf7a969f762b14af94e60595"
+    },
+    {
+      "file": "anchor_34_36_H48.json",
+      "anchors": [
+        34,
+        36
+      ],
+      "H": 48,
+      "parameters": 2847,
+      "vertices": 2546,
+      "edges": 1439,
+      "triangles": 10,
+      "K4": 0,
+      "pair_tests": 3239785,
+      "elapsed_seconds": 1.395522,
+      "sha256": "80808eed1b315b4db680cbaf202630f8acba4bb5c417ced1d5895ced20146070"
+    },
+    {
+      "file": "anchor_35_37_H48.json",
+      "anchors": [
+        35,
+        37
+      ],
+      "H": 48,
+      "parameters": 2847,
+      "vertices": 2645,
+      "edges": 1416,
+      "triangles": 4,
+      "K4": 0,
+      "pair_tests": 3496690,
+      "elapsed_seconds": 1.479407,
+      "sha256": "c03a0846bdb161e2196cc72ea141b0ff3d70a9b1f0008638a688ebc0de579fd7"
+    },
+    {
+      "file": "anchor_35_48_H48.json",
+      "anchors": [
+        35,
+        48
+      ],
+      "H": 48,
+      "parameters": 2847,
+      "vertices": 2600,
+      "edges": 380,
+      "triangles": 13,
+      "K4": 0,
+      "pair_tests": 3378700,
+      "elapsed_seconds": 1.525713,
+      "sha256": "297c86b50c824cdbefbe8ecefa75e7300f1d1c9bcee26938355fb781ff0af6d2"
+    },
+    {
+      "file": "anchor_36_38_H48.json",
+      "anchors": [
+        36,
+        38
+      ],
+      "H": 48,
+      "parameters": 2847,
+      "vertices": 2550,
+      "edges": 1450,
+      "triangles": 9,
+      "K4": 0,
+      "pair_tests": 3249975,
+      "elapsed_seconds": 1.396187,
+      "sha256": "ed21ecebe33b7c3c8d1375f1e0b7480200646a06c088b18231f90e5678203664"
+    },
+    {
+      "file": "anchor_37_39_H48.json",
+      "anchors": [
+        37,
+        39
+      ],
+      "H": 48,
+      "parameters": 2847,
+      "vertices": 2651,
+      "edges": 1391,
+      "triangles": 1,
+      "K4": 0,
+      "pair_tests": 3512575,
+      "elapsed_seconds": 1.51405,
+      "sha256": "7fc040a35055e210f3cba55f75d28c90b3ef502d1eb0b4d12a07b53aefdc4861"
+    },
+    {
+      "file": "anchor_38_40_H48.json",
+      "anchors": [
+        38,
+        40
+      ],
+      "H": 48,
+      "parameters": 2847,
+      "vertices": 2559,
+      "edges": 1418,
+      "triangles": 6,
+      "K4": 0,
+      "pair_tests": 3272961,
+      "elapsed_seconds": 1.441351,
+      "sha256": "daaaf33df1333d571d63cbf1d2da75c2ae225d29de993d9ee781417c1bf3a2d2"
+    },
+    {
+      "file": "anchor_39_41_H48.json",
+      "anchors": [
+        39,
+        41
+      ],
+      "H": 48,
+      "parameters": 2847,
+      "vertices": 2652,
+      "edges": 1412,
+      "triangles": 1,
+      "K4": 0,
+      "pair_tests": 3515226,
+      "elapsed_seconds": 1.534918,
+      "sha256": "85f91d792f46a9deffa5cff8676203c5f14cbab2dab91d969fc3101a24f43fdf"
+    },
+    {
+      "file": "anchor_40_42_H48.json",
+      "anchors": [
+        40,
+        42
+      ],
+      "H": 48,
+      "parameters": 2847,
+      "vertices": 2490,
+      "edges": 1476,
+      "triangles": 23,
+      "K4": 0,
+      "pair_tests": 3098805,
+      "elapsed_seconds": 1.401191,
+      "sha256": "fe87e0449d54f1cc2bb92c99d522beb870fb4fb13a5a198698ff7144b5ca5ca5"
+    },
+    {
+      "file": "anchor_41_43_H48.json",
+      "anchors": [
+        41,
+        43
+      ],
+      "H": 48,
+      "parameters": 2847,
+      "vertices": 2681,
+      "edges": 1442,
+      "triangles": 7,
+      "K4": 0,
+      "pair_tests": 3592540,
+      "elapsed_seconds": 1.581227,
+      "sha256": "93b89d4743c4bacb9c798fd14082ae03523c2e72779e16230ca3e9a4f2f892aa"
+    },
+    {
+      "file": "anchor_42_44_H48.json",
+      "anchors": [
+        42,
+        44
+      ],
+      "H": 48,
+      "parameters": 2847,
+      "vertices": 2541,
+      "edges": 1452,
+      "triangles": 12,
+      "K4": 0,
+      "pair_tests": 3227070,
+      "elapsed_seconds": 1.441359,
+      "sha256": "82cd7a99d8f9512e6913f7a2c08409475bd9e835abb3d34e44014b65343bea34"
+    },
+    {
+      "file": "anchor_43_45_H48.json",
+      "anchors": [
+        43,
+        45
+      ],
+      "H": 48,
+      "parameters": 2847,
+      "vertices": 2636,
+      "edges": 1420,
+      "triangles": 1,
+      "K4": 0,
+      "pair_tests": 3472930,
+      "elapsed_seconds": 1.56138,
+      "sha256": "037f94ace4308fcff182d57236a678242d0947ae43c8c156b65eff78e29ec761"
+    },
+    {
+      "file": "anchor_44_46_H48.json",
+      "anchors": [
+        44,
+        46
+      ],
+      "H": 48,
+      "parameters": 2847,
+      "vertices": 2591,
+      "edges": 1388,
+      "triangles": 3,
+      "K4": 0,
+      "pair_tests": 3355345,
+      "elapsed_seconds": 1.512556,
+      "sha256": "f0702cfd3303727256a49137d86ef03640202a9c02c1ad3c39286b767a76388b"
+    },
+    {
+      "file": "anchor_45_47_H48.json",
+      "anchors": [
+        45,
+        47
+      ],
+      "H": 48,
+      "parameters": 2847,
+      "vertices": 2634,
+      "edges": 1400,
+      "triangles": 2,
+      "K4": 0,
+      "pair_tests": 3467661,
+      "elapsed_seconds": 1.565735,
+      "sha256": "402fcbbe21f4a5ed5f2744045d59dfc078b9e52ba4542a09b46218715692357b"
+    },
+    {
+      "file": "anchor_46_48_H48.json",
+      "anchors": [
+        46,
+        48
+      ],
+      "H": 48,
+      "parameters": 2847,
+      "vertices": 2567,
+      "edges": 1421,
+      "triangles": 6,
+      "K4": 0,
+      "pair_tests": 3293461,
+      "elapsed_seconds": 1.50703,
+      "sha256": "43ea2e050d79ed99bc065d80af453319f66f36664dc904bcf6774696d8f3f826"
+    },
+    {
+      "file": "anchor_47_49_H48.json",
+      "anchors": [
+        47,
+        49
+      ],
+      "H": 48,
+      "parameters": 2847,
+      "vertices": 2743,
+      "edges": 1447,
+      "triangles": 1,
+      "K4": 0,
+      "pair_tests": 3760653,
+      "elapsed_seconds": 1.725252,
+      "sha256": "3e13d220ab823d0a3a653f4c883755639ae4d79612237860e2551de23f776307"
+    },
+    {
+      "file": "anchor_48_50_H48.json",
+      "anchors": [
+        48,
+        50
+      ],
+      "H": 48,
+      "parameters": 2847,
+      "vertices": 2563,
+      "edges": 1465,
+      "triangles": 12,
+      "K4": 0,
+      "pair_tests": 3283203,
+      "elapsed_seconds": 1.555389,
+      "sha256": "98c5f0c5422288668571440401611a912a62d3bd80a94d410685b1eb9e6367cd"
+    },
+    {
+      "file": "anchor_1_120_H48.json",
+      "anchors": [
+        1,
+        120
+      ],
+      "H": 48,
+      "parameters": 2847,
+      "vertices": 2730,
+      "edges": 270,
+      "triangles": 33,
+      "K4": 0,
+      "pair_tests": 3725085,
+      "elapsed_seconds": 2.021962,
+      "sha256": "dc006af16fb22a908e4510d7f9318cbbc5cac883526c58a57bcbe0d05d029fd7"
+    },
+    {
+      "file": "anchor_3_120_H48.json",
+      "anchors": [
+        3,
+        120
+      ],
+      "H": 48,
+      "parameters": 2847,
+      "vertices": 2609,
+      "edges": 249,
+      "triangles": 23,
+      "K4": 0,
+      "pair_tests": 3402136,
+      "elapsed_seconds": 1.486447,
+      "sha256": "9e4a71c15bbd3c0abbc858ceca12c4b13856b0ae7a6ee6c0aea8b44a695b670d"
+    },
+    {
+      "file": "anchor_8_120_H48.json",
+      "anchors": [
+        8,
+        120
+      ],
+      "H": 48,
+      "parameters": 2847,
+      "vertices": 2366,
+      "edges": 322,
+      "triangles": 21,
+      "K4": 0,
+      "pair_tests": 2797795,
+      "elapsed_seconds": 1.401315,
+      "sha256": "44f8de0fe233ef017dc2389d053093897da4d37e5931e66e5f18ef7a63a1b4ee"
+    },
+    {
+      "file": "anchor_-1_1_H48.json",
+      "anchors": [
+        -1,
+        1
+      ],
+      "H": 48,
+      "parameters": 2847,
+      "vertices": 954,
+      "edges": 543,
+      "triangles": 18,
+      "K4": 0,
+      "pair_tests": 454581,
+      "elapsed_seconds": 0.191872,
+      "sha256": "3a15e6fd6281426dad521053eb5315117f88ebdecc29730afb4d8f2dc07082d0"
+    }
+  ],
+  "total_pair_tests": 294009965,
+  "total_K4": 0
+}

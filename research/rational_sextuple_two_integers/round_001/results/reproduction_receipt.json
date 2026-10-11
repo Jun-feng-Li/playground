@@ -1,0 +1,91 @@
+{
+  "schema": "reproduction-receipt-v1",
+  "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+  "all_pass": true,
+  "graphs": 109,
+  "canonical_graph_collection_sha256": "21b433f04e748cbeb83d9322b154da3d3c926d0dd5df178903f926f297e18c01",
+  "pair_tests_per_implementation": 550135163,
+  "commands": [
+    {
+      "script": "anchor_search.py",
+      "arguments": [
+        "--height",
+        "48",
+        "--anchor-max",
+        "50",
+        "--workers",
+        "4",
+        "--output",
+        "/home/runner/work/playground/playground/research/rational_sextuple_two_integers/round_001/results/anchors_H48"
+      ],
+      "exit_code": 0
+    },
+    {
+      "script": "anchor_search.py",
+      "arguments": [
+        "--height",
+        "96",
+        "--selected",
+        "--workers",
+        "4",
+        "--output",
+        "/home/runner/work/playground/playground/research/rational_sextuple_two_integers/round_001/results/anchors_H96"
+      ],
+      "exit_code": 0
+    },
+    {
+      "script": "family_search.py",
+      "arguments": [
+        "--height",
+        "60",
+        "--output",
+        "/home/runner/work/playground/playground/research/rational_sextuple_two_integers/round_001/results/family_search_H60.json"
+      ],
+      "exit_code": 0
+    },
+    {
+      "script": "audit_graphs.py",
+      "arguments": [
+        "--results",
+        "/home/runner/work/playground/playground/research/rational_sextuple_two_integers/round_001/results",
+        "--workers",
+        "4",
+        "--output",
+        "/home/runner/work/playground/playground/research/rational_sextuple_two_integers/round_001/results/crosscheck.json"
+      ],
+      "exit_code": 0
+    },
+    {
+      "script": "quadruple_route.py",
+      "arguments": [
+        "--results",
+        "/home/runner/work/playground/playground/research/rational_sextuple_two_integers/round_001/results",
+        "--output",
+        "/home/runner/work/playground/playground/research/rational_sextuple_two_integers/round_001/results/quadruple_route.json"
+      ],
+      "exit_code": 0
+    },
+    {
+      "script": "quintuple_extensions.py",
+      "arguments": [
+        "--results",
+        "/home/runner/work/playground/playground/research/rational_sextuple_two_integers/round_001/results",
+        "--output",
+        "/home/runner/work/playground/playground/research/rational_sextuple_two_integers/round_001/results/quintuple_extensions.json"
+      ],
+      "exit_code": 0
+    },
+    {
+      "script": "checks.py",
+      "arguments": [
+        "--output",
+        "/home/runner/work/playground/playground/research/rational_sextuple_two_integers/round_001/results/regression_reproduced.json"
+      ],
+      "exit_code": 0
+    }
+  ],
+  "elapsed_seconds": 214.143,
+  "native_proofloop_executed": false,
+  "independent_ai_agents": 0,
+  "main_goal_status": "unresolved"
+}
