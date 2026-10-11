@@ -1,0 +1,45 @@
+name: ProofLoop round 002 independent role batch
+on:
+  push:
+    branches: [proofloop/round002-intake]
+    paths:
+      - .github/workflows/proofloop-round002-agent.yml
+      - research/rational_sextuple_two_integers/round_002/dispatch/current.json
+  workflow_dispatch:
+permissions:
+  contents: read
+  actions: read
+  copilot-requests: write
+jobs:
+  independent-roles:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install official provider client
+        run: |
+          mkdir -p agent-receipt
+          npm install -g @github/copilot
+          copilot --version > agent-receipt/cli-version.txt
+      - name: Verify frozen inputs and execute separate role sessions
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          COPILOT_GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          set -o pipefail
+          ROOT=research/rational_sextuple_two_integers/round_002
+          python3 "$ROOT/scripts/resolve_dispatch.py" "$ROOT/dispatch/current.json" agent-receipt/expanded-envelope.json | tee agent-receipt/source-verification.json
+          python3 "$ROOT/scripts/run_independent_batch.py" agent-receipt/expanded-envelope.json
+      - name: Preserve actual role outputs and execution evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: proofloop-round002-batch-${{ github.run_id }}
+          path: agent-receipt/
+          retention-days: 7
+          if-no-files-found: warn

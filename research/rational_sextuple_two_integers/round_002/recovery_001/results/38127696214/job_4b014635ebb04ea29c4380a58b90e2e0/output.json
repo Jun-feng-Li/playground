@@ -1,0 +1,64 @@
+{
+  "problem_sha256": "639c2626d4ec6d1af8aeb255e369e275a44d99e3e14f97528b8f12139d408651",
+  "input_sha256": "38b2ab0cff3b9094d401f02a09aa998979cf76f5b3543a107855ee2c4f278195",
+  "read_receipts": [
+    {
+      "media_type": "text/markdown",
+      "object_id": "obj_14dcb588f6032424fc394120a948b17eaff5731bc9f941d2cb176fbfb3b8a8a4",
+      "sha256": "a0bef42e719f79b1d7a68ff8a1fd7015499ec750a4d3feb090f7847fc3984fa5",
+      "size_bytes": 7282
+    },
+    {
+      "media_type": "text/markdown",
+      "object_id": "obj_182224f37ce49ffa1c36d92813ff7f6ed8570d23a22e4ec0baf362ebb84756c9",
+      "sha256": "644c6ccbf5c26de889d811aed877954bb0d7dc242edd8552f79073533dcac05f",
+      "size_bytes": 5859
+    }
+  ],
+  "usage": {
+    "provider_requests": null,
+    "total_tokens": null
+  },
+  "output": {
+    "reviews": [
+      {
+        "target_object_id": "lemma_5c95879bdb234a1686154887161fbc17",
+        "target_sha256": "d54cb05833b5fbae90f32ec521680c956a36674e61c0c48e380f9756f96abe56",
+        "verdict": "pass",
+        "objections": [],
+        "confirmed_fragments": [
+          {
+            "fragment": "The cubic expands as X^3+VX^2+UzX+z^2, with value R^2=1+V+Uz+z^2 at X=1. Its roots are distinct because a,b,c are distinct and nonzero, so the curve is nonsingular. Order exactly 3 also implies R is nonzero.",
+            "assessment": "The expansion and both deductions follow from the stated hypotheses."
+          },
+          {
+            "fragment": "The tangent slope at S is (3+2V+Uz)/(2R), and the doubling formula gives x(2S)=lambda^2-V-2. Since 2S=-S, x(2S)=1. Substitution yields T=0 for the displayed T.",
+            "assessment": "The tangent and duplication formulas apply on this nonsingular curve at R nonzero; direct expansion gives the stated equation."
+          },
+          {
+            "fragment": "The identity (2z^2+Uz-1)^2-4(1+z^2)R^2=-T implies that 1+z^2 is a rational square.",
+            "assessment": "With T=0 and rational R nonzero, the identity gives (2z^2+Uz-1)^2=4(1+z^2)R^2; division by (2R)^2 proves the claim."
+          },
+          {
+            "fragment": "If a,b are integers, then U=A+z/B and V=B+Az/B for A=a+b and B=ab. Substitution into T=0 gives the displayed monic integer quartic for z.",
+            "assessment": "Here B is a nonzero integer, and expanding -B^2T gives exactly the displayed polynomial. Since z is rational, the rational-root theorem forces z to be an integer."
+          },
+          {
+            "fragment": "The integer z is nonzero, and z^2+1, already a rational square, must be an integer square; the strict inequalities |z|^2<z^2+1<( |z|+1)^2 contradict this.",
+            "assessment": "A rational square that is an integer is an integer square. The inequalities hold for every nonzero integer z, completing the contradiction."
+          },
+          {
+            "fragment": "The result is limited to two integer entries within the specified triple and the specified canonical point S.",
+            "assessment": "The proof establishes the target lemma only; it does not resolve the main sextuple existence question or integer placements outside this triple."
+          }
+        ],
+        "citation_checks": [],
+        "external_dependency_coverage": {
+          "complete": true,
+          "undeclared_external_results": []
+        },
+        "affects_accepted_proof": true
+      }
+    ]
+  }
+}

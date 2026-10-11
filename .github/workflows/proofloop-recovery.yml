@@ -1,0 +1,65 @@
+name: ProofLoop recovery independent roles
+on:
+  push:
+    branches: [proofloop/round002-intake]
+    paths:
+      - research/rational_sextuple_two_integers/round_002/recovery_001/dispatch/*.json
+permissions:
+  contents: read
+jobs:
+  roles:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: read
+      copilot-requests: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install pinned independent model client
+        run: |
+          mkdir -p agent-receipt
+          npm install -g @github/copilot@1.0.95
+          copilot --version > agent-receipt/cli-version.txt
+      - name: Execute frozen controller workcards in separate model sessions
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          COPILOT_GITHUB_TOKEN: ${{ github.token }}
+        run: python3 -B research/rational_sextuple_two_integers/round_002/scripts/pipe_dispatch.py
+      - name: Preserve public final answers and execution evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: recovery-roles-${{ github.run_id }}
+          path: agent-receipt/
+          retention-days: 30
+          if-no-files-found: error
+  archive:
+    needs: roles
+    if: always()
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: proofloop/round002-intake
+          fetch-depth: 0
+      - uses: actions/download-artifact@v4
+        with:
+          name: recovery-roles-${{ github.run_id }}
+          path: research/rational_sextuple_two_integers/round_002/recovery_001/results/${{ github.run_id }}
+      - name: Commit only this run's immutable results
+        run: |
+          git config user.name 'ProofLoop evidence archiver'
+          git config user.email 'proofloop-evidence@users.noreply.github.com'
+          git add research/rational_sextuple_two_integers/round_002/recovery_001/results/${{ github.run_id }}
+          git diff --cached --quiet && exit 0
+          git commit -m 'Archive independent ProofLoop role results from Actions ${{ github.run_id }}'
+          git pull --rebase origin proofloop/round002-intake
+          git push origin HEAD:proofloop/round002-intake

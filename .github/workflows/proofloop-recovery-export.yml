@@ -1,0 +1,26 @@
+name: ProofLoop recovery export
+on:
+  push:
+    branches: [proofloop/round002-intake]
+    paths: [.github/workflows/proofloop-recovery-export.yml]
+permissions:
+  contents: read
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Record checkout identity
+        run: |
+          mkdir -p recovery-export
+          git rev-parse HEAD > recovery-export/source_commit.txt
+          cp -a research recovery-export/
+          cp -a .github recovery-export/workflows
+      - uses: actions/upload-artifact@v4
+        with:
+          name: proofloop-recovery-source-${{ github.run_id }}
+          path: recovery-export/
+          retention-days: 7

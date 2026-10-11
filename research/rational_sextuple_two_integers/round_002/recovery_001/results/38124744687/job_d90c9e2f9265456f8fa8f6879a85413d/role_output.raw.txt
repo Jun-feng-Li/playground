@@ -1,0 +1,82 @@
+{
+  "problem_sha256": "639c2626d4ec6d1af8aeb255e369e275a44d99e3e14f97528b8f12139d408651",
+  "input_sha256": "50e913e6fd1cf7d1457b8ce8a84d4d88186ac4325308858ecb243dfc37042e6b",
+  "read_receipts": [
+    {
+      "media_type": "text/markdown",
+      "object_id": "obj_14dcb588f6032424fc394120a948b17eaff5731bc9f941d2cb176fbfb3b8a8a4",
+      "sha256": "a0bef42e719f79b1d7a68ff8a1fd7015499ec750a4d3feb090f7847fc3984fa5",
+      "size_bytes": 7282
+    },
+    {
+      "media_type": "text/markdown",
+      "object_id": "obj_182224f37ce49ffa1c36d92813ff7f6ed8570d23a22e4ec0baf362ebb84756c9",
+      "sha256": "644c6ccbf5c26de889d811aed877954bb0d7dc242edd8552f79073533dcac05f",
+      "size_bytes": 5859
+    }
+  ],
+  "usage": {
+    "provider_requests": null,
+    "total_tokens": null
+  },
+  "output": {
+    "problem_contract": {
+      "acceptance_profile": "reviewed",
+      "assumptions": [
+        "All six elements belong to Q and are nonzero.",
+        "All six elements are pairwise distinct.",
+        "At least two elements belong to Z.",
+        "For each of the fifteen unordered pairs, the product plus 1 belongs to Q squared; a zero square root is allowed."
+      ],
+      "objective": "proof",
+      "quantifiers": [
+        "Existentially over six pairwise distinct nonzero rational numbers.",
+        "At least two of those six numbers are integers.",
+        "Universally over all fifteen unordered pairs.",
+        "Any nonexistence conclusion must cover unbounded rational height and every allowable integer pair."
+      ],
+      "source_refs": [],
+      "statement": "Determine whether there exists a set S of six pairwise distinct nonzero rational numbers such that at least two elements are integers and xy+1 is a rational square for every two distinct x,y in S. Track the all-positive case separately from the unrestricted-sign case. Give an exact valid example or an unrestricted nonexistence proof; otherwise record only explicitly scoped partial results."
+    },
+    "briefing": "Work specifically on arbitrary distinct nonzero integer anchors a,b with ab+1 a rational square, sharpening the denominator restrictions for a common rational neighbor and seeking a structural consequence for four pairwise-adjacent common neighbors. The supplied L3 argument gives a useful starting point, not a global obstruction. Write x=u/v in lowest terms, v>0. For either anchor c in {a,b}, let d_c=gcd(|c|,v). Then gcd(cu+v,v)=d_c, so if cx+1 is a rational square, its reduced denominator v/d_c and reduced numerator (cu+v)/d_c are integer squares. This also covers a zero square, for which the reduced numerator is zero. Thus one can write v=d_a r^2=d_b s^2 and au+v=d_a A^2, bu+v=d_b B^2, with nonnegative integer square roots where appropriate. Subtracting the latter equations yields (b-a)u=d_b B^2-d_a A^2. Retain the coprimality and exceptional-zero cases rather than dividing by quantities that may vanish.\n\nFor each prime p, put e=v_p(v), alpha=v_p(a), beta=v_p(b). The exact local conditions are e-min(e,alpha) and e-min(e,beta) both even. In particular, if e>max(alpha,beta), then alpha and beta must have the same parity and e must have that parity. If e is no larger than both valuations, these denominator conditions impose no parity restriction at p. Consequently every odd-exponent prime of v divides gcd(a,b), and coprime anchors force v to be a square; do not claim that for noncoprime anchors. The supplied example a=7, b=329, x=360/12943 has a nonsquare reduced denominator and demonstrates the limitation. A useful boundary-case analysis should organize primes by e relative to alpha and beta, and determine whether these local restrictions, together with the simultaneous numerator-square equations, yield a genuine global constraint rather than merely restating L3.\n\nTo connect this to sextuples, four distinct common neighbors x_i=u_i/v_i must additionally satisfy x_i x_j+1 square for each of their six pairs. State those cross conditions explicitly and preserve nonzero, distinctness, and any zero-root cases. The infinite common-neighbor graph has a K4 exactly when the fixed anchors extend to a sextuple; a bounded search or a finite parameter range proves only a finite-scope statement. L2 supplies an alternative exact parameterization of every common neighbor if needed, but do not let reparameterization substitute for the requested arithmetic consequence.\n\nKeep sign cases explicit: opposite-sign integer anchors in a tuple must be {-1,1}; negating every element preserves products and reduces same-sign anchors to positive anchors, but does not imply all other elements are positive. Track the all-positive subcase separately from unrestricted signs. The canonical order-three seed obstruction L4 applies only when two integers lie in that specified seed triple; it does not settle the appended-coordinate placements and is not a substitute for the denominator direction. L5 rules out only the stated degenerate extension mechanism for its family, not all extensions.\n\nThe supplied history contains no candidate attempt records, reviews, attempt feedback, proof-repair context, or process instructions; therefore no such work is selected or presumed accepted. The reported finite computations are not independently auditable from the two supplied text artifacts and do not establish an unbounded-height result. No external source was retrieved or independently checked: references to DKMS, DKP, Dujella, and Piezas in the notes are unverified here and should not be treated as established external dependencies. Deliver either a fully proved narrower structural lemma with precise hypotheses and limitations, or a carefully scoped partial result; the main existence question remains open in the supplied evidence.",
+    "uncertainties": [
+      "Whether the simultaneous numerator-square and cross-neighbor equations force an obstruction or permit nondegenerate K4s for any fixed or varying integer anchors is unresolved.",
+      "The supplied denominator example establishes that the coprime-anchor square-denominator conclusion cannot simply be extended to noncoprime anchors; no stronger global restriction is established here.",
+      "The prior search counts and implementation agreement are reported in the note but cannot be independently checked from the supplied artifacts.",
+      "No exact sextuple witness or all-anchor, unbounded-height nonexistence proof is supplied; both the all-positive and unrestricted-sign cases remain unresolved.",
+      "The external citations and literature locators mentioned in the notes have not been verified."
+    ],
+    "selected_attempt_ids": [],
+    "selected_review_ids": [],
+    "emphasis_tags": [
+      "integer-anchor-sign-cases",
+      "denominator-valuation-boundary-cases",
+      "simultaneous-numerator-squares",
+      "noncoprime-anchor-limitation",
+      "common-neighbor-k4",
+      "zero-square-and-distinctness",
+      "unbounded-height-obligation",
+      "finite-search-is-not-proof",
+      "external-citations-unverified"
+    ],
+    "selected_lemma_ids": [
+      "L1. Reduction of the signs of the integer anchors",
+      "L2. Complete rational parametrization of common neighbors",
+      "L3. Denominator support and its limitation"
+    ],
+    "artifact_reading_list": [
+      "obj_14dcb588f6032424fc394120a948b17eaff5731bc9f941d2cb176fbfb3b8a8a4 — Auxiliary results for rational D(1) sextuples with two integer elements (full supplied text; L1-L5 and remaining obligations).",
+      "obj_182224f37ce49ffa1c36d92813ff7f6ed8570d23a22e4ec0baf362ebb84756c9 — 含至少两个整数的有理丢番图六元组：第一轮研究 (full supplied text; scope, reported computations, and unresolved directions)."
+    ],
+    "diversity_constraints": {
+      "avoid_methods": [
+        "Treating another bounded-height or bounded-anchor search as a global proof",
+        "Repeating only the existing gcd denominator-support lemma without deriving an additional consequence",
+        "Assuming the coprime-anchor square-denominator conclusion holds for noncoprime anchors",
+        "Using the canonical order-three seed obstruction as though it covered all integer placements"
+      ],
+      "preferred_method_family": "boundary_cases",
+      "must_differ_from_prior_attempts": true
+    }
+  }
+}

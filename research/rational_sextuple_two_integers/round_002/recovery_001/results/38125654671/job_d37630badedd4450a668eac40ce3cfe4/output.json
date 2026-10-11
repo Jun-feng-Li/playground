@@ -1,0 +1,89 @@
+{
+  "problem_sha256": "639c2626d4ec6d1af8aeb255e369e275a44d99e3e14f97528b8f12139d408651",
+  "input_sha256": "1d00ef8399731508299e1583518fcba487942fbf7bd3a20607b670f4a9f4a7e8",
+  "read_receipts": [
+    {
+      "media_type": "application/json",
+      "object_id": "obj_2fad037b2711ecb714a0f588763e8f727a1c73edb64d80afa836619709cb16a2",
+      "sha256": "a8ed827ff29f8c8020c70399760f781ac8f54334a5d26e7e4e3cafffff0b843e",
+      "size_bytes": 7159
+    },
+    {
+      "media_type": "text/markdown",
+      "object_id": "obj_14dcb588f6032424fc394120a948b17eaff5731bc9f941d2cb176fbfb3b8a8a4",
+      "sha256": "a0bef42e719f79b1d7a68ff8a1fd7015499ec750a4d3feb090f7847fc3984fa5",
+      "size_bytes": 7282
+    },
+    {
+      "media_type": "text/markdown",
+      "object_id": "obj_182224f37ce49ffa1c36d92813ff7f6ed8570d23a22e4ec0baf362ebb84756c9",
+      "sha256": "644c6ccbf5c26de889d811aed877954bb0d7dc242edd8552f79073533dcac05f",
+      "size_bytes": 5859
+    }
+  ],
+  "usage": {
+    "provider_requests": null,
+    "total_tokens": null
+  },
+  "output": {
+    "statement": "Let a,b be distinct nonzero integers, and let x=u/v be a rational common neighbor in lowest terms, with v>0; thus ax+1 and bx+1 are rational squares. For an odd prime p, put e=v_p(v), alpha=v_p(a), beta=v_p(b). If e>max(alpha,beta), then the residue modulo p of (a/p^alpha)/(b/p^beta) is a nonzero square. Consequently, if that residue is a nonsquare for an odd prime p, every such common neighbor has v_p(v)<=max(alpha,beta).",
+    "assumptions": [
+      "a,b are distinct nonzero integers.",
+      "x=u/v is rational in lowest terms, with v>0.",
+      "ax+1 and bx+1 are rational squares; zero squares are allowed.",
+      "The prime p in the asserted residue condition is odd."
+    ],
+    "quantifiers": [
+      "For every pair a,b satisfying the assumptions.",
+      "For every rational common neighbor x satisfying the assumptions.",
+      "For every odd prime p, the stated implication holds."
+    ],
+    "objective": "Prove a local arithmetic restriction on deep denominator valuations; this is a partial result, not a resolution of the sextuple existence problem.",
+    "claim_scope": "partial",
+    "proof": "Write d_a=gcd(|a|,v) and d_b=gcd(|b|,v). Since gcd(u,v)=1, gcd(au+v,v)=d_a and gcd(bu+v,v)=d_b. Reducing the two rational squares therefore shows that their reduced denominators and numerators are integer squares. In particular there are integers r,s>=0 and A,B>=0 such that v=d_a r^2=d_b s^2 and au+v=d_a A^2, bu+v=d_b B^2. (The numerator roots may be zero in general.)\n\nSuppose e>max(alpha,beta). Then p divides v, so p does not divide u, and v_p(d_a)=alpha and v_p(d_b)=beta. Put a_0=a/p^alpha, b_0=b/p^beta, d_{a,0}=d_a/p^alpha, and d_{b,0}=d_b/p^beta; all four are p-units. Because e>alpha, reducing the first numerator equation after division by p^alpha gives A^2 ≡ (a_0 u)/d_{a,0} (mod p). Similarly, B^2 ≡ (b_0 u)/d_{b,0} (mod p). Both residues are nonzero, so A and B are nonzero modulo p, and division gives A^2/B^2 ≡ (a_0/b_0)(d_{b,0}/d_{a,0}) (mod p).\n\nThe denominator-square equations imply d_b/d_a=r^2/s^2, a rational square. Its p-adic valuation is beta-alpha, which is therefore even; after removing that power of p, its unit part d_{b,0}/d_{a,0} is a square modulo the odd prime p. The displayed quotient is a square, so a_0/b_0 is a square modulo p as claimed. In particular, if that anchor unit ratio is a nonsquare, the assumed strict inequality e>max(alpha,beta) is impossible.\n\nFor context, the denominator-square equations also give the exact parity requirements e-min(e,alpha) even and e-min(e,beta) even. When e is at most both anchor valuations these impose no parity restriction; when e exceeds both, they require alpha and beta to have the same parity and e to share that parity; in the mixed case alpha<e<=beta they require e-alpha even, with the symmetric condition in the other mixed case. The residue restriction proved above is an additional necessary condition in the strict deep case, obtained from the simultaneous numerator squares rather than denominator support alone.",
+    "dependency_ids": [],
+    "gaps": [
+      "The lemma bounds denominator exponents only at odd primes where the anchor unit ratio is a nonsquare; it does not obstruct common neighbors in general, and it gives no corresponding residue criterion at p=2.",
+      "It does not show that four distinct common neighbors of a fixed anchor pair fail any of the six cross-pair square conditions, so it does not rule out a K4 in the common-neighbor graph.",
+      "No exact sextuple witness or unbounded-height nonexistence proof is established. Both the all-positive case and the unrestricted-sign case remain unresolved.",
+      "For opposite-sign integer anchors, the supplied sign argument reduces the pair to {-1,1}; otherwise negating all tuple elements can make two same-sign integer anchors positive, but does not force the other elements positive. Neither reduction closes the main problem."
+    ],
+    "method_summary": "Use the reduced numerator as well as denominator square conditions. At a prime where the denominator valuation strictly exceeds both anchor valuations, reduce both numerator-square equations modulo that prime and divide them; the denominator-square relation ensures the extra gcd-factor ratio is itself a square residue, leaving a necessary quadratic-residue condition on the anchor unit ratio.",
+    "cited_lemmas": [],
+    "dependency_ids": [],
+    "extracted_claim_proposals": [
+      {
+        "statement": "For distinct nonzero integer anchors a,b and a common rational neighbor u/v in lowest terms, at every odd prime p with v_p(v)>max(v_p(a),v_p(b)), the ratio of the p-free parts of a and b is a quadratic residue modulo p.",
+        "assumptions": [
+          "a,b are distinct nonzero integers.",
+          "u/v is reduced with v>0.",
+          "au/v+1 and bu/v+1 are rational squares.",
+          "p is odd and v_p(v)>max(v_p(a),v_p(b))."
+        ],
+        "quantifiers": [
+          "For all such a,b,u/v and p."
+        ],
+        "objective": "proof"
+      }
+    ],
+    "external_results": [],
+    "direction_proposals": [
+      {
+        "label": "Use residue restrictions in K4 analysis",
+        "assignment": "For fixed integer anchors, combine the deep-denominator quadratic-residue obstruction with the parametrized common-neighbor equations and the six cross-neighbor square conditions. Seek a structural consequence valid for all heights; preserve zero square roots and exclude zero or repeated elements.",
+        "kind": "proof",
+        "target_claim": {
+          "statement": "Determine whether any pair of distinct nonzero integer anchors with product plus one a rational square has four distinct nonzero rational common neighbors that are pairwise adjacent under the condition xy+1 is a rational square.",
+          "assumptions": [
+            "The anchors are distinct nonzero integers.",
+            "Their product plus one is a rational square."
+          ],
+          "quantifiers": [
+            "Universally over all allowable integer anchor pairs and all rational common neighbors, without a height bound."
+          ],
+          "objective": "proof"
+        }
+      }
+    ]
+  }
+}
