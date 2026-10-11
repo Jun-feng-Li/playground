@@ -1,0 +1,111 @@
+{
+  "problem_sha256": "639c2626d4ec6d1af8aeb255e369e275a44d99e3e14f97528b8f12139d408651",
+  "input_sha256": "1cdff86c00d0e1d5c5a9d3c46f80a24393459a00d72ed42339e63fffb1304c12",
+  "read_receipts": [
+    {
+      "media_type": "text/markdown",
+      "object_id": "obj_14dcb588f6032424fc394120a948b17eaff5731bc9f941d2cb176fbfb3b8a8a4",
+      "sha256": "a0bef42e719f79b1d7a68ff8a1fd7015499ec750a4d3feb090f7847fc3984fa5",
+      "size_bytes": 7282
+    },
+    {
+      "media_type": "text/markdown",
+      "object_id": "obj_182224f37ce49ffa1c36d92813ff7f6ed8570d23a22e4ec0baf362ebb84756c9",
+      "sha256": "644c6ccbf5c26de889d811aed877954bb0d7dc242edd8552f79073533dcac05f",
+      "size_bytes": 5859
+    }
+  ],
+  "usage": {
+    "provider_requests": null,
+    "total_tokens": null
+  },
+  "output": {
+    "reviews": [
+      {
+        "target_object_id": "cand_e06579a407384fa2818c4c950005580f",
+        "target_sha256": "374fd6fde685ab242dd747468dadc3f78d5a63c569c487576ed05356f48018fc",
+        "verdict": "pass",
+        "objections": [],
+        "confirmed_fragments": [
+          {
+            "location": "Curve expansion and tangent condition",
+            "claim": "The order-three hypothesis implies T=0.",
+            "verification": "The cubic expands to X^3+VX^2+UzX+z^2, and its derivative at X=1 is 3+2V+Uz. Since R is nonzero and 2S=-S, the duplication formula requires lambda^2=V+3. Substituting R^2=1+V+Uz+z^2 gives the stated equation -T=0."
+          },
+          {
+            "location": "Square identity and integer specialization",
+            "claim": "The same condition implies 1+z^2 is a rational square; if two seed entries are integers, then z is an integer.",
+            "verification": "The displayed identity reduces to (2z^2+Uz-1)^2=4(1+z^2)R^2. With R nonzero rational, this makes 1+z^2 a rational square. Substituting U=A+z/B and V=B+Az/B into T=0 yields the stated monic integer quartic; the rational-root theorem applies to rational z."
+          },
+          {
+            "location": "Scope",
+            "claim": "The contradiction proves at most one integer among the specified order-three seed triple.",
+            "verification": "For nonzero integer z, z^2<z^2+1<(|z|+1)^2, so z^2+1 cannot be an integer square. This excludes two integers only in the triple satisfying the specified canonical order-three hypothesis; it does not rule out other coordinate placements or resolve the sextuple problem."
+          }
+        ],
+        "citation_checks": [],
+        "external_dependency_coverage": {
+          "complete": true,
+          "undeclared_external_results": []
+        }
+      },
+      {
+        "target_object_id": "cand_1eaa6599a73344aca8eb211dc959015d",
+        "target_sha256": "dd4d8f5a7d82ba5e1f2ca43a904bb627c477018bc6059582ba105f04bbd993b6",
+        "verdict": "pass",
+        "objections": [],
+        "confirmed_fragments": [
+          {
+            "location": "Opposite-sign integer anchors",
+            "claim": "Such anchors must be {-1,1}.",
+            "verification": "Their product is an integer at most -1, while its sum with 1 must be nonnegative. Thus the product is -1. For any other element x, the anchor conditions imply -1<=x<=1; distinctness and nonzero membership exclude all integer values in that interval."
+          },
+          {
+            "location": "Common-neighbor parametrization",
+            "claim": "Every nonzero rational common neighbor is f(t)=4t(1-t^2)/(1+t^2)^2 for rational t.",
+            "verification": "Writing p^2=1+x and q^2=1-x gives p^2+q^2=2. For x nonzero, p!=1, so the line parameter t=(q-1)/(p-1) is finite; substitution and solving the resulting quadratic relation gives the stated p,q and f(t). Conversely, the displayed formulas give p^2+q^2=2 and x=f(t), proving both required square conditions."
+          },
+          {
+            "location": "Symmetric sextuple criterion",
+            "claim": "{1,-1,u,-u,v,-v} is a D(1) sextuple exactly under the stated C-membership, nonzero, and distinctness conditions.",
+            "verification": "The conditions provide the anchor pairs and cross pairs; the opposite pairs use 1-u^2=(1+u)(1-u) and its v analogue. Conversely, each required pair forces the listed conditions. The nonzero and u!=±v requirements are exactly the remaining distinctness constraints."
+          }
+        ],
+        "citation_checks": [],
+        "external_dependency_coverage": {
+          "complete": true,
+          "undeclared_external_results": []
+        }
+      },
+      {
+        "target_object_id": "cand_f3dde96e54e54b59ab2dc35531b0e89d",
+        "target_sha256": "a09389fbfab351082f796bc6adddae5f0849471a9be95dd14dcb9177bf3565bb",
+        "verdict": "pass",
+        "objections": [],
+        "confirmed_fragments": [
+          {
+            "location": "Reduced denominator equations",
+            "claim": "For x=u/v in lowest terms, v=d_a r^2=d_b s^2 and au+v=d_a A^2, bu+v=d_b B^2.",
+            "verification": "The gcd identities reduce the denominators of ax+1 and bx+1 to v/d_a and v/d_b. A reduced rational square has square numerator and denominator, including the zero-numerator case."
+          },
+          {
+            "location": "Deep-denominator residue argument",
+            "claim": "If e>max(alpha,beta), the residue a_0/b_0 modulo p is a nonzero square.",
+            "verification": "Under this strict inequality, u, a_0, b_0, d_{a,0}, and d_{b,0} are p-adic units. Reducing the two numerator-square equations modulo p and taking their ratio shows (a_0/b_0)(d_{b,0}/d_{a,0}) is a square. The denominator-square equation makes d_{b,0}/d_{a,0} a square unit modulo p, yielding the claimed nonzero square residue."
+          },
+          {
+            "location": "Scope",
+            "claim": "The result is a local necessary condition, not an all-anchor obstruction.",
+            "verification": "It constrains denominator valuations only when the strict depth condition holds, and rules them out when the specified residue is a nonresidue. It does not prove that such a prime exists for every anchor pair or establish the proposed four-neighbor obstruction."
+          }
+        ],
+        "citation_checks": [],
+        "external_dependency_coverage": {
+          "complete": true,
+          "undeclared_external_results": []
+        }
+      }
+    ],
+    "comparison": "All three candidate claims are supported within their stated hypotheses and scopes: the first is an elliptic-curve obstruction for the specified canonical order-three seed, the second is an exact reduction for opposite-sign anchors and a symmetric paired configuration, and the third is a local denominator-residue restriction. None resolves the original sextuple existence problem. In particular, candidate one leaves appended-coordinate and other construction cases open; candidate two does not address the all-positive case or arbitrary nonsymmetric neighbors; candidate three does not establish a universal four-neighbor obstruction. The supplied finite searches remain bounded or mechanism-specific and cannot close those gaps."
+  }
+}
