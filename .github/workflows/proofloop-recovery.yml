@@ -30,7 +30,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ github.token }}
           COPILOT_GITHUB_TOKEN: ${{ github.token }}
-        run: python3 -B research/rational_sextuple_two_integers/round_002/scripts/launch_dispatch.py
+        run: python3 -B research/rational_sextuple_two_integers/round_002/scripts/pipe_dispatch.py
       - name: Preserve public final answers and execution evidence
         if: always()
         uses: actions/upload-artifact@v4
