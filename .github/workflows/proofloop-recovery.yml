@@ -1,0 +1,88 @@
+name: ProofLoop recovery independent roles
+on:
+  push:
+    branches: [proofloop/round002-intake]
+    paths:
+      - research/rational_sextuple_two_integers/round_002/recovery_001/dispatch/*.json
+permissions:
+  contents: read
+jobs:
+  roles:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: read
+      copilot-requests: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install pinned independent model client
+        run: |
+          mkdir -p agent-receipt
+          npm install -g @github/copilot@1.0.95
+          copilot --version > agent-receipt/cli-version.txt
+      - name: Execute the frozen controller workcards
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          COPILOT_GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          python3 - <<'PY'
+          import importlib.util, pathlib, subprocess, sys
+          root = pathlib.Path.cwd()
+          changed = subprocess.check_output(['git','diff-tree','--no-commit-id','--name-only','-r','HEAD'], text=True).splitlines()
+          selected = [p for p in changed if p.startswith('research/rational_sextuple_two_integers/round_002/recovery_001/dispatch/') and p.endswith('.json')]
+          if len(selected) != 1:
+              raise SystemExit('Expected exactly one new frozen dispatch, not an automatic replay')
+          runner = root/'research/rational_sextuple_two_integers/round_002/scripts/run_independent_batch.py'
+          spec = importlib.util.spec_from_file_location('transport', runner)
+          module = importlib.util.module_from_spec(spec)
+          spec.loader.exec_module(module)
+          original_execute = module.execute
+          def expand(task, batch, output_root):
+              for item in task.pop('artifact_paths', []):
+                  path = (root/item['path']).resolve()
+                  if root not in path.parents:
+                      raise ValueError('Artifact path escapes repository')
+                  task['artifacts'].append({'artifact':item['artifact'],'content_utf8':path.read_text(encoding='utf-8')})
+              return original_execute(task, batch, output_root)
+          module.execute = expand
+          sys.argv = [str(runner), selected[0]]
+          raise SystemExit(module.main())
+          PY
+      - name: Preserve public final answers and execution evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: recovery-roles-${{ github.run_id }}
+          path: agent-receipt/
+          retention-days: 30
+          if-no-files-found: error
+  archive:
+    needs: roles
+    if: always()
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: proofloop/round002-intake
+          fetch-depth: 0
+      - uses: actions/download-artifact@v4
+        with:
+          name: recovery-roles-${{ github.run_id }}
+          path: research/rational_sextuple_two_integers/round_002/recovery_001/results/${{ github.run_id }}
+      - name: Commit only this run's immutable results
+        run: |
+          git config user.name 'ProofLoop evidence archiver'
+          git config user.email 'proofloop-evidence@users.noreply.github.com'
+          git add research/rational_sextuple_two_integers/round_002/recovery_001/results/${{ github.run_id }}
+          git diff --cached --quiet && exit 0
+          git commit -m 'Archive independent ProofLoop role results from Actions ${{ github.run_id }}'
+          git pull --rebase origin proofloop/round002-intake
+          git push origin HEAD:proofloop/round002-intake
