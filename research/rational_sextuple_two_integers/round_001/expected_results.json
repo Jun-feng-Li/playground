@@ -1,0 +1,55 @@
+{
+  "schema": "expected-results-v1",
+  "task_date": "2026-10-11",
+  "graphs": 109,
+  "canonical_graph_collection_sha256": "21b433f04e748cbeb83d9322b154da3d3c926d0dd5df178903f926f297e18c01",
+  "fingerprint_definition": "For every anchors_H*/anchor_*.json sorted by relative path, remove elapsed_seconds, canonicalize JSON with sorted keys and compact separators, sha256 its UTF-8 bytes. Join relative_path + NUL + hex_digest with newline, then sha256 the joined UTF-8 bytes.",
+  "pair_tests_per_implementation": 550135163,
+  "local_crosscheck_all_pass": true,
+  "K4_found": 0,
+  "graph_batches": [
+    {
+      "H": 48,
+      "graphs": 102,
+      "anchor_scope": "All 98 pairs 1<=a<b<=50 with ab+1 square; plus (1,120),(3,120),(8,120),(-1,1)",
+      "vertices_sum": 242801,
+      "edges_sum": 97299,
+      "triangles_sum": 2076,
+      "pair_tests": 294009965
+    },
+    {
+      "H": 96,
+      "graphs": 7,
+      "anchor_scope": "(1,3),(1,8),(3,8),(1,120),(3,120),(8,120),(-1,1)",
+      "vertices_sum": 57816,
+      "edges_sum": 15746,
+      "triangles_sum": 487,
+      "pair_tests": 256125198
+    }
+  ],
+  "family_specializations": {
+    "height": 60,
+    "per_family_parameter_values": 2202,
+    "valid_sextuples_count_with_repetitions": 6604,
+    "two_integer_sextuples": 0,
+    "any_integer_sextuples": 0,
+    "degenerate_specializations": 2
+  },
+  "quadruple_extension": {
+    "quadruples_with_repetitions": 113045,
+    "pairings_tested": 339135,
+    "preliminary_identity_hits": 4,
+    "double_zero_failures": 4,
+    "sextuples": 0
+  },
+  "quintuple_extension": {
+    "distinct_quintuples": 2328,
+    "nonzero_new_candidates": 102917,
+    "sextuple_witnesses": 0
+  },
+  "native_proofloop_executed": false,
+  "independent_ai_agents": 0,
+  "review_assurance": "single_host_sequential",
+  "main_goal_status": "unresolved",
+  "mathematical_claim": "Finite tested domains and explicitly specified extension mechanisms only."
+}
