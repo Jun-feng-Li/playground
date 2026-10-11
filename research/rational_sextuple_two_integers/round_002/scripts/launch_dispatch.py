@@ -21,15 +21,23 @@ def read_relative(name, expected=None):
     return raw
 
 def resolve(value):
+    if isinstance(value, dict) and set(value) == {'_transport_join'}:
+        parts = [resolve(v) for v in value['_transport_join']]
+        if not all(isinstance(v, str) for v in parts):
+            raise ValueError('Text concatenation contains a non-text item')
+        return ''.join(parts)
     if isinstance(value, dict) and set(value) == {'_transport_ref'}:
         r = value['_transport_ref']
         key = (r['path'], r['sha256'], r['kind'])
         if key not in CACHE:
             raw = read_relative(r['path'], r['sha256'])
-            obj = json.loads(raw)
-            if r['kind'] == 'dispatch':
-                obj = expand(obj)
-            elif r['kind'] != 'json':
+            if r['kind'] == 'text':
+                obj = raw.decode('utf-8')
+            elif r['kind'] == 'dispatch':
+                obj = expand(json.loads(raw))
+            elif r['kind'] == 'json':
+                obj = json.loads(raw)
+            else:
                 raise ValueError('Invalid reference kind')
             CACHE[key] = obj
         obj = CACHE[key]
