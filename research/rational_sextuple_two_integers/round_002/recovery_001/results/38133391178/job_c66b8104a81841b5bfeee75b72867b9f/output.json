@@ -1,0 +1,55 @@
+{
+  "problem_sha256": "eef5a1f83bb66d5156d89eceaee6f6dbc225d8de799acbd8424421bffb19003b",
+  "input_sha256": "9966ab93004a71563e3ac1519170ea19f9b66863b4bf4028c187236747e41c8b",
+  "read_receipts": [],
+  "usage": {
+    "provider_requests": null,
+    "total_tokens": null
+  },
+  "output": {
+    "reviews": [
+      {
+        "target_object_id": "cand_809b6896a53349afa46e58ba9a69c455",
+        "target_sha256": "b0922878b7e1d3296ad211afa2ff48fbac873264d29301fef1a096da98e520a4",
+        "verdict": "block",
+        "objections": [
+          {
+            "kind": "incomplete_input",
+            "failure_class": "scope_gap",
+            "location": "Frozen candidate open_gaps and scope metadata",
+            "explanation": "The stated target theorem concerns only a, b, and c, and its supplied proof establishes that theorem. However, the frozen candidate also records unresolved obligations for e, f, and g and for broader family and main-problem claims. Those author-declared gaps cannot be silently removed or treated as proved in this review; the frozen candidate therefore remains blocked for acceptance until a fresh, explicitly scoped lemma is authored and reviewed. This is a scope/metadata block, not a defect in the elementary proof of the stated a,b,c theorem.",
+            "required_action": "Preserve the declared gaps and obtain a fresh authored, explicitly scoped lemma with fresh review before acceptance; do not infer the all-six family claim or resolve the main existence problem from this proof."
+          }
+        ],
+        "confirmed_fragments": [
+          {
+            "claim": "For reduced t=m/n with H=m^2+n^2 and D=m^2-n^2, the first three family coordinates are a=-9H/(8D), b=(m^2-7n^2)H(7m^2-n^2)/(8D^3), and c=8D^3/(9H^3).",
+            "support": "Direct substitution into the supplied definitions gives these formulas. The stated domain ensures m and D are nonzero and H is positive."
+          },
+          {
+            "claim": "If m,n have opposite parity, then v_2(a)=v_2(b)=-3.",
+            "support": "Here H, D, m^2-7n^2, and 7m^2-n^2 are odd. The latter two factors are nonzero: their vanishing would imply that a rational square equals 7 or 1/7. Thus the displayed valuations follow, and both are negative."
+          },
+          {
+            "claim": "If m,n are both odd, then v_2(H)=1, v_2(D)≥3, and v_2(m^2-7n^2)=v_2(7m^2-n^2)=1; hence v_2(a)≤-5 and v_2(b)=-3v_2(D)<0.",
+            "support": "Odd squares are 1 modulo 8, so H≡2 mod 8, D≡0 mod 8, and the two numerator factors are respectively 2 and 6 modulo 8. Since D is nonzero, its valuation is finite. Substitution gives the stated strictly negative valuations."
+          },
+          {
+            "claim": "The third coordinate is nonintegral throughout the stated domain.",
+            "support": "H+D=2m^2>0 and H-D=2n^2>0 imply 0<|D|<H. Therefore 0<|c|=(8/9)|D/H|^3<8/9, which excludes every integer."
+          },
+          {
+            "claim": "No conclusion about e, f, g, the full family-wide all-six assertion, or the unrestricted-sign or all-positive existence questions is established by this proof.",
+            "support": "The proof contains no argument for the last three coordinates and addresses only the stated auxiliary a,b,c claim; it does not assert that the family is exhaustive."
+          }
+        ],
+        "citation_checks": [],
+        "external_dependency_coverage": {
+          "complete": true,
+          "undeclared_external_results": []
+        },
+        "affects_accepted_proof": false
+      }
+    ]
+  }
+}
