@@ -1,0 +1,21 @@
+{
+  "schema": "research-problem-v1",
+  "statement": "Determine whether six distinct nonzero rational numbers can form a D(1) tuple with at least two integer elements.",
+  "assumptions": [
+    "Squares are rational squares, including zero.",
+    "The six elements themselves are distinct and nonzero.",
+    "Treat the positive subcase and arbitrary-sign case separately."
+  ],
+  "quantifiers": [
+    "Exist a1,...,a6 in Q\\{0}.",
+    "For every 1<=i<j<=6, ai*aj+1 belongs to Q^2.",
+    "At least two distinct elements belong to Z."
+  ],
+  "objective": "Find a completely verified witness or prove nonexistence in the declared full domain; retain rigorous partial results otherwise.",
+  "acceptance_criteria": [
+    "Existence requires explicit reduced fractions and all fifteen exact roots.",
+    "Nonexistence requires an unbounded argument, not a finite parameter search.",
+    "Reject zero elements and repeated elements even when all pairwise tests pass."
+  ],
+  "scope_exclusion": "This is over Q, not the ring of integers of Q(zeta_7)."
+}
