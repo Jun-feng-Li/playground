@@ -1,17 +1,17 @@
 {
-  "workflow_run_id": "38145016890",
-  "source_commit": "6b056c6cecb649e23c54c8252b0cfae3ded1b09d",
-  "results_path": "research/rational_sextuple_two_integers/round_002/recovery_001/results/38145016890",
+  "workflow_run_id": "38145209204",
+  "source_commit": "07ad920e8f41f671ba8c86c10ead9fb14a3cefe4",
+  "results_path": "research/rational_sextuple_two_integers/round_002/recovery_001/results/38145209204",
   "receipts": [
     {
-      "batch": "031b_c3_cross_scope",
+      "batch": "031c_c3_cross_json",
       "run_id": "run_bf454946e79f40ad9728bc94b98683d7",
       "job_id": "job_5deb6e509a3b4e86b722526254776a90",
       "role": "cross_verifier",
       "scope": "cross_round",
-      "session_id": "783c475a-2e13-4fc8-95d5-a262f5e1213b",
+      "session_id": "55da3125-bf95-4cba-ad68-df4479bed2d1",
       "actual_model": "gpt-6-luna",
-      "output_sha256": "a1f4723cedca2709da526da9cd3564b6834e27a9c32ef648459dadd23297ed62",
+      "output_sha256": "a63e527fddc40ab9079faf2341342cced227b6b4d769f2885c54efd6512c2de5",
       "provider_model_response_observed": true,
       "failure": "model_final_answer_is_not_exact_json"
     }
