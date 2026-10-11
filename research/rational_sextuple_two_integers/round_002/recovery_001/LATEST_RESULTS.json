@@ -1,43 +1,19 @@
 {
-  "workflow_run_id": "38144830343",
-  "source_commit": "eed79f0260b685e4bb0c142087092b7659c21050",
-  "results_path": "research/rational_sextuple_two_integers/round_002/recovery_001/results/38144830343",
+  "workflow_run_id": "38145016890",
+  "source_commit": "6b056c6cecb649e23c54c8252b0cfae3ded1b09d",
+  "results_path": "research/rational_sextuple_two_integers/round_002/recovery_001/results/38145016890",
   "receipts": [
     {
-      "batch": "031_c3_reviews_and_feedback",
-      "run_id": "run_bf454946e79f40ad9728bc94b98683d7",
-      "job_id": "job_09194cb8a34c4d348b7bc1f23219642c",
-      "role": "local_verifier",
-      "scope": "local_candidate",
-      "session_id": "89e91041-1a9b-4363-9428-dcef431b4405",
-      "actual_model": "gpt-6-luna",
-      "output_sha256": "a5447d09f3dd4f87e5bd025c31eadeb2d93a7a4038c28c993f4b42fab3f8cd5e",
-      "provider_model_response_observed": true,
-      "failure": null
-    },
-    {
-      "batch": "031_c3_reviews_and_feedback",
+      "batch": "031b_c3_cross_scope",
       "run_id": "run_bf454946e79f40ad9728bc94b98683d7",
       "job_id": "job_5deb6e509a3b4e86b722526254776a90",
       "role": "cross_verifier",
       "scope": "cross_round",
-      "session_id": "2caaeadd-5299-411a-9878-f0eb6948eada",
+      "session_id": "783c475a-2e13-4fc8-95d5-a262f5e1213b",
       "actual_model": "gpt-6-luna",
-      "output_sha256": "e86bfad62ebd7bf0ea35dc9bb4391d8bbebec5fb3e3947b69be2d71133d5bdac",
+      "output_sha256": "a1f4723cedca2709da526da9cd3564b6834e27a9c32ef648459dadd23297ed62",
       "provider_model_response_observed": true,
-      "failure": null
-    },
-    {
-      "batch": "031_c3_reviews_and_feedback",
-      "run_id": "run_bf454946e79f40ad9728bc94b98683d7",
-      "job_id": "job_801f711180ae43fdb5b1344a9c73c8ea",
-      "role": "local_verifier",
-      "scope": "local_candidate",
-      "session_id": "23746f1d-ba03-4298-97a8-ca63faa12351",
-      "actual_model": "gpt-6-luna",
-      "output_sha256": "ef0f549834ab576c897a933e3f211f5b415ec34a5d1e5bd771c5d515ba4620ba",
-      "provider_model_response_observed": true,
-      "failure": null
+      "failure": "model_final_answer_is_not_exact_json"
     }
   ],
   "controller_acceptance_claimed": false
