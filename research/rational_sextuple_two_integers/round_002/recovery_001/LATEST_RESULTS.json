@@ -1,29 +1,29 @@
 {
-  "workflow_run_id": "38144108574",
-  "source_commit": "3016b8d94146a2f46f7f54f4b12426b4d127c2a3",
-  "results_path": "research/rational_sextuple_two_integers/round_002/recovery_001/results/38144108574",
+  "workflow_run_id": "38144598746",
+  "source_commit": "f0e785c1b7435ec78b49e1ec898f705657e3a0fb",
+  "results_path": "research/rational_sextuple_two_integers/round_002/recovery_001/results/38144598746",
   "receipts": [
     {
-      "batch": "029_c3_provers",
+      "batch": "030_c3_review_and_repair",
       "run_id": "run_bf454946e79f40ad9728bc94b98683d7",
-      "job_id": "job_9b8b7f3fe3b84f4fb3671a51c6fb0c1f",
-      "role": "prover",
-      "scope": "prover",
-      "session_id": "a2b51d6a-a67f-4aa7-bf81-8ee3095cb9b2",
+      "job_id": "job_801f711180ae43fdb5b1344a9c73c8ea",
+      "role": "local_verifier",
+      "scope": "local_candidate",
+      "session_id": "a385645e-66e4-4d3b-9d63-f8f10084f3c9",
       "actual_model": "gpt-6-luna",
-      "output_sha256": "285eb0254ab0b70332f4f49e589b89d5dfa4da5d746c13abe3bdc49829e35ee3",
+      "output_sha256": "1f693e0b387dfd99d3f49fa429cf3ddc8745bf0020100300649caca790f63e67",
       "provider_model_response_observed": true,
       "failure": null
     },
     {
-      "batch": "029_c3_provers",
+      "batch": "030_c3_review_and_repair",
       "run_id": "run_bf454946e79f40ad9728bc94b98683d7",
-      "job_id": "job_d8d61106198c4886aad089eac798897a",
+      "job_id": "job_9b8b7f3fe3b84f4fb3671a51c6fb0c1f",
       "role": "prover",
       "scope": "prover",
-      "session_id": "dd639312-7a91-453c-ac7e-603641bbd4b3",
+      "session_id": "9a158ae3-099b-4dfa-970c-d76d63b6b9f3",
       "actual_model": "gpt-6-luna",
-      "output_sha256": "8a5f62c55ef0c1d7e12e18ced7cc8e3b6c8e567a76578853d99c3033a94213aa",
+      "output_sha256": "f897656ac3cafca0477622fcf81dcb215741a958be48eea6794278aef27e2cb1",
       "provider_model_response_observed": true,
       "failure": null
     }

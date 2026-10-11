@@ -1,0 +1,36 @@
+{
+  "problem_sha256": "76727f426e2aea072a2400056ac185544234543e1fc914fd12d3510aa2076e36",
+  "input_sha256": "f677067a4d7137db00c5c3171d69b37b12bef9efb3820169556b96bf9fbe6c37",
+  "read_receipts": [
+    {
+      "media_type": "text/markdown",
+      "object_id": "obj_01b4bef6b51e99b8a835b894a3e28388cebb5f26024329c431d7718d626af8de",
+      "sha256": "a0bef42e719f79b1d7a68ff8a1fd7015499ec750a4d3feb090f7847fc3984fa5",
+      "size_bytes": 7282
+    }
+  ],
+  "usage": {
+    "provider_requests": null,
+    "total_tokens": null
+  },
+  "output": {
+    "statement": "For every finite set S of primes, there are infinitely many sets {-1, 1, x1, x2, x3, x4} of six distinct nonzero rational numbers, with 0 < xi < 1, such that every pairwise product plus one involving an anchor is a rational square, and each of the six values xi*xj+1 (i<j) is a square in Q_p for every p in S.",
+    "assumptions": [
+      "S is any finite set of primes, possibly empty.",
+      "A square in Q_p means the square of an element of the p-adic field Q_p."
+    ],
+    "quantifiers": [
+      "For every finite set S of primes.",
+      "There exist infinitely many distinct six-element sets satisfying the stated rational-square and local-square conditions."
+    ],
+    "objective": "proof",
+    "claim_scope": "partial",
+    "proof": "Let P be the product of the primes in S, taking P=1 if S is empty. For positive integers k, set L=1+kP and t_i=iP/L for i=1,2,3,4. For all sufficiently large k, these are positive, strictly increasing, and lie in any prescribed interval (0,epsilon). Define F(t)=4t(1-t^2)/(1+t^2)^2 and x_i=F(t_i). Since F'(0)=4, continuity of F' gives an epsilon>0 on which F is strictly increasing; shrinking epsilon if needed ensures 0<F(t)<1 there. Thus, for all sufficiently large k, the x_i are distinct and in (0,1). As k increases, t_1 strictly decreases, so x_1 strictly decreases. Since x_1 is the least of the four x_i, infinitely many such k produce distinct sets. Each x_i is a nonzero rational.\n\nDirect expansion gives 1+F(t)=((t^2-2t-1)/(1+t^2))^2 and 1-F(t)=((1-2t-t^2)/(1+t^2))^2. Hence the edges from each x_i to both anchors are rational squares. The edge between -1 and 1 has value zero, also a rational square.\n\nFix p in S. Since p divides P and L is congruent to 1 modulo p, v_p(L)=0 and v_p(t_i)>=1. Therefore 1-t_i^2 and 1+t_i^2 are p-adic units. If p is odd, the formula for F gives v_p(x_i)=v_p(t_i)>=1. If p=2, it gives v_2(x_i)=2+v_2(t_i)>=3. For i<j let y=x_i*x_j. Then v_p(y)>=1 for odd p, and v_2(y)>=3 when p=2.\n\nFor odd p, y is in pZ_p. Construct roots of 1+y by lifting. Start with r_1=1, a root of Z^2-(1+y) modulo p. Suppose r_h^2 is congruent to 1+y modulo p^h, with r_h a p-adic integer. Write 1+y-r_h^2=p^h d with d in Z_p. Choose c modulo p so that 2r_h c is congruent to d modulo p; this is possible because r_h is a unit and p is odd. Then r_{h+1}=r_h+c p^h satisfies r_{h+1}^2 congruent to 1+y modulo p^{h+1}, since the remaining term c^2p^{2h} is divisible by p^{h+1}. These compatible approximations converge in Z_p to a root of 1+y.\n\nFor p=2, 1+y is congruent to 1 modulo 8. Start with the odd integer r_3=1, whose square is congruent to 1+y modulo 8. If odd r_h satisfies r_h^2 congruent to 1+y modulo 2^h for h>=3, replacing it by r_h+2^{h-1} changes its square by 2^h r_h+2^{2h-2}, which is congruent to 2^h modulo 2^{h+1}. Thus one of r_h and r_h+2^{h-1} has square congruent to 1+y modulo 2^{h+1}; choose it as r_{h+1}. The successive changes have valuations at least h-1, tending to infinity, so these integers converge in Z_2. Their limit is a square root of 1+y: the approximants are odd, their squares converge to the square of the limit, and their squared errors tend to zero 2-adically. Applying these lifting arguments to each y proves all six required local-square conditions for every p in S.\n\nScope: this proves a finite-local-test barrier for the mixed-sign anchors {-1,1}. It does not show that the six mutual products plus one are rational squares, construct a rational D(1) sextuple, address the all-positive case, or settle the main existence or nonexistence question.",
+    "method_summary": "An explicit rational parametrization gives exact rational-square edges to {-1,1}. Choosing its parameters small both over the reals and at each prime in a fixed finite set makes the six remaining edges local squares, by explicit odd-prime and 2-adic lifting. The result only defeats any fixed finite collection of local tests in this anchor setting; global rational square conditions and the main sextuple question remain unresolved.",
+    "cited_lemmas": [],
+    "dependency_ids": [],
+    "gaps": [],
+    "extracted_claim_proposals": [],
+    "direction_proposals": []
+  }
+}
