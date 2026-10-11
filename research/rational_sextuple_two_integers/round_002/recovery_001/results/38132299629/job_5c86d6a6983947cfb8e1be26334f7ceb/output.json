@@ -1,0 +1,35 @@
+{
+  "input_sha256": "62618db6ac28dec2335ecb298b927853935636e1a5411c9392ebac7f70de018f",
+  "problem_sha256": "eef5a1f83bb66d5156d89eceaee6f6dbc225d8de799acbd8424421bffb19003b",
+  "read_receipts": [
+    {
+      "object_id": "obj_514353ebb87c1e1d0f030cc72e0d7a60b3220b81cdf0a78c603b5c88af4307ac",
+      "sha256": "a429d3587f8e2e44e7e743afd1f270a4f3a207b6771c6f6444dbc746de8354c7"
+    }
+  ],
+  "usage": {
+    "provider_requests": null,
+    "total_tokens": null
+  },
+  "output": {
+    "statement": "For every rational t outside {0,1,-1}, the third coordinate c of dkp_square_family(t) is not an integer.",
+    "assumptions": [
+      "The six coordinates are given by the exact formulas in the supplied dkp_square_family definition.",
+      "t is rational and t is not 0, 1, or -1."
+    ],
+    "quantifiers": [
+      "For every rational t not in {0,1,-1}, with no height bound."
+    ],
+    "objective": "proof",
+    "claim_scope": "partial",
+    "proof": "Write t=m/n in lowest terms with n>0. The domain restriction gives m≠0 and m²≠n². Set H=m²+n² and D=m²−n². Substituting t=m/n into c=8(t²−1)³/(9(t²+1)³) gives c=8D³/(9H³). Since m and n are nonzero, H>0 and 0<|D|<H: indeed, for positive m²,n², the absolute difference is strictly less than their sum. Consequently 0<|c|=(8/9)(|D|/H)³<8/9<1. A nonzero integer cannot have absolute value less than 1, so c is not an integer.",
+    "dependency_ids": [],
+    "gaps": [
+      "This proves nonintegrality only for c. It does not prove that a, b, e, f, and g are nonintegers for every allowed rational t, nor does it refute the six-coordinate claim with a counterexample.",
+      "The suggested valuation, divisibility, resultant, and exceptional-factor arguments for the other coordinates remain unproved; no resultant certificate is used here.",
+      "This auxiliary family result does not resolve either the unrestricted-sign or all-positive original six-element existence question."
+    ],
+    "extracted_claim_proposals": [],
+    "external_results": []
+  }
+}

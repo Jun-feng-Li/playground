@@ -1,0 +1,72 @@
+{
+  "input_sha256": "1824bdde27f9f4fe9b3d6f9e7a8a042f22cefeb1f01df04994e1fb91ba9730c4",
+  "problem_sha256": "eef5a1f83bb66d5156d89eceaee6f6dbc225d8de799acbd8424421bffb19003b",
+  "read_receipts": [
+    {
+      "media_type": "application/json",
+      "object_id": "obj_7009e668b0fa7404d2391786730962878f9b3b98005e207feda9d3a3a421fe57",
+      "sha256": "fbaaa964dfcc7b6148efaf00d2876a9a6de45fa171bbcf40c199e072504d85be",
+      "size_bytes": 5026
+    }
+  ],
+  "usage": {
+    "provider_requests": null,
+    "total_tokens": null
+  },
+  "output": {
+    "statement": "For the supplied family, let t be rational with t not in {0,1,-1}, and let a,b,c be its first three coordinates. Then none of a,b,c is an integer.",
+    "assumptions": [
+      "The family coordinates are exactly as defined in the supplied family_core.txt artifact.",
+      "Write t=m/n in lowest terms with n>0, and set H=m^2+n^2 and D=m^2-n^2. The domain gives m≠0 and D≠0."
+    ],
+    "quantifiers": [
+      "For every rational t outside {0,1,-1}, with no height bound."
+    ],
+    "objective": "proof",
+    "claim_scope": "partial",
+    "proof": "The first three coordinates, after substituting t=m/n, are a=-9H/(8D), b=(m^2-7n^2)H(7m^2-n^2)/(8D^3), and c=8D^3/(9H^3). Since gcd(m,n)=1, either m,n have opposite parity or they are both odd. Let v_2 denote the exponent of 2 in a nonzero rational number; an integer has v_2≥0. If m,n have opposite parity, H,D,m^2-7n^2, and 7m^2-n^2 are all odd. Thus v_2(a)=-3 and v_2(b)=-3, so neither is an integer. If m,n are both odd, odd squares are 1 modulo 8, so v_2(H)=1, v_2(D)≥3, and each of m^2-7n^2 and 7m^2-n^2 has v_2 exactly 1 (their residues modulo 8 are 2 and 6). Consequently v_2(a)=1-3-v_2(D)≤-5, and v_2(b)=1+1+1-3-3v_2(D)=-3v_2(D)<0. These valuations also show the factors used are nonzero. Finally, H+D=2m^2>0 and H-D=2n^2>0, so 0<|D|<H. Hence 0<|c|=(8/9)|D/H|^3<8/9, which rules out c being an integer.",
+    "method_summary": "This proves a three-coordinate partial theorem: parity and 2-adic valuations exclude integrality of a and b, while a strict absolute-value bound excludes integrality of c. It does not establish the requested claim for all six coordinates. No external result or proposed resultant is used. The supplied family is not asserted to exhaust any Diophantine sextuples, so this partial result does not resolve the locked existence question, in either sign case.",
+    "dependency_ids": [],
+    "gaps": [
+      "Integrality of e is not addressed; in particular, no reduced divisibility argument or proof of the suggested H|32 implication is supplied.",
+      "Neither f nor g is addressed. Their possible cancellations, zero factors, signs, and integrality conditions remain unresolved; no Bezout certificates, resultant identities, Q prime-support argument, or exact 2- and 3-adic cases are established.",
+      "The all-height assertion that all six coordinates are nonintegers for every rational t outside {0,1,-1} remains unproved.",
+      "The unrestricted-sign and all-positive existence questions for rational six-element sets remain unresolved; this family-only partial theorem does not decide either."
+    ],
+    "extracted_claim_proposals": [],
+    "external_results": [],
+    "cited_lemmas": [],
+    "direction_proposals": [
+      {
+        "label": "Audit integrality of the fourth coordinate",
+        "assignment": "Derive reduced numerator and denominator conditions for e from t=m/n, and prove or refute the proposed divisibility constraint while treating all parity and cancellation cases.",
+        "kind": "proof",
+        "target_claim": {
+          "statement": "For every rational t outside {0,1,-1}, the fourth coordinate e of the supplied family is not an integer.",
+          "assumptions": [
+            "The family coordinate e is exactly as defined in the supplied family_core.txt artifact."
+          ],
+          "quantifiers": [
+            "For every rational t outside {0,1,-1}, with no height bound."
+          ],
+          "objective": "proof"
+        }
+      },
+      {
+        "label": "Audit integrality of the last coordinates",
+        "assignment": "Derive explicit polynomial identities or another complete divisibility argument for f and g, including the effect of t↦-t, vanishing factors, cancellations, and any local valuation cases used.",
+        "kind": "proof",
+        "target_claim": {
+          "statement": "For every rational t outside {0,1,-1}, the fifth and sixth coordinates f and g of the supplied family are both nonintegers.",
+          "assumptions": [
+            "The family coordinates f and g are exactly as defined in the supplied family_core.txt artifact."
+          ],
+          "quantifiers": [
+            "For every rational t outside {0,1,-1}, with no height bound."
+          ],
+          "objective": "proof"
+        }
+      }
+    ]
+  }
+}
