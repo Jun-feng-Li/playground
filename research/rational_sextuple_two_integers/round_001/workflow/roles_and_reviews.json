@@ -1,0 +1,141 @@
+{
+  "schema": "proofloop-inspired-host-record-v1",
+  "reference": {
+    "repository": "Jun-feng-Li/proofloop",
+    "commit": "b1148aa4e9b9b0c989e368890f279117310937db",
+    "version": "0.19.36",
+    "access": "read_only"
+  },
+  "execution": {
+    "mode": "single_host_sequential_role_work",
+    "native_proofloop_controller_executed": false,
+    "independent_ai_agents_executed": 0,
+    "parallel_computational_processes": 4,
+    "review_assurance": "sequential, shared context",
+    "formal_proof_assistant_executed": false,
+    "provider_requests": null,
+    "total_tokens": null,
+    "warning": "These are host research records, not native ProofLoop workcards, session receipts, or independent-agent attestations."
+  },
+  "work_units": [
+    {
+      "role": "literature_reader",
+      "id": "host-literature-01",
+      "inputs": ["S1", "S2", "S3", "W1"],
+      "output": "sources/ledger.json",
+      "result": "Located the exact two-integer question, a one-integer positive control, and two explicit construction mechanisms. Reading scopes are recorded; no exhaustive literature or priority claim."
+    },
+    {
+      "role": "briefing_builder",
+      "id": "host-briefing-01",
+      "inputs": ["problem.json", "sources/ledger.json"],
+      "result": "Preserved nonzero, distinctness, all fifteen square conditions and at least two integers. Separated positive and arbitrary-sign domains. Split construction, anchored-graph search, and exact algebraic obstruction directions."
+    },
+    {
+      "role": "prover",
+      "id": "host-prover-algebra",
+      "output": "proofs/lemmas.md",
+      "result": "Complete auxiliary arguments L1-L5. The canonical order-three seed obstruction only excludes two integers in the seed triple.",
+      "relation_to_main_goal": "partial",
+      "gaps_within_stated_auxiliary_claims": []
+    },
+    {
+      "role": "prover",
+      "id": "host-prover-graphs",
+      "outputs": ["scripts/anchor_search.py", "results/anchors_H48", "results/anchors_H96"],
+      "result": "109 finite common-neighbor graphs; all 550135163 potential edges tested, no K4. Finite parameter-box scope only.",
+      "relation_to_main_goal": "partial"
+    },
+    {
+      "role": "prover",
+      "id": "host-prover-constructions",
+      "outputs": ["results/family_search_H60.json", "results/quadruple_route.json", "results/quintuple_extensions.json"],
+      "result": "6604 valid family specializations without integer elements; 339135 quadruple-pairing tests with four rejected double-zero degeneracies; 102917 extension tests on 2328 distinct quintuples without a witness.",
+      "relation_to_main_goal": "partial"
+    },
+    {
+      "role": "local_verifier",
+      "id": "host-local-review",
+      "inputs": ["proofs/lemmas.md", "scripts/checks.py"],
+      "result": "Reviewed the actual auxiliary scopes; verified six exact arithmetic controls and seven symbolic identities. Zero/duplicate false positives and nonsquare reduced denominators are explicit regression tests.",
+      "independent_model_session": false
+    },
+    {
+      "role": "cross_verifier",
+      "id": "host-cross-review",
+      "outputs": ["scripts/audit_graphs.py", "results/crosscheck.json"],
+      "result": "A separately implemented program regenerated every vertex, retested every potential edge using reduced fractions, and recounted triangles and K4 by DFS. All 109 graphs matched. This is not independent AI review.",
+      "independent_model_session": false
+    },
+    {
+      "role": "lemma_auditor",
+      "id": "host-lemma-audit",
+      "result": "L1 does not force all remaining rationals positive. L2 covers every nonzero neighbor, including exceptional slopes. L3 needs coprime anchors for square denominators. L4 concerns the specified point S, not arbitrary order-three torsion. L5 excludes only the displayed extension mechanism."
+    },
+    {
+      "role": "process_advisor",
+      "id": "host-advisor-01",
+      "result": "Do not continue searching for two integers inside a canonical order-three seed. Track integrality in appended coordinates and general two-anchor geometry instead. Increasing finite height alone does not close nonexistence. Preserve failed mechanisms and exact data for later independent-agent runs."
+    },
+    {
+      "role": "writer",
+      "id": "host-writer-01",
+      "outputs": ["README.md", "proofs/lemmas.md", "expected_results.json"],
+      "remaining_gaps_in_selected_auxiliary_arguments": [],
+      "remaining_goal_obligations": [
+        "Find an explicit six-element witness with at least two integers, or prove full nonexistence.",
+        "Cover all anchor pairs and all rational heights for any negative conclusion.",
+        "Cover coordinate placements not excluded by L4.",
+        "Prove completeness of an extension method before using failed candidates as a nonexistence proof."
+      ]
+    }
+  ],
+  "substantive_review_L4": {
+    "authorship": "same host session; shared context",
+    "target": "proofs/lemmas.md#L4",
+    "scope": {
+      "statement": "A rational D(1) triple whose canonical point S=(1,R) has order exactly 3 contains at most one integer.",
+      "assumptions": ["The three elements are distinct and nonzero.", "The specified point S has order exactly 3, not merely some point on the curve."],
+      "quantifiers": ["Every rational D(1) triple under these hypotheses."],
+      "matches_claim": true,
+      "rationale": "The argument makes no positivity or height assumption and does not concern the other three coordinates of a completed sextuple."
+    },
+    "steps": [
+      {
+        "excerpt": "The three roots of the cubic are distinct because a,b,c are distinct and nonzero, so E is nonsingular. The order assumption implies R is nonzero.",
+        "status": "checked",
+        "rationale": "Equal cubic roots would force two tuple elements equal. R=0 would make S a point of order 2, so all divisions by 2R are valid."
+      },
+      {
+        "excerpt": "The tangent at S has slope (3+2V+Uz)/(2R). Since 2S=-S, its doubling formula gives",
+        "status": "checked",
+        "rationale": "The x-coordinate formula for the cubic with X^2 coefficient V is x(2S)=slope^2-V-2. Equating it to 1 gives the displayed identity; exact expansion yields -T."
+      },
+      {
+        "excerpt": "Since R is nonzero, this proves that 1+z^2 is a rational square.",
+        "status": "checked",
+        "rationale": "With T=0, the second identity gives 1+z^2=((2z^2+Uz-1)/(2R))^2. Its polynomial identity was checked symbolically."
+      },
+      {
+        "excerpt": "This is monic with integer coefficients. The rational root theorem forces z to be an integer.",
+        "status": "checked",
+        "rationale": "A=a+b and B=ab are integers and B is nonzero. Multiplying the substituted equation by -B^2 leaves leading coefficient 1, as verified by exact expansion. A reduced denominator of a rational root of a monic integer polynomial must divide 1."
+      },
+      {
+        "excerpt": "for every nonzero integer z. This is impossible, completing the proof.",
+        "status": "checked",
+        "rationale": "Nonzero tuple elements imply z!=0. A rational number whose square is an integer is itself an integer. The displayed strict inequalities exclude such an integer square for positive or negative z."
+      }
+    ],
+    "argument_coverage": {"complete": true, "rationale": "The symbolic identities hold identically; integrality and the square gap apply to every rational triple in the stated scope, not merely sampled parameters."},
+    "dependency_coverage": {"complete": true, "checked_dependency_ids": [], "rationale": "The note derives the order-three identity from the tangent formula and includes both algebraic identities and the integrality argument; it does not use an unproved search-based classification."},
+    "unproved_obligations": [],
+    "scope_warning": "This host judgment is not a formal proof certificate or an independent-agent acceptance."
+  },
+  "main_goal": {
+    "status": "unresolved",
+    "witness": null,
+    "nonexistence_proof": null,
+    "native_acceptance_receipt": null
+  }
+}
