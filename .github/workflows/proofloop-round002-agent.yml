@@ -41,7 +41,7 @@ jobs:
           (out / 'prompt.txt').write_text(prompt)
           isolated = pathlib.Path(os.environ['RUNNER_TEMP']) / 'proofloop-intake-context'
           isolated.mkdir(exist_ok=True)
-          argv = ['copilot', '-p', prompt, '--model=gpt-5.4', '--no-ask-user', '--no-custom-instructions', '--output-format=json', '--share=' + str(out/'session.md')]
+          argv = ['copilot', '-p', prompt, '--no-ask-user', '--no-custom-instructions', '--output-format=json', '--share=' + str(out/'session.md')]
           started = time.time()
           rc = None
           failure = None
@@ -60,7 +60,7 @@ jobs:
           session = out/'session.md'
           if session.exists() and secret:
               session.write_bytes(session.read_bytes().replace(secret,b'[REDACTED]'))
-          receipt = {'schema':'external-agent-attempt-v1','run_id':'run_2dde091dc2bc4733918344c78de56b06','job_id':'job_13cad664eb8f41d09be85595b8ab9634','generation':1,'role':'briefing_builder','scope':'problem_intake','input_sha256':'6251c240119a4165cff268daaf055b4484956a408f2cc6a4d3066173f72920dc','workflow_run_id':os.environ['GITHUB_RUN_ID'],'workflow_attempt':os.environ['GITHUB_RUN_ATTEMPT'],'source_commit':os.environ['GITHUB_SHA'],'backend':'github-copilot-cli','requested_model':'gpt-5.4','prompt_sha256':hashlib.sha256(prompt.encode()).hexdigest(),'stdout_sha256':hashlib.sha256(stdout).hexdigest(),'exit_code':rc,'failure':failure,'elapsed_seconds':round(time.time()-started,3),'controller_submission_performed':False,'independent_model_execution_confirmed':False,'confirmation_note':'Inspect provider transcript and response before attesting execution. Launching a process alone does not establish a model response.'}
+          receipt = {'schema':'external-agent-attempt-v1','run_id':'run_2dde091dc2bc4733918344c78de56b06','job_id':'job_13cad664eb8f41d09be85595b8ab9634','generation':1,'role':'briefing_builder','scope':'problem_intake','input_sha256':'6251c240119a4165cff268daaf055b4484956a408f2cc6a4d3066173f72920dc','workflow_run_id':os.environ['GITHUB_RUN_ID'],'workflow_attempt':os.environ['GITHUB_RUN_ATTEMPT'],'source_commit':os.environ['GITHUB_SHA'],'backend':'github-copilot-cli','requested_model':'provider-default','prompt_sha256':hashlib.sha256(prompt.encode()).hexdigest(),'stdout_sha256':hashlib.sha256(stdout).hexdigest(),'exit_code':rc,'failure':failure,'elapsed_seconds':round(time.time()-started,3),'controller_submission_performed':False,'independent_model_execution_confirmed':False,'confirmation_note':'Inspect provider transcript and response before attesting execution. Launching a process alone does not establish a model response.'}
           (out/'attempt.json').write_text(json.dumps(receipt,indent=2)+'\n')
           print(json.dumps({'exit_code':rc,'failure':failure,'stdout_bytes':len(stdout),'stderr_bytes':len(stderr)}))
           if rc != 0:
