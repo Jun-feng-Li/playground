@@ -1,0 +1,36 @@
+{
+  "input_sha256": "ed8900626488d76ae457532e3599d0b28f29b66bd41c0fc8e3bd8f3e311b2ffc",
+  "problem_sha256": "f76b3e036f1d63cc9d36ff3f18f497d6365f26dfb3faad836c262ab391ed8754",
+  "read_receipts": [
+    {
+      "object_id": "obj_2808dc0cd802e9efefc9f3bf9c149628f420df618eeea1e512c0efda43b0aa94",
+      "sha256": "86c4f134dcfa3d1ddf9df7da59efa1c04b5a26cc054a00d786d0ce88f7f18a5a",
+      "media_type": "application/json",
+      "size_bytes": 7651
+    }
+  ],
+  "usage": {
+    "provider_requests": null,
+    "total_tokens": null
+  },
+  "output": {
+    "statement": "For coprime integers m,n with n>0, mn≠0, and m²≠n², put H=m²+n², D=m²−n², and Q=m⁴+34m²n²+n⁴. Define a=−9H/(8D), b=(m²−7n²)H(7m²−n²)/(8D³), c=8D³/(9H³), e=−2(m²+5n²)(5m²+n²)/(9DH), f=−2mn(m²−4mn−3n²)(3m²−4mn−n²)(m³+8m²n+5mn²+4n³)(4m³−5m²n+8mn²−n³)/(DHQ²), and g=2mn(m²+4mn−3n²)(3m²+4mn−n²)(m³−8m²n+5mn²−4n³)(4m³+5m²n+8mn²+n³)/(DHQ²). Then none of a,b,c,e,f,g is an integer. Moreover, Q has a prime divisor p>3; every prime p>3 dividing Q satisfies p≡1 (mod 8) and vₚ(f)=vₚ(g)=−2vₚ(Q).",
+    "assumptions": [
+      "m,n are coprime integers with n>0, mn≠0, and m²≠n²; these are the reduced-parameter conditions for rational t outside {0,1,−1}.",
+      "H=m²+n², D=m²−n², Q=m⁴+34m²n²+n⁴, and the six rational coordinates are exactly the formulas stated in the lemma statement."
+    ],
+    "quantifiers": [
+      "For every pair of integers m,n satisfying the assumptions, with no height bound.",
+      "For every prime p>3 dividing the corresponding positive integer Q."
+    ],
+    "objective": "proof",
+    "claim_scope": "exact_goal",
+    "proof": "Use the usual normalized valuations v_p(p)=1. Since gcd(m,n)=1, either m,n have opposite parity or both are odd. Neither m²−7n² nor 7m²−n² vanishes: either equality would make 7 or 1/7 a rational square, which is impossible by comparing the exponent of 7 in a reduced square equation.\n\nIf m,n have opposite parity, H, D, m²−7n², and 7m²−n² are odd, so v₂(a)=v₂(b)=−3. If both are odd, then v₂(H)=1 and v₂(D)≥3 because odd squares are 1 modulo 8. Also m²−7n²≡2 and 7m²−n²≡6 modulo 8, so each has valuation 1. Thus v₂(a)=1−3−v₂(D)<0 and v₂(b)=1+1+1−3−3v₂(D)=−3v₂(D)<0. Hence a and b are nonintegers. Since H+D=2m²>0 and H−D=2n²>0, we have 0<|D|<H. Therefore 0<|c|=(8/9)(|D|/H)³<8/9, so c is not an integer.\n\nLet N=−2(m²+5n²)(5m²+n²), the numerator of e. If e were an integer, H would divide N. Modulo H, m²≡−n², giving N≡32n⁴ (mod H). Since gcd(H,n)=1, this implies H|32. But H has 2-adic valuation 0 if m,n have opposite parity and 1 if both are odd; thus a positive H dividing 32 would be 1 or 2. In fact |m| and n are distinct positive integers, so H=m²+n²≥5. This contradiction proves e is not an integer.\n\nThe integer Q is positive. If m,n have opposite parity, Q is odd. If both are odd, m⁴≡n⁴≡1 modulo 16 and m²n²≡1 or 9 modulo 16; since 34≡2 modulo 16, Q≡4 modulo 16. Hence v₂(Q) is 0 or 2. If 3|mn, coprimality gives Q≡1 modulo 3. Otherwise m²≡n²≡1 modulo 3 and D=3k for some integer k. Using Q=D²+36m²n² gives Q=9(k²+4m²n²); the parenthetical factor is nonzero modulo 3 because k² is 0 or 1 modulo 3 and 4m²n²≡1 modulo 3. Thus v₃(Q) is 0 or 2. If Q had no prime divisor greater than 3, these bounds would imply Q|36. But the distinct positive integers |m| and n have squared sum at least 5 and squared product at least 4, so Q=m⁴+n⁴+34m²n²≥16+1+136=153. Thus Q has a prime divisor p>3.\n\nFix any prime p>3 dividing Q. No prime dividing Q divides m or n: reducing Q modulo such a prime would leave the fourth power of the other integer, which is nonzero by coprimality. The identities Q=D²+36m²n² and Q=H²+32m²n² then show p∤D and p∤H.\n\nHere are explicit polynomial certificates for noncancellation. Put q(T)=T⁴+34T²+1 and define P₁=T²−4T−3, P₂=3T²−4T−1, P₃=T³+8T²+5T+4, P₄=4T³−5T²+8T−1. Multiplication gives the integer-polynomial identities\nq+(-T³−34T)T=1,\n(33−7T)q+(7T³−5T²+239T−181)P₁=576,\n(197−123T)q+(41T³−11T²+1393T−379)P₂=576,\n(17T²+123T−20)q+(-17T³+13T²−577T+437)P₃=1728,\n(628T²−717T+1151)q+(-157T³−17T²−5333T−577)P₄=1728.\nThese identities can each be checked by multiplying the displayed factors and collecting coefficients.\n\nIn F_p, set T=m/n, which is defined because p∤n. Then q(T)=Q/n⁴=0. As p>3, neither 576 nor 1728 vanishes modulo p, so the identities imply Pᵢ(T)≠0 for i=1,2,3,4. Also T≠0. Homogenizing these polynomials multiplies their respective evaluations by n² or n³, units modulo p. Consequently all four corresponding factors in the numerator of f, as well as mn, are nonzero modulo p. That numerator is a p-adic unit; the denominator has valuation 2vₚ(Q), since p∤DH. Therefore vₚ(f)=−2vₚ(Q)<0, so f is not an integer.\n\nSubstitution gives g(m,n)=f(−m,n): the quadratic factors become those displayed in g, the prefactor changes sign, and both cubic factors change sign, so their signs cancel. The pair (−m,n) still satisfies the hypotheses, and H,D,Q are unchanged. Applying the same argument at p to (−m,n) proves vₚ(g)=−2vₚ(Q)<0. Thus g is not an integer, and the valuation claims hold for every p>3 dividing Q.\n\nFinally, in F_p define r=D/(6mn) and s=H/(4mn); their denominators are units. The two identities for Q give r²=−1 and s²=−2. Set u=s/r and z=u(1+r)/2. Then u²=2 and z²=2(1+2r+r²)/4=r, so z⁴=−1. Since p is odd, −1≠1, and therefore z has order exactly 8 in F_p*. Its order divides |F_p*|=p−1, so p≡1 modulo 8. This proves the assertions for the displayed rational family; it makes no claim about the broader two-integer sextuple existence problem.",
+    "dependency_ids": [],
+    "gaps": [],
+    "extracted_claim_proposals": [],
+    "cited_lemmas": [],
+    "direction_proposals": [],
+    "method_summary": "Prove nonintegrality of a,b by parity valuations, of c by a strict size bound, and of e by divisibility modulo H. Bound v₂(Q) and v₃(Q) and use a lower bound on Q to obtain a prime p>3. Explicit polynomial identities exclude numerator cancellation modulo every such p, giving the valuations of f and g; an order-eight element in F_p* yields p≡1 (mod 8). The result is limited to the displayed family and does not settle the broader sextuple problem."
+  }
+}
