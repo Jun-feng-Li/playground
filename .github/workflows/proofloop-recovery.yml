@@ -54,11 +54,25 @@ jobs:
         with:
           name: recovery-roles-${{ github.run_id }}
           path: research/rational_sextuple_two_integers/round_002/recovery_001/results/${{ github.run_id }}
-      - name: Commit only this run's immutable results
+      - name: Record the exact archived batch pointer
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import json, os, hashlib
+          base = Path('research/rational_sextuple_two_integers/round_002/recovery_001')
+          root = base/'results'/os.environ['GITHUB_RUN_ID']
+          receipts = []
+          for p in sorted(root.glob('job_*/execution_receipt.json')):
+              e = json.loads(p.read_bytes())
+              receipts.append({k:e.get(k) for k in ['batch','run_id','job_id','role','scope','session_id','actual_model','output_sha256','provider_model_response_observed','failure']})
+          pointer = {'workflow_run_id':os.environ['GITHUB_RUN_ID'],'source_commit':os.environ['GITHUB_SHA'],'results_path':str(root),'receipts':receipts,'controller_acceptance_claimed':False}
+          (base/'LATEST_RESULTS.json').write_text(json.dumps(pointer,indent=2)+'\n')
+          PY
+      - name: Commit this run's immutable results and pointer
         run: |
           git config user.name 'ProofLoop evidence archiver'
           git config user.email 'proofloop-evidence@users.noreply.github.com'
-          git add research/rational_sextuple_two_integers/round_002/recovery_001/results/${{ github.run_id }}
+          git add research/rational_sextuple_two_integers/round_002/recovery_001/results/${{ github.run_id }} research/rational_sextuple_two_integers/round_002/recovery_001/LATEST_RESULTS.json
           git diff --cached --quiet && exit 0
           git commit -m 'Archive independent ProofLoop role results from Actions ${{ github.run_id }}'
           git pull --rebase origin proofloop/round002-intake
