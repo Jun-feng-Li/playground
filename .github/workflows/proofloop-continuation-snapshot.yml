@@ -1,0 +1,26 @@
+name: ProofLoop continuation snapshot
+on:
+  push:
+    branches: [proofloop/round002-intake]
+    paths: [.github/workflows/proofloop-continuation-snapshot.yml]
+permissions:
+  contents: read
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Snapshot tracked research only
+        run: |
+          mkdir -p snapshot
+          git archive --format=zip -o snapshot/playground-research.zip HEAD research .github/workflows README.md
+          git rev-parse HEAD > snapshot/source-commit.txt
+          sha256sum snapshot/playground-research.zip > snapshot/SHA256SUMS
+      - uses: actions/upload-artifact@v4
+        with:
+          name: proofloop-continuation-snapshot
+          path: snapshot/
+          retention-days: 30
