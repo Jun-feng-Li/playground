@@ -1,0 +1,19 @@
+{
+  "schema": "family-degeneracy-detail-v1",
+  "family": "DKP_F",
+  "parameter_height": 60,
+  "rows": [
+    {
+      "t": "2",
+      "elements": ["-15/8", "-15/8", "24/125", "-14/5", "504/1445", "-3496/1445"],
+      "distinct": false,
+      "nonzero": true
+    },
+    {
+      "t": "1/2",
+      "elements": ["15/8", "15/8", "-24/125", "14/5", "3496/1445", "-504/1445"],
+      "distinct": false,
+      "nonzero": true
+    }
+  ]
+}
